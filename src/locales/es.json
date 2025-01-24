@@ -265,5 +265,18 @@
       },
       "cta": "Comienza a Crecer"
     }
+  },
+  "waitlist": {
+    "title": "Únete a la revolución",
+    "description": {
+      "consumer": "Sé uno de los primeros consumidores en tomar el control de sus datos",
+      "company": "Sé una de las primeras empresas en manejar los datos de forma ética",
+      "influencer": "Sé uno de los primeros influencers en ser verdadero dueño de su contenido",
+      "investor": "Sé uno de los primeros inversores en el futuro de los datos",
+      "developer": "Sé uno de los primeros desarrolladores en construir un internet justo"
+    },
+    "emailPlaceholder": "Tu dirección de correo electrónico",
+    "submit": "Unirse a la lista de espera",
+    "privacy": "Respetamos tu privacidad. Puedes darte de baja en cualquier momento."
   }
 }

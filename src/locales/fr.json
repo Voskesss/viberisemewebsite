@@ -175,6 +175,19 @@
     "sending": "Envoi en cours...",
     "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
   },
+  "waitlist": {
+    "title": "Rejoignez la révolution",
+    "description": {
+      "consumer": "Soyez l'un des premiers consommateurs à prendre le contrôle de vos données",
+      "company": "Soyez l'une des premières entreprises à gérer les données de manière éthique",
+      "influencer": "Soyez l'un des premiers influenceurs à vraiment posséder votre contenu",
+      "investor": "Soyez l'un des premiers investisseurs dans l'avenir des données",
+      "developer": "Soyez l'un des premiers développeurs à construire un internet équitable"
+    },
+    "emailPlaceholder": "Votre adresse e-mail",
+    "submit": "Rejoindre la liste d'attente",
+    "privacy": "Nous respectons votre vie privée. Vous pouvez vous désinscrire à tout moment."
+  },
   "footer": {
     "contact": {
       "title": "Contactez-nous",

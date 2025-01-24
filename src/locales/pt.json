@@ -136,6 +136,19 @@
     "title": "SkillVal em breve",
     "description": "SkillVal está chegando! Prepare-se para validar competências e impulsionar o crescimento como nunca antes."
   },
+  "waitlist": {
+    "title": "Junte-se à revolução",
+    "description": {
+      "consumer": "Seja um dos primeiros consumidores a ter controle sobre seus dados",
+      "company": "Seja uma das primeiras empresas a lidar com dados de forma ética",
+      "influencer": "Seja um dos primeiros influenciadores a ser realmente dono do seu conteúdo",
+      "investor": "Seja um dos primeiros investidores no futuro dos dados",
+      "developer": "Seja um dos primeiros desenvolvedores a construir uma internet justa"
+    },
+    "emailPlaceholder": "Seu endereço de e-mail",
+    "submit": "Entrar na lista de espera",
+    "privacy": "Respeitamos sua privacidade. Você pode cancelar a qualquer momento."
+  },
   "newsletter": {
     "title": "Mantenha-se atualizado",
     "subtitle": "Inscreva-se para atualizações",

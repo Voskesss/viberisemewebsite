@@ -166,5 +166,18 @@
       "error": "Noget gik galt. Prøv venligst igen senere."
     },
     "copyright": " 2024 SkillVal B.V. Alle rettigheder forbeholdes."
+  },
+  "waitlist": {
+    "title": "Vær med i revolutionen",
+    "description": {
+      "consumer": "Bliv en af de første forbrugere, der får kontrol over deres data",
+      "company": "Bliv en af de første virksomheder, der håndterer data etisk",
+      "influencer": "Bliv en af de første influencere, der virkelig ejer deres indhold",
+      "investor": "Bliv en af de første investorer i fremtidens data",
+      "developer": "Bliv en af de første udviklere, der bygger et retfærdigt internet"
+    },
+    "emailPlaceholder": "Din e-mailadresse",
+    "submit": "Tilmeld venteliste",
+    "privacy": "Vi respekterer dit privatliv. Du kan altid afmelde dig."
   }
 }

@@ -168,5 +168,18 @@
       },
       "cta": "Börja Växa"
     }
+  },
+  "waitlist": {
+    "title": "Gå med i revolutionen",
+    "description": {
+      "consumer": "Bli en av de första konsumenterna som får kontroll över sina data",
+      "company": "Bli ett av de första företagen som hanterar data etiskt",
+      "influencer": "Bli en av de första influencers som verkligen äger sitt innehåll",
+      "investor": "Bli en av de första investerarna i framtidens data",
+      "developer": "Bli en av de första utvecklarna som bygger ett rättvist internet"
+    },
+    "emailPlaceholder": "Din e-postadress",
+    "submit": "Gå med på väntelistan",
+    "privacy": "Vi respekterar din integritet. Du kan avregistrera dig när som helst."
   }
 }

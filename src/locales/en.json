@@ -24,8 +24,8 @@
     }
   },
   "features": {
-    "title": "Powerful Features for Your Data",
-    "subtitle": "Discover how VibeRise helps you take back control of your digital life",
+    "title": "Your data, your rules",
+    "subtitle": "Discover how VibeRise helps you take control of your data",
     "main": {
       "title": "Global Consciousness",
       "description": "Become part of a worldwide network striving for digital freedom and fair data exchange"
@@ -64,9 +64,9 @@
       }
     },
     "cta": {
-      "title": "Join us in Raising the World's Vibe",
-      "subtitle": "Together we can create a more conscious digital world",
-      "button": "Get Started"
+      "title": "Ready to start?",
+      "text": "Start protecting your data today.",
+      "button": "Start now"
     }
   },
   "powerful": {
@@ -261,5 +261,18 @@
       },
       "cta": "Start Growing"
     }
+  },
+  "waitlist": {
+    "title": "Join the revolution",
+    "description": {
+      "consumer": "Be one of the first consumers to gain control over their data",
+      "company": "Be one of the first companies to handle data ethically",
+      "influencer": "Be one of the first influencers to truly own their content",
+      "investor": "Be one of the first investors in the future of data",
+      "developer": "Be one of the first developers to build a fair internet"
+    },
+    "emailPlaceholder": "Your email address",
+    "submit": "Join waitlist",
+    "privacy": "We respect your privacy. You can unsubscribe at any time."
   }
 }

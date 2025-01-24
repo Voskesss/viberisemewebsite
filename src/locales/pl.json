@@ -184,5 +184,18 @@
       },
       "cta": "Zacznij Rosnąć"
     }
+  },
+  "waitlist": {
+    "title": "Dołącz do rewolucji",
+    "description": {
+      "consumer": "Zostań jednym z pierwszych konsumentów, którzy przejmą kontrolę nad swoimi danymi",
+      "company": "Zostań jedną z pierwszych firm, które etycznie zarządzają danymi",
+      "influencer": "Zostań jednym z pierwszych influencerów, którzy naprawdę posiadają swoją treść",
+      "investor": "Zostań jednym z pierwszych inwestorów w przyszłość danych",
+      "developer": "Zostań jednym z pierwszych programistów budujących sprawiedliwy internet"
+    },
+    "emailPlaceholder": "Twój adres e-mail",
+    "submit": "Dołącz do listy oczekujących",
+    "privacy": "Szanujemy Twoją prywatność. Możesz zrezygnować w każdej chwili."
   }
 }
