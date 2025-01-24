@@ -55,8 +55,63 @@ const Header = () => {
 
         {/* Right side navigation */}
         <div className="flex items-center gap-6">
-          {/* Sections dropdown */}
-          <div className="relative" ref={menuRef}>
+          {/* Hamburger menu voor mobiel */}
+          <div className="relative lg:hidden" ref={menuRef}>
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-2 text-white hover:bg-white/5 rounded-lg transition-colors"
+              aria-label="Menu"
+            >
+              <svg
+                className={`w-6 h-6 transition-transform duration-200 ${isMenuOpen ? 'rotate-90' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+
+            {/* Mobiel menu */}
+            {isMenuOpen && (
+              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px]">
+                {sections.map(({ id, name }) => (
+                  <button
+                    key={id}
+                    onClick={() => scrollToSection(id)}
+                    className="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors text-white/90 hover:text-white text-sm"
+                  >
+                    {name}
+                  </button>
+                ))}
+                {/* Taal selector in mobiel menu */}
+                <div className="border-t border-white/10 mt-2 pt-2">
+                  {Object.entries(languages).map(([code, { nativeName, flag }]) => (
+                    <button
+                      key={code}
+                      onClick={() => {
+                        i18n.changeLanguage(code);
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors ${
+                        code === i18n.language ? 'text-blue-400 font-medium' : 'text-white/90 hover:text-white'
+                      }`}
+                    >
+                      <span className="text-xl">{flag}</span>
+                      <span className="text-sm">{nativeName}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Desktop menu */}
+          <div className="hidden lg:block relative" ref={menuRef}>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
@@ -68,7 +123,7 @@ const Header = () => {
               </svg>
             </button>
 
-            {/* Sections Dropdown */}
+            {/* Desktop dropdown */}
             {isMenuOpen && (
               <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px]">
                 {sections.map(({ id, name }) => (
@@ -84,8 +139,8 @@ const Header = () => {
             )}
           </div>
 
-          {/* Language selector */}
-          <div className="relative" ref={langRef}>
+          {/* Language selector (alleen op desktop) */}
+          <div className="hidden lg:block relative" ref={langRef}>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
