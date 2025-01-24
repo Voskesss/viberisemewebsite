@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "SkillVal | AI-driven teknisk utvärderingsplattform för utvecklare",
-    "description": "Validera utvecklares tekniska färdigheter med AI. Objektiva och effektiva bedömningar för rekrytering och talangutveckling."
+    "title": "VibeRise.me | Din Data, Din Kraft",
+    "description": "Ta kontroll över din data. VibeRise.me låter dig äga, hantera och tjäna pengar på din personliga data med fullständig integritet och säkerhet."
   },
   "hero": {
     "title": "Mindre arbete, mer flöde, mer säkerhet",
-    "subtitle": "SkillVal: Plattformen som validerar färdigheter och adderar värde till karriärer",
-    "description": "SkillVal gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling.",
+    "subtitle": "VibeRise.me: Plattformen som validerar färdigheter och adderar värde till karriärer",
+    "description": "VibeRise.me gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling.",
     "words": {
       "me": "jag",
       "social": "social",
@@ -34,11 +34,11 @@
   },
   "powerful": {
     "title": "Lätt att lära sig och extremt kraftfull",
-    "description": "SkillVal förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
+    "description": "VibeRise.me förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
   },
   "validation": {
     "title": "För validering av varje kompetens",
-    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer SkillVal noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
+    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer VibeRise.me noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
   },
   "carousel": {
     "audit": {
@@ -58,13 +58,13 @@
     }
   },
   "comingSoon": {
-    "title": "SkillVal Kommer snart",
-    "description": "SkillVal är på väg! Var redo att validera kompetenser och driva tillväxt som aldrig förr."
+    "title": "VibeRise.me kommer snart",
+    "description": "VibeRise.me är på väg! Var redo att ta kontroll över din data som aldrig förr."
   },
   "newsletter": {
     "title": "Håll dig uppdaterad",
     "subtitle": "Registrera dig för uppdateringar",
-    "description": "Registrera dig på väntelistan och få uppdateringar om SkillVal",
+    "description": "Registrera dig på väntelistan och få uppdateringar om VibeRise.me",
     "placeholder": "Din e-post",
     "button": "Registrera dig",
     "success": "Tack för din registrering!",
@@ -84,20 +84,19 @@
   "footer": {
     "contact": {
       "title": "Kontakta oss",
-      "name": "Ditt namn",
-      "email": "E-postadress",
-      "subject": "Ämne",
-      "message": "Ditt meddelande",
-      "button": "Skicka",
-      "success": "Tack för ditt meddelande!",
-      "sending": "Skickar...",
+      "name": "Namn",
+      "email": "E-post",
+      "message": "Meddelande",
+      "send": "Skicka",
+      "success": "Tack för ditt meddelande! Vi återkommer snart.",
       "error": "Något gick fel. Försök igen senare."
     },
-    "copyright": " 2024 SkillVal B.V. Alla rättigheter förbehållna."
+    "description": "Ta kontroll över din data. VibeRise.me låter dig hantera och tjäna pengar på din personliga data.",
+    "copyright": "Alla rättigheter förbehållna"
   },
   "features": {
     "title": "Kraftfulla Funktioner för Din Data",
-    "subtitle": "Upptäck hur VibeRise hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
+    "subtitle": "Upptäck hur VibeRise.me hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
     "main": {
       "title": "Globalt Medvetande",
       "description": "Gå med i ett globalt nätverk som strävar efter digital frihet och rättvist datautbyte"
@@ -148,7 +147,7 @@
   },
   "influencer": {
     "title": "Förstärk Din Påverkan",
-    "subtitle": "Nå mer, tjäna mer och gör skillnad med VibeRises plattform för influencers.",
+    "subtitle": "Nå mer, tjäna mer och gör skillnad med VibeRise.me plattform för influencers.",
     "features": {
       "reach": {
         "title": "Utöka Din Räckvidd",
@@ -170,11 +169,11 @@
     }
   },
   "waitlist": {
-    "title": "Gå med i VibeRise",
+    "title": "Gå med i VibeRise.me",
     "description": {
       "consumer": "Bli en del av rörelsen för digital frihet",
-      "company": "Upptäck hur VibeRise kan hjälpa ditt företag",
-      "influencer": "Förstärk din räckvidd med VibeRise",
+      "company": "Upptäck hur VibeRise.me kan hjälpa ditt företag",
+      "influencer": "Förstärk din räckvidd med VibeRise.me",
       "investor": "Investera i framtiden för digital frihet",
       "developer": "Bygg internets framtid"
     },
@@ -183,7 +182,7 @@
     "loading": "Vänligen vänta...",
     "privacy": "Genom att registrera dig godkänner du våra sekretessvillkor",
     "success": {
-      "title": "Välkommen till VibeRise!",
+      "title": "Välkommen till VibeRise.me!",
       "position": "Du är på plats {{position}} i väntelistan",
       "referral": "Dela denna länk för att avancera i listan:",
       "close": "Stäng"

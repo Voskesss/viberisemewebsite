@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SkillVal | AI-Powered Technical Assessment Platform voor Developers",
-    "description": "Valideer technische vaardigheden van developers met AI. Objectieve en efficiënte assessments voor recruitment en talent development."
+    "title": "VibeRise.me | Jouw Data, Jouw Kracht",
+    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
   },
   "metadata": {
     "title": "VibeRise.me | Jouw Data, Jouw Kracht",
@@ -9,8 +9,7 @@
   },
   "hero": {
     "title": "Less work, more flow, more safety",
-    "subtitle": "SkillVal: Het platform dat vaardigheden valideert en waarde toevoegt aan carrières",
-    "description": "SkillVal stelt professionals en organisaties in staat om vaardigheden te identificeren en te valideren via EVC-processen en vaardigheidsrapporten. Van doelen naar resultaten, ons platform houdt je gefocust op wat echt belangrijk is: groei en ontwikkeling.",
+    "subtitle": "Neem controle over je digitale leven. Beheer je data, bescherm je privacy en word beloond voor je aandacht.",
     "description": "Neem controle over je digitale leven. Beheer je data, bescherm je privacy en word beloond voor je aandacht.",
     "cta": "Doe Mee met de Revolutie",
     "words": {
@@ -27,11 +26,11 @@
   "features": {
     "workflow": {
       "title": "Geweldige workflow",
-      "description": "Skill validatie platform dat organisaties gebruiken om zich te focussen op het identificeren, valideren en benutten van vaardigheden die groei en succes stimuleren."
+      "description": "VibeRise.me is een platform dat organisaties gebruiken om zich te focussen op het identificeren, valideren en benutten van vaardigheden die groei en succes stimuleren."
     },
     "collaboration": {
       "title": "Samenwerken met het team",
-      "description": "Skill validatie platform dat mentoren, assessoren, EVC-aanbieders en werkgevers verbindt om effectief samen te werken en gefocust te blijven op vaardigheidsontwikkeling, validatie en loopbaangroei."
+      "description": "VibeRise.me is een platform dat mentoren, assessoren, EVC-aanbieders en werkgevers verbindt om effectief samen te werken en gefocust te blijven op vaardigheidsontwikkeling, validatie en loopbaangroei."
     },
     "security": {
       "title": "AI en Menselijke Validatie om fraude te voorkomen",
@@ -89,11 +88,11 @@
   },
   "powerful": {
     "title": "Eenvoudig te leren en extreem krachtig",
-    "description": "SkillVal vereenvoudigt vaardigheidsvalidatie en stelt teams in staat hun doelen te bereiken en betekenisvolle vooruitgang te boeken."
+    "description": "VibeRise.me vereenvoudigt data beheer en stelt teams in staat hun doelen te bereiken en betekenisvolle vooruitgang te boeken."
   },
   "validation": {
     "title": "Voor validatie van elke vaardigheid",
-    "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, SkillVal zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
+    "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, VibeRise.me zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
   },
   "carousel": {
     "audit": {
@@ -113,13 +112,13 @@
     }
   },
   "comingSoon": {
-    "title": "SkillVal Komt binnenkort",
-    "description": "SkillVal is er bijna! Wees klaar om vaardigheden te valideren en groei te stimuleren zoals nooit tevoren."
+    "title": "VibeRise.me Komt binnenkort",
+    "description": "VibeRise.me is er bijna! Wees klaar om data te beheren en groei te stimuleren zoals nooit tevoren."
   },
   "newsletter": {
     "title": "Blijf op de hoogte",
     "subtitle": "Schrijf je in voor updates",
-    "description": "Schrijf je in voor de wachtlijst en ontvang updates over SkillVal",
+    "description": "Schrijf je in voor de wachtlijst en ontvang updates over VibeRise.me",
     "placeholder": "Jouw e-mailadres",
     "button": "Inschrijven",
     "success": "Bedankt voor je aanmelding!",
@@ -137,24 +136,17 @@
     "error": "Er ging iets mis. Probeer het later opnieuw."
   },
   "footer": {
+    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke data te beheren en te benutten.",
     "contact": {
       "title": "Neem contact op",
-      "email": "E-mail",
-      "phone": "Telefoon",
-      "address": "Adres"
+      "name": "Naam",
+      "email": "E-mailadres",
+      "message": "Bericht",
+      "send": "Verstuur",
+      "success": "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.",
+      "error": "Er is iets misgegaan. Probeer het later nog eens."
     },
-    "links": {
-      "title": "Links",
-      "about": "Over ons",
-      "privacy": "Privacy",
-      "terms": "Voorwaarden"
-    },
-    "social": {
-      "title": "Social Media",
-      "linkedin": "LinkedIn",
-      "twitter": "Twitter"
-    },
-    "copyright": " 2024 SkillVal B.V. Alle rechten voorbehouden."
+    "copyright": "Alle rechten voorbehouden"
   },
   "customer": {
     "title": "Jouw data, jouw regels",

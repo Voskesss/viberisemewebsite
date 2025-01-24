@@ -104,14 +104,10 @@
       "description": "Choose your ads and get paid for your engagement."
     }
   },
-  "comingSoon": {
-    "title": "SkillVal Coming soon",
-    "description": "SkillVal is almost here! Be ready to validate skills and empower growth like never before."
-  },
   "newsletter": {
     "title": "Stay Updated",
     "subtitle": "Subscribe for updates",
-    "description": "Join our waitlist to receive updates about SkillVal",
+    "description": "Join our waitlist to receive updates about VibeRise",
     "placeholder": "Your email address",
     "button": "Subscribe",
     "success": "Thanks for subscribing!",
@@ -129,17 +125,17 @@
     "error": "Something went wrong. Please try again later."
   },
   "footer": {
+    "description": "Take control of your data. VibeRise.me empowers you to manage and monetize your personal data.",
     "contact": {
-      "title": "Contact us",
-      "name": "Your name",
-      "subject": "Subject",
-      "message": "Your message",
-      "button": "Send",
-      "success": "Thank you for your message!",
-      "sending": "Sending...",
+      "title": "Contact Us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "success": "Thank you for your message! We'll get back to you soon.",
       "error": "Something went wrong. Please try again later."
     },
-    "copyright": " 2024 SkillVal B.V. All rights reserved."
+    "copyright": "All rights reserved"
   },
   "customer": {
     "title": "Your data, your rules",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SkillVal | Plataforma de Avaliação Técnica com IA para Desenvolvedores",
-    "description": "Valide habilidades técnicas de desenvolvedores com IA. Avaliações objetivas e eficientes para recrutamento e desenvolvimento de talentos."
+    "title": "VibeRise.me | Seus Dados, Seu Poder",
+    "description": "Assuma o controle de seus dados. VibeRise.me permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
   },
   "hero": {
     "title": "Menos trabalho, mais fluxo, mais segurança",
@@ -35,11 +35,11 @@
   },
   "powerful": {
     "title": "Fácil de aprender e extremamente poderoso",
-    "description": "SkillVal simplifica a validação de competências e permite que as equipes alcancem seus objetivos e façam progressos significativos."
+    "description": "VibeRise.me simplifica a validação de competências e permite que as equipes alcancem seus objetivos e façam progressos significativos."
   },
   "validation": {
-    "title": "Para validação de qualquer competência",
-    "description": "Seja através de processos EVC ou relatórios detalhados de competências, o SkillVal garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
+    "title": "Para validação de cada competência",
+    "description": "Seja através de processos EVC ou relatórios detalhados de competências, o VibeRise.me garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
   },
   "features": {
     "title": "Recursos Poderosos para seus Dados",
@@ -133,8 +133,8 @@
     }
   },
   "comingSoon": {
-    "title": "SkillVal em breve",
-    "description": "SkillVal está chegando! Prepare-se para validar competências e impulsionar o crescimento como nunca antes."
+    "title": "VibeRise.me em breve",
+    "description": "VibeRise.me está chegando! Prepare-se para assumir o controle de seus dados como nunca antes."
   },
   "waitlist": {
     "title": "Junte-se ao VibeRise",
@@ -159,7 +159,7 @@
   "newsletter": {
     "title": "Mantenha-se atualizado",
     "subtitle": "Inscreva-se para atualizações",
-    "description": "Inscreva-se na lista de espera e receba atualizações sobre o SkillVal",
+    "description": "Inscreva-se na lista de espera e receba atualizações sobre o VibeRise.me",
     "placeholder": "Seu e-mail",
     "button": "Inscrever-se",
     "success": "Obrigado por se inscrever!",
@@ -178,16 +178,15 @@
   },
   "footer": {
     "contact": {
-      "title": "Contato",
-      "name": "Seu nome",
-      "email": "Endereço de e-mail",
-      "subject": "Assunto",
-      "message": "Sua mensagem",
-      "button": "Enviar",
-      "success": "Obrigado pela sua mensagem!",
-      "sending": "Enviando...",
+      "title": "Entre em contato",
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "success": "Obrigado pela sua mensagem! Retornaremos em breve.",
       "error": "Algo deu errado. Por favor, tente novamente mais tarde."
     },
-    "copyright": " 2024 SkillVal B.V. Todos os direitos reservados."
+    "description": "Assuma o controle de seus dados. VibeRise.me permite que você gerencie e monetize seus dados pessoais.",
+    "copyright": "Todos os direitos reservados"
   }
 }

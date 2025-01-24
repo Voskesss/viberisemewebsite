@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Menos trabajo, más fluidez, más seguridad",
-    "subtitle": "SkillVal: La plataforma que valida habilidades y añade valor a las carreras",
+    "subtitle": "VibeRise.me: La plataforma que valida habilidades y añade valor a las carreras",
     "description": "Toma el control de tu vida digital. Gestiona tus datos, protege tu privacidad y recibe recompensas por tu atención.",
     "cta": "Únete a la Revolución",
     "words": {
@@ -31,11 +31,11 @@
   },
   "powerful": {
     "title": "Fácil de aprender y extremadamente potente",
-    "description": "SkillVal simplifica la validación de habilidades mientras permite a los equipos alcanzar sus objetivos e impulsar un progreso significativo."
+    "description": "VibeRise.me simplifica la validación de habilidades mientras permite a los equipos alcanzar sus objetivos e impulsar un progreso significativo."
   },
   "validation": {
     "title": "Para la validación de cada habilidad",
-    "description": "Ya sea a través de procesos EVC o informes detallados de habilidades, SkillVal asegura un reconocimiento preciso de las competencias. Empodere a individuos y organizaciones con evaluaciones confiables para cada etapa profesional."
+    "description": "Ya sea a través de procesos EVC o informes detallados de habilidades, VibeRise.me asegura un reconocimiento preciso de las competencias. Empodere a individuos y organizaciones con evaluaciones confiables para cada etapa profesional."
   },
   "carousel": {
     "audit": {
@@ -55,13 +55,13 @@
     }
   },
   "comingSoon": {
-    "title": "SkillVal próximamente",
-    "description": "¡SkillVal está casi aquí! Prepárate para validar habilidades e impulsar el crecimiento como nunca antes."
+    "title": "VibeRise.me próximamente",
+    "description": "¡VibeRise.me está casi aquí! Prepárate para tomar el control de tus datos como nunca antes."
   },
   "newsletter": {
     "title": "Mantente informado",
     "subtitle": "Suscríbete para actualizaciones",
-    "description": "Únete a nuestra lista de espera para recibir actualizaciones sobre SkillVal",
+    "description": "Únete a nuestra lista de espera para recibir actualizaciones sobre VibeRise.me",
     "placeholder": "Tu dirección de correo",
     "button": "Suscribirse",
     "success": "¡Gracias por suscribirte!",
@@ -81,20 +81,19 @@
   "footer": {
     "contact": {
       "title": "Contáctenos",
-      "name": "Su nombre",
+      "name": "Nombre",
       "email": "Correo electrónico",
       "subject": "Asunto",
-      "message": "Su mensaje",
-      "button": "Enviar",
-      "success": "¡Gracias por su mensaje!",
-      "sending": "Enviando...",
-      "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+      "message": "Mensaje",
+      "send": "Enviar",
+      "success": "¡Gracias por tu mensaje! Te responderemos pronto.",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
     },
-    "copyright": " 2024 SkillVal B.V. Todos los derechos reservados."
+    "copyright": " 2024 VibeRise.me B.V. Todos los derechos reservados."
   },
   "meta": {
-    "title": "SkillVal | Plataforma de evaluación técnica impulsada por IA para desarrolladores",
-    "description": "Valide las habilidades técnicas de los desarrolladores con IA. Evaluaciones objetivas y eficientes para reclutamiento y desarrollo de talento."
+    "title": "VibeRise.me | Tus Datos, Tu Poder",
+    "description": "Toma el control de tus datos. VibeRise.me te permite poseer, gestionar y monetizar tus datos personales con total privacidad y seguridad."
   },
   "metadata": {
     "title": "VibeRise.me | Tus Datos, Tu Poder",
@@ -103,7 +102,7 @@
   "customer": {
     "badge": "Para consumidores",
     "title": "Toma el Control de Tu Vida Digital",
-    "subtitle": "Con VibeRise, tú decides qué sucede con tus datos. Gana dinero, protege tu privacidad y genera impacto.",
+    "subtitle": "Con VibeRise.me, tú decides qué sucede con tus datos. Gana dinero, protege tu privacidad y genera impacto.",
     "features": {
       "privacy": {
         "title": "Control Total de Privacidad",
@@ -198,7 +197,7 @@
   },
   "features": {
     "title": "Funciones Potentes para tus Datos",
-    "subtitle": "Descubre cómo VibeRise te ayuda a recuperar el control de tu vida digital",
+    "subtitle": "Descubre cómo VibeRise.me te ayuda a recuperar el control de tu vida digital",
     "main": {
       "title": "Conciencia Global",
       "description": "Únete a una red mundial que lucha por la libertad digital y el intercambio justo de datos"
@@ -245,7 +244,7 @@
   "influencer": {
     "badge": "Para influencers",
     "title": "Crea Impacto con Tu Contenido",
-    "description": "Llega a más personas, gana más con tu contenido y mantén el control total de tus datos. Con VibeRise, obtienes las herramientas para expandir tu alcance mientras se garantiza la protección de tu privacidad.",
+    "description": "Llega a más personas, gana más con tu contenido y mantén el control total de tus datos. Con VibeRise.me, obtienes las herramientas para expandir tu alcance mientras se garantiza la protección de tu privacidad.",
     "features": {
       "reach": {
         "title": "Amplía Tu Alcance",
@@ -267,11 +266,11 @@
     }
   },
   "waitlist": {
-    "title": "Únete a VibeRise",
+    "title": "Únete a VibeRise.me",
     "description": {
       "consumer": "Forma parte del movimiento por la libertad digital",
-      "company": "Descubre cómo VibeRise puede ayudar a tu empresa",
-      "influencer": "Amplifica tu alcance con VibeRise",
+      "company": "Descubre cómo VibeRise.me puede ayudar a tu empresa",
+      "influencer": "Amplifica tu alcance con VibeRise.me",
       "investor": "Invierte en el futuro de la libertad digital",
       "developer": "Construye el futuro de Internet"
     },
@@ -280,7 +279,7 @@
     "loading": "Por favor, espera...",
     "privacy": "Al registrarte, aceptas nuestras condiciones de privacidad",
     "success": {
-      "title": "¡Bienvenido a VibeRise!",
+      "title": "¡Bienvenido a VibeRise.me!",
       "position": "Estás en la posición {{position}} de la lista de espera",
       "referral": "Comparte este enlace para subir en la lista:",
       "close": "Cerrar"

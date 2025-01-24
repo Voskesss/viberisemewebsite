@@ -3,6 +3,7 @@ import ContactForm from './ContactForm';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gray-50 py-16 border-t border-gray-200 full-width">
@@ -10,9 +11,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           {/* Logo & Info */}
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-2xl font-bold text-white mb-4">VibeRise</span>
-            <p className="text-sm text-gray-400 text-center md:text-left">
-              Your data should work for you.
+            <a href="/" className="flex items-center mb-4">
+              <span className="text-2xl font-bold text-gray-900">
+                VibeRise<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.me</span>
+              </span>
+            </a>
+            <p className="text-sm text-gray-600 text-center md:text-left">
+              {t('footer.description')}
             </p>
           </div>
 
@@ -27,7 +32,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm text-gray-500 pt-8 border-t border-gray-200">
-          {t('footer.copyright')}
+          &copy; {currentYear} VibeRise.me - {t('footer.copyright')}
         </div>
       </div>
     </footer>

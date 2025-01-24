@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "SkillVal | AI-drevet teknisk vurderingsplatform for udviklere",
-    "description": "Valider udvikleres tekniske færdigheder med AI. Objektive og effektive vurderinger til rekruttering og talentudvikling."
+    "title": "VibeRise.me | Din Data, Din Kraft",
+    "description": "Tag kontrol over dine data. VibeRise.me giver dig mulighed for at eje, administrere og tjene penge på dine personlige data med fuld privatliv og sikkerhed."
   },
   "hero": {
     "title": "Mindre arbejde, mere flow, mere sikkerhed",
-    "subtitle": "SkillVal: Platformen der validerer færdigheder og tilfører værdi til karrierer",
-    "description": "SkillVal gør det muligt for fagfolk og organisationer at identificere og validere kompetencer gennem EVC-processer og kompetencerapporter. Fra mål til resultater holder vores platform dig fokuseret på det, der virkelig betyder noget: vækst og udvikling.",
+    "subtitle": "VibeRise.me: Platformen der validerer færdigheder og tilfører værdi til karrierer",
+    "description": "VibeRise.me gør det muligt for fagfolk og organisationer at identificere og validere kompetencer gennem EVC-processer og kompetencerapporter. Fra mål til resultater holder vores platform dig fokuseret på det, der virkelig betyder noget: vækst og udvikling.",
     "words": {
       "me": "mig",
       "social": "social",
@@ -32,7 +32,7 @@
       "description": "AI og Menneskelig Validering arbejder sammen om at forhindre svindel og sikre tillid til kompetencevurderinger."
     },
     "title": "Kraftfulde Funktioner til Dine Data",
-    "subtitle": "Opdag hvordan VibeRise hjælper dig med at genvinde kontrollen over dit digitale liv",
+    "subtitle": "Opdag hvordan VibeRise.me hjælper dig med at genvinde kontrollen over dit digitale liv",
     "main": {
       "title": "Global Bevidsthed",
       "description": "Bliv en del af et globalt netværk, der stræber efter digital frihed og fair dataudveksling"
@@ -83,7 +83,7 @@
   },
   "influencer": {
     "title": "Forstærk Din Indflydelse",
-    "subtitle": "Nå længere ud, tjen mere og gør en forskel med VibeRises platform for influencere.",
+    "subtitle": "Nå længere ud, tjen mere og gør en forskel med VibeRise.me's platform for influencere.",
     "features": {
       "reach": {
         "title": "Udvid Din Rækkevidde",
@@ -106,11 +106,11 @@
   },
   "powerful": {
     "title": "Let at lære og ekstremt kraftfuld",
-    "description": "SkillVal forenkler kompetencevalidering og gør det muligt for teams at nå deres mål og gøre meningsfulde fremskridt."
+    "description": "VibeRise.me forenkler kompetencevalidering og gør det muligt for teams at nå deres mål og gøre meningsfulde fremskridt."
   },
   "validation": {
     "title": "Til validering af enhver kompetence",
-    "description": "Hvad enten det er gennem EVC-processer eller detaljerede kompetencerapporter, sikrer SkillVal nøjagtig anerkendelse af kompetencer. Giv individer og organisationer mulighed med pålidelige vurderinger for hver karrierefase."
+    "description": "Hvad enten det er gennem EVC-processer eller detaljerede kompetencerapporter, sikrer VibeRise.me nøjagtig anerkendelse af kompetencer. Giv individer og organisationer mulighed med pålidelige vurderinger for hver karrierefase."
   },
   "carousel": {
     "audit": {
@@ -130,13 +130,13 @@
     }
   },
   "comingSoon": {
-    "title": "SkillVal Kommer snart",
-    "description": "SkillVal er på vej! Vær klar til at validere kompetencer og drive vækst som aldrig før."
+    "title": "VibeRise.me kommer snart",
+    "description": "VibeRise.me er næsten her! Vær klar til at tage kontrol over dine data som aldrig før."
   },
   "newsletter": {
     "title": "Hold dig opdateret",
     "subtitle": "Tilmeld dig for opdateringer",
-    "description": "Tilmeld dig ventelisten og få opdateringer om SkillVal",
+    "description": "Tilmeld dig ventelisten og få opdateringer om VibeRise.me",
     "placeholder": "Din e-mail",
     "button": "Tilmeld dig",
     "success": "Tak for din tilmelding!",
@@ -156,23 +156,22 @@
   "footer": {
     "contact": {
       "title": "Kontakt os",
-      "name": "Dit navn",
-      "email": "E-mailadresse",
-      "subject": "Emne",
-      "message": "Din besked",
-      "button": "Send",
-      "success": "Tak for din besked!",
-      "sending": "Sender...",
-      "error": "Noget gik galt. Prøv venligst igen senere."
+      "name": "Navn",
+      "email": "E-mail",
+      "message": "Besked",
+      "send": "Send",
+      "success": "Tak for din besked! Vi vender tilbage snarest.",
+      "error": "Noget gik galt. Prøv igen senere."
     },
-    "copyright": " 2024 SkillVal B.V. Alle rettigheder forbeholdes."
+    "description": "Tag kontrol over dine data. VibeRise.me giver dig mulighed for at administrere og tjene penge på dine personlige data.",
+    "copyright": "Alle rettigheder forbeholdes"
   },
   "waitlist": {
-    "title": "Tilslut dig VibeRise",
+    "title": "Tilslut dig VibeRise.me",
     "description": {
       "consumer": "Bliv en del af bevægelsen for digital frihed",
-      "company": "Opdag hvordan VibeRise kan hjælpe din virksomhed",
-      "influencer": "Forstærk din rækkevidde med VibeRise",
+      "company": "Opdag hvordan VibeRise.me kan hjælpe din virksomhed",
+      "influencer": "Forstærk din rækkevidde med VibeRise.me",
       "investor": "Invester i fremtiden for digital frihed",
       "developer": "Byg internettets fremtid"
     },
@@ -181,7 +180,7 @@
     "loading": "Vent venligst...",
     "privacy": "Ved at tilmelde dig accepterer du vores privatlivsbetingelser",
     "success": {
-      "title": "Velkommen til VibeRise!",
+      "title": "Velkommen til VibeRise.me!",
       "position": "Du er nummer {{position}} på ventelisten",
       "referral": "Del dette link for at rykke op på listen:",
       "close": "Luk"
