@@ -117,5 +117,97 @@
       "error": "Something went wrong. Please try again later."
     },
     "copyright": " 2024 SkillVal B.V. All rights reserved."
+  },
+  "customer": {
+    "title": "Take Control of Your Digital Life",
+    "subtitle": "With VibeRise, you decide what happens with your data. Earn from it, protect your privacy, and make an impact.",
+    "features": {
+      "privacy": {
+        "title": "Total Privacy Control",
+        "description": "Block tracking, use standard VPN, and make yourself untraceable. You determine what happens with your data."
+      },
+      "earnings": {
+        "title": "Earn from Your Data",
+        "description": "You earn from your own data. Choose which data you share and receive direct payment for every interaction."
+      },
+      "social": {
+        "title": "Safe Social Media",
+        "description": "Use social media on your terms. No tracking, no ads, pure connection with others."
+      },
+      "impact": {
+        "title": "Direct Impact",
+        "description": "See directly how your data management contributes to a better world. Track your impact in real-time."
+      },
+      "cta": "Start Earning Now"
+    }
+  },
+  "company": {
+    "title": "Build the Future of Data",
+    "subtitle": "Become part of a revolutionary platform where fair data exchange is central.",
+    "features": {
+      "insights": {
+        "title": "Valuable Data Insights",
+        "description": "Get direct access to fair, transparent data from users who consciously choose to share."
+      },
+      "impact": {
+        "title": "Direct Impact",
+        "description": "Be part of a revolution in data management. Help build a fairer internet for everyone."
+      },
+      "model": {
+        "title": "Fair Revenue Model",
+        "description": "Only pay for the data you use. Direct, transparent, and without intermediaries."
+      },
+      "compliance": {
+        "title": "Privacy & Compliance",
+        "description": "Fully GDPR-compliant. All data exchange is transparent and traceable via blockchain."
+      },
+      "cta": "Become a Partner"
+    }
+  },
+  "investor": {
+    "title": "Invest in the Future of Data",
+    "subtitle": "Become part of a revolution in personal data. Invest in a platform that prioritizes privacy, control, and fair distribution.",
+    "features": {
+      "growth": {
+        "title": "Exponential Growth",
+        "description": "Invest in a platform shaping the future of data exchange. Benefit from early adoption and network effects."
+      },
+      "security": {
+        "title": "Secure Investment",
+        "description": "Blockchain-based tokens and smart contracts ensure transparency and security of your investment."
+      },
+      "impact": {
+        "title": "Global Impact",
+        "description": "Help build a fairer internet. Be part of a worldwide movement for data democratization."
+      },
+      "market": {
+        "title": "Market Share",
+        "description": "Get early access to a growing market for personal data. Position yourself in this emerging industry."
+      },
+      "cta": "Become an Early Investor"
+    }
+  },
+  "developer": {
+    "title": "Build the Revolution",
+    "subtitle": "Become part of an open source movement democratizing the internet. Together we build a fairer digital future.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Contribute to a fully open source platform. Help build the future of the internet."
+      },
+      "tech": {
+        "title": "Cutting-Edge Tech",
+        "description": "Work with the latest technologies: blockchain, AI, and decentralized systems."
+      },
+      "community": {
+        "title": "Active Community",
+        "description": "Join a vibrant community of developers building a better digital world."
+      },
+      "rewards": {
+        "title": "Rewards & Recognition",
+        "description": "Receive rewards for your contributions. Build a reputation in the Web3 community."
+      },
+      "cta": "Start Contributing"
+    }
   }
 }

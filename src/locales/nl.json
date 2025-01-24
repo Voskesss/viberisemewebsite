@@ -90,5 +90,97 @@
       "twitter": "Twitter"
     },
     "copyright": " 2024 SkillVal B.V. Alle rechten voorbehouden."
+  },
+  "customer": {
+    "title": "Neem Controle Over Je Digitale Leven",
+    "subtitle": "Met VibeRise bepaal jij wat er met je data gebeurt. Verdien eraan, bescherm je privacy, en maak impact.",
+    "features": {
+      "privacy": {
+        "title": "Totale Privacy Controle",
+        "description": "Blokkeer tracking, gebruik standaard VPN, en maak jezelf onherleidbaar. Jij bepaalt wat er met je data gebeurt."
+      },
+      "earnings": {
+        "title": "Verdien met Je Data",
+        "description": "Jij verdient aan je eigen data. Kies zelf welke data je deelt en ontvang direct betaling voor elke interactie."
+      },
+      "social": {
+        "title": "Veilige Sociale Media",
+        "description": "Gebruik sociale media op jouw voorwaarden. Geen tracking, geen advertenties, pure connectie met anderen."
+      },
+      "impact": {
+        "title": "Directe Impact",
+        "description": "Zie direct hoe jouw databeheer bijdraagt aan een betere wereld. Volg je impact in real-time."
+      },
+      "cta": "Begin Nu Met Verdienen"
+    }
+  },
+  "company": {
+    "title": "Bouw Mee aan de Toekomst van Data",
+    "subtitle": "Word onderdeel van een revolutionair platform waar eerlijke data-uitwisseling centraal staat.",
+    "features": {
+      "insights": {
+        "title": "Waardevolle Data Inzichten",
+        "description": "Krijg directe toegang tot eerlijke, transparante data van gebruikers die bewust kiezen om te delen."
+      },
+      "impact": {
+        "title": "Directe Impact",
+        "description": "Maak deel uit van een revolutie in databeheer. Bouw mee aan een eerlijker internet voor iedereen."
+      },
+      "model": {
+        "title": "Eerlijk Verdienmodel",
+        "description": "Betaal alleen voor de data die je gebruikt. Direct, transparant en zonder tussenpersonen."
+      },
+      "compliance": {
+        "title": "Privacy & Compliance",
+        "description": "Volledig GDPR-compliant. Alle data-uitwisseling is transparant en traceerbaar via blockchain."
+      },
+      "cta": "Word Partner"
+    }
+  },
+  "investor": {
+    "title": "Investeer in de Toekomst van Data",
+    "subtitle": "Word deel van een revolutie in persoonlijke data. Investeer in een platform dat privacy, controle en eerlijke verdeling centraal stelt.",
+    "features": {
+      "growth": {
+        "title": "Exponentiële Groei",
+        "description": "Investeer in een platform dat de toekomst van data-uitwisseling vormgeeft. Profiteer van vroege adoptie en netwerk effecten."
+      },
+      "security": {
+        "title": "Veilige Investering",
+        "description": "Blockchain-gebaseerde tokens en smart contracts zorgen voor transparantie en veiligheid van uw investering."
+      },
+      "impact": {
+        "title": "Globale Impact",
+        "description": "Help mee om een eerlijker internet te bouwen. Maak deel uit van een wereldwijde beweging voor data democratisering."
+      },
+      "market": {
+        "title": "Marktaandeel",
+        "description": "Krijg vroege toegang tot een groeiende markt voor persoonlijke data. Positioneer uzelf in deze opkomende industrie."
+      },
+      "cta": "Word Early Investor"
+    }
+  },
+  "developer": {
+    "title": "Bouw Mee aan de Revolutie",
+    "subtitle": "Word onderdeel van een open source beweging die het internet democratiseert. Samen bouwen we aan een eerlijkere digitale toekomst.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Draag bij aan een volledig open source platform. Bouw mee aan de toekomst van het internet."
+      },
+      "tech": {
+        "title": "Cutting-Edge Tech",
+        "description": "Werk met de nieuwste technologieën: blockchain, AI, en gedecentraliseerde systemen."
+      },
+      "community": {
+        "title": "Actieve Community",
+        "description": "Word deel van een levendige community van ontwikkelaars die bouwen aan een betere digitale wereld."
+      },
+      "rewards": {
+        "title": "Beloning & Erkenning",
+        "description": "Ontvang beloningen voor je bijdragen. Bouw een reputatie op in de Web3 gemeenschap."
+      },
+      "cta": "Begin met Bijdragen"
+    }
   }
 }

@@ -19,24 +19,83 @@ const Features = () => {
     show: { opacity: 1, y: 0 }
   };
 
+  // Animatie voor de energiecirkels
+  const pulseAnimation = {
+    scale: [1, 1.1, 1],
+    opacity: [0.3, 0.6, 0.3],
+    transition: {
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }
+  };
+
   return (
     <section className="py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
-      {/* Achtergrond met subtiele golven */}
+      {/* Energetische achtergrond elementen */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute w-full h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
+        {/* Golvende energielijnen */}
+        <svg className="absolute w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <motion.path
+            d="M0,50 Q25,45 50,50 T100,50"
+            className="stroke-purple-200/30 fill-none"
+            strokeWidth="0.5"
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 2, repeat: Infinity }}
+          />
+          <motion.path
+            d="M0,55 Q25,50 50,55 T100,55"
+            className="stroke-blue-200/30 fill-none"
+            strokeWidth="0.5"
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 2.5, repeat: Infinity }}
+          />
+        </svg>
+
+        {/* Energetische cirkels */}
+        <motion.div
+          animate={pulseAnimation}
+          className="absolute top-1/4 -left-20 w-40 h-40 rounded-full bg-gradient-to-r from-purple-400/10 to-blue-400/10 blur-2xl"
+        />
+        <motion.div
+          animate={pulseAnimation}
+          transition={{ delay: 1 }}
+          className="absolute bottom-1/4 right-0 w-60 h-60 rounded-full bg-gradient-to-r from-blue-400/10 to-purple-400/10 blur-2xl"
+        />
+        <motion.div
+          animate={pulseAnimation}
+          transition={{ delay: 2 }}
+          className="absolute top-1/2 left-1/3 w-40 h-40 rounded-full bg-gradient-to-r from-purple-400/10 to-cyan-400/10 blur-2xl"
+        />
       </div>
 
       <div className="container mx-auto px-4 relative">
-        {/* Hoofdtekst met focus op positieve impact */}
+        {/* Hoofdtekst met vibratie-effect */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center mb-24"
         >
-          <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
-            {t('features.title')}
-          </h2>
+          <motion.div
+            animate={{ 
+              scale: [1, 1.02, 1],
+              rotate: [-0.5, 0.5, -0.5]
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="inline-block"
+          >
+            <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent relative">
+              {t('features.title')}
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600/20 via-blue-600/20 to-purple-600/20 blur-xl -z-10 rounded-full opacity-50" />
+            </h2>
+          </motion.div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             {t('features.subtitle')}
           </p>
@@ -132,7 +191,7 @@ const Features = () => {
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Users */}
-            <a href={t('features.groups.users.link')} className="group">
+            <a href="#users-section" className="group">
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-6 shadow-lg border border-purple-100 h-full"
@@ -152,7 +211,7 @@ const Features = () => {
             </a>
 
             {/* Companies */}
-            <a href={t('features.groups.companies.link')} className="group">
+            <a href="#companies-section" className="group">
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 shadow-lg border border-blue-100 h-full"
@@ -172,7 +231,7 @@ const Features = () => {
             </a>
 
             {/* Investors */}
-            <a href={t('features.groups.investors.link')} className="group">
+            <a href="#investors-section" className="group">
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="bg-gradient-to-br from-cyan-50 to-green-50 rounded-2xl p-6 shadow-lg border border-cyan-100 h-full"
@@ -192,7 +251,7 @@ const Features = () => {
             </a>
 
             {/* Developers */}
-            <a href={t('features.groups.developers.link')} className="group">
+            <a href="#developers-section" className="group">
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="bg-gradient-to-br from-green-50 to-purple-50 rounded-2xl p-6 shadow-lg border border-green-100 h-full"
