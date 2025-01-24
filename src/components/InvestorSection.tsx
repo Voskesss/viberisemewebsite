@@ -70,7 +70,7 @@ const InvestorSection = () => {
       <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden">
         {/* Energetische achtergrond */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-cyan-100/20 to-green-100/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-green-100/20" />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ 
@@ -82,7 +82,7 @@ const InvestorSection = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-cyan-400/10 via-green-400/10 to-cyan-400/10 blur-3xl"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-blue-400/10 via-green-400/10 to-blue-400/10 blur-3xl"
           />
         </div>
 
@@ -91,7 +91,7 @@ const InvestorSection = () => {
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-600 via-green-600 to-cyan-600 bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-green-600 to-blue-600 bg-clip-text text-transparent"
             >
               {t('investor.title')}
             </motion.h2>
@@ -105,80 +105,45 @@ const InvestorSection = () => {
             </motion.p>
           </div>
 
-          {/* Video sectie */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            className="max-w-5xl mx-auto mb-20 relative"
-          >
-            <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-              {/* Placeholder voor video - vervang src met echte video URL */}
-              <div className="w-full h-full bg-gray-900 flex items-center justify-center">
-                <div className="text-white text-xl">Video Coming Soon</div>
-              </div>
-            </div>
-            
-            {/* Energetische elementen rond de video */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/10 via-green-500/10 to-cyan-500/10 rounded-3xl blur-xl -z-10" />
-            <motion.div
-              animate={{
-                opacity: [0.5, 0.8, 0.5],
-                scale: [1, 1.02, 1],
-              }}
-              transition={{
-                duration: 4,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-              className="absolute -inset-1 bg-gradient-to-r from-cyan-500/20 via-green-500/20 to-cyan-500/20 rounded-2xl blur-lg -z-10"
-            />
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {features.map((feature, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                whileHover={{ scale: 1.02 }}
-                className="bg-white rounded-2xl p-8 shadow-lg border border-cyan-100 relative overflow-hidden group"
-              >
-                {/* Feature icon met glow effect */}
-                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-green-500 rounded-xl mb-6 flex items-center justify-center text-white relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-green-600 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="relative">
-                    {feature.icon}
-                  </div>
-                </div>
-                
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  {t(`investor.features.${feature.id}.title`)}
-                </h3>
-                <p className="text-gray-600">
-                  {t(`investor.features.${feature.id}.description`)}
-                </p>
-
-                {/* Subtiele accent lijn */}
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500/50 to-green-500/50 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Call-to-action */}
+          {/* Vimeo Video */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            className="text-center mt-16"
+            transition={{ delay: 0.3 }}
+            className="max-w-4xl mx-auto mb-20 rounded-2xl overflow-hidden shadow-2xl"
           >
-            <a 
-              href="#invest-now" 
-              className="inline-block px-8 py-4 bg-gradient-to-r from-cyan-600 to-green-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
-            >
-              {t('investor.features.cta')}
-            </a>
+            <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+              <iframe
+                src="https://player.vimeo.com/video/1050040864?badge=0&autopause=0&player_id=0&app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                title="VibeRise investors"
+              />
+            </div>
+            <script src="https://player.vimeo.com/api/player.js" async></script>
           </motion.div>
+
+          {/* Features Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {features.map((feature) => (
+              <motion.div
+                key={feature.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4 }}
+                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-green-500 rounded-lg flex items-center justify-center mb-4">
+                  <div className="text-white">
+                    {feature.icon}
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
