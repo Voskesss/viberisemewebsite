@@ -53,7 +53,7 @@ const CompanySection = () => {
       <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-gray-50 to-transparent -translate-y-full pointer-events-none" />
       
       {/* Golvende overgang */}
-      <div className="absolute top-0 inset-x-0 -translate-y-[99%]">
+      <div className="absolute top-0 inset-x-0 -translate-y-[99%] z-10">
         <svg 
           className="w-full h-[100px] fill-white transform rotate-180" 
           viewBox="0 0 1440 100" 
@@ -85,7 +85,7 @@ const CompanySection = () => {
           />
         </div>
 
-        <div className="container mx-auto px-4 relative">
+        <div className="container mx-auto px-4 relative z-20">
           <div className="max-w-3xl mx-auto text-center mb-20">
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
