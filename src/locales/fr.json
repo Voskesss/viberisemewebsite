@@ -6,6 +6,17 @@
   "hero": {
     "title": "Prenez le Contrôle de Votre Vie Numérique",
     "subtitle": "Avec VibeRise, vous décidez ce qu'il advient de vos données. Gagnez de l'argent, protégez votre vie privée et créez un impact.",
+    "description": "Prenez le contrôle de votre vie numérique. Gérez vos données, protégez votre vie privée et soyez récompensé pour votre attention.",
+    "cta": "Rejoignez la Révolution",
+    "words": {
+      "me": "moi",
+      "social": "social",
+      "privacy": "privé",
+      "data": "données",
+      "advertising": "publicité",
+      "communication": "communication",
+      "world": "monde"
+    },
     "features": {
       "privacy": {
         "title": "Contrôle Total de la Confidentialité",

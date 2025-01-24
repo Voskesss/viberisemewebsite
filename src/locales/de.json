@@ -136,5 +136,18 @@
       "subtitle": "Gemeinsam schaffen wir eine bewusstere digitale Welt",
       "button": "Jetzt Starten"
     }
+  },
+  "hero": {
+    "description": "Übernehmen Sie die Kontrolle über Ihr digitales Leben. Verwalten Sie Ihre Daten, schützen Sie Ihre Privatsphäre und werden Sie für Ihre Aufmerksamkeit belohnt.",
+    "cta": "Schließen Sie sich der Revolution an",
+    "words": {
+      "me": "me",
+      "social": "sozial",
+      "privacy": "privat",
+      "data": "daten",
+      "advertising": "werbung",
+      "communication": "kommunikation",
+      "world": "welt"
+    }
   }
 }

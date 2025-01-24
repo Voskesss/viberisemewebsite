@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   const words = [
     'me',
     'social',
@@ -47,13 +50,13 @@ const Hero = () => {
               <span 
                 key={words[currentWord]}
                 className="font-light italic opacity-90 -ml-2 transform -rotate-6 inline-block transition-opacity duration-1000"
-              >.{words[currentWord]}</span>
+              >.{t(`hero.words.${words[currentWord]}`)}</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-6">
-              Take control of your digital life. Own your data, protect your privacy, and get rewarded for your attention.
+              {t('hero.description')}
             </p>
             <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-opacity-90 transition-all mb-8">
-              Join the Revolution
+              {t('hero.cta')}
             </button>
           </div>
         </div>

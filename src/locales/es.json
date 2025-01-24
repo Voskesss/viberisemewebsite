@@ -2,7 +2,17 @@
   "hero": {
     "title": "Menos trabajo, más fluidez, más seguridad",
     "subtitle": "SkillVal: La plataforma que valida habilidades y añade valor a las carreras",
-    "description": "SkillVal permite a profesionales y organizaciones identificar y validar habilidades a través de procesos EVC e informes de competencias. Desde los objetivos hasta los resultados, nuestra plataforma te mantiene enfocado en lo que realmente importa: el crecimiento y desarrollo."
+    "description": "Toma el control de tu vida digital. Gestiona tus datos, protege tu privacidad y recibe recompensas por tu atención.",
+    "cta": "Únete a la Revolución",
+    "words": {
+      "me": "yo",
+      "social": "social",
+      "privacy": "privacidad",
+      "data": "datos",
+      "advertising": "publicidad",
+      "communication": "comunicación",
+      "world": "mundo"
+    }
   },
   "features": {
     "workflow": {

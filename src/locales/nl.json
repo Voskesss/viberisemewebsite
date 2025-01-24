@@ -10,7 +10,18 @@
   "hero": {
     "title": "Less work, more flow, more safety",
     "subtitle": "SkillVal: Het platform dat vaardigheden valideert en waarde toevoegt aan carrières",
-    "description": "SkillVal stelt professionals en organisaties in staat om vaardigheden te identificeren en te valideren via EVC-processen en vaardigheidsrapporten. Van doelen naar resultaten, ons platform houdt je gefocust op wat echt belangrijk is: groei en ontwikkeling."
+    "description": "SkillVal stelt professionals en organisaties in staat om vaardigheden te identificeren en te valideren via EVC-processen en vaardigheidsrapporten. Van doelen naar resultaten, ons platform houdt je gefocust op wat echt belangrijk is: groei en ontwikkeling.",
+    "description": "Neem controle over je digitale leven. Beheer je data, bescherm je privacy en word beloond voor je aandacht.",
+    "cta": "Doe Mee met de Revolutie",
+    "words": {
+      "me": "me",
+      "social": "sociaal",
+      "privacy": "privacy",
+      "data": "data",
+      "advertising": "adverteren",
+      "communication": "communicatie",
+      "world": "wereld"
+    }
   },
   "features": {
     "workflow": {
