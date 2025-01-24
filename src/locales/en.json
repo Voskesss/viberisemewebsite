@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "SkillVal | AI-Powered Technical Assessment Platform for Developers",
+    "description": "Validate technical skills of developers with AI. Objective and efficient assessments for recruitment and talent development."
+  },
+  "hero": {
+    "title": "Less work, more flow, more safety",
+    "subtitle": "SkillVal: The platform that validates skills and adds value to careers",
+    "description": "SkillVal empowers professionals and organizations to identify and validate skills through EVC processes and skill reports. From goals to results, our platform keeps you focused on what truly matters: growth and development."
+  },
+  "features": {
+    "workflow": {
+      "title": "Awesome workflow",
+      "description": "Skill validation platform organizations use to focus on identifying, validating, and leveraging skills that drive growth and success."
+    },
+    "collaboration": {
+      "title": "Collaborate with team",
+      "description": "Skill validation platform that connects mentors, assessors, EVC providers, and employers to collaborate effectively and stay focused on skill development, validation, and career growth."
+    },
+    "security": {
+      "title": "AI and Human Validation to prevent fraud",
+      "description": "AI and Human Validation working together to prevent fraud and ensure trust in skill assessments."
+    }
+  },
+  "powerful": {
+    "title": "Easy to learn and extremely powerful",
+    "description": "SkillVal simplifies skill validation while empowering teams to achieve their goals and drive meaningful progress."
+  },
+  "validation": {
+    "title": "For validation of every skill",
+    "description": "Whether through EVC processes or detailed skill reports, SkillVal ensures accurate recognition of competencies. Empower individuals and organizations with trusted assessments for every career stage."
+  },
+  "carousel": {
+    "audit": {
+      "title": "For Audit Companies",
+      "subtitle": "Ensure Compliance with Confidence",
+      "description": "Reliable reports and insights to make audits simple and transparent."
+    },
+    "assessors": {
+      "title": "For Assessors",
+      "subtitle": "Effortless Skill Assessment",
+      "description": "Everything you need to evaluate skills fairly, accurately, and efficiently."
+    },
+    "evc": {
+      "title": "For EVC Providers",
+      "subtitle": "Streamline Your EVC Processes",
+      "description": "Simple tools to manage pathways, guide candidates, and validate results with ease."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal Coming soon",
+    "description": "SkillVal is almost here! Be ready to validate skills and empower growth like never before."
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Subscribe for updates",
+    "description": "Join our waitlist to receive updates about SkillVal",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Thanks for subscribing!",
+    "sending": "Sending...",
+    "error": "Something went wrong. Please try again later."
+  },
+  "contact": {
+    "name": "Your name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Your message",
+    "button": "Send",
+    "success": "Thank you for your message!",
+    "sending": "Sending...",
+    "error": "Something went wrong. Please try again later."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact us",
+      "name": "Your name",
+      "subject": "Subject",
+      "message": "Your message",
+      "button": "Send",
+      "success": "Thank you for your message!",
+      "sending": "Sending...",
+      "error": "Something went wrong. Please try again later."
+    },
+    "copyright": " 2024 SkillVal B.V. All rights reserved."
+  }
+}

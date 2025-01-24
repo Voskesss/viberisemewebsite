@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "SkillVal | AI-driven teknisk utvärderingsplattform för utvecklare",
+    "description": "Validera utvecklares tekniska färdigheter med AI. Objektiva och effektiva bedömningar för rekrytering och talangutveckling."
+  },
+  "hero": {
+    "title": "Mindre arbete, mer flöde, mer säkerhet",
+    "subtitle": "SkillVal: Plattformen som validerar färdigheter och adderar värde till karriärer",
+    "description": "SkillVal gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling."
+  },
+  "features": {
+    "workflow": {
+      "title": "Fantastiskt arbetsflöde",
+      "description": "Kompetensvalideringsplattform som organisationer använder för att fokusera på att identifiera, validera och utnyttja färdigheter som driver tillväxt och framgång."
+    },
+    "collaboration": {
+      "title": "Teamsamarbete",
+      "description": "Kompetensvalideringsplattform som kopplar samman mentorer, bedömare, EVC-leverantörer och arbetsgivare för att samarbeta effektivt och hålla fokus på kompetensutveckling, validering och karriärtillväxt."
+    },
+    "security": {
+      "title": "AI och Mänsklig Validering för att förhindra bedrägerier",
+      "description": "AI och Mänsklig Validering samarbetar för att förhindra bedrägerier och säkerställa förtroendet för kompetensbedömningar."
+    }
+  },
+  "powerful": {
+    "title": "Lätt att lära sig och extremt kraftfull",
+    "description": "SkillVal förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
+  },
+  "validation": {
+    "title": "För validering av varje kompetens",
+    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer SkillVal noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
+  },
+  "carousel": {
+    "audit": {
+      "title": "För Revisionsföretag",
+      "subtitle": "Säkerställ Efterlevnad med Förtroende",
+      "description": "Tillförlitliga rapporter och insikter för att göra revisioner enkla och transparenta."
+    },
+    "assessors": {
+      "title": "För Bedömare",
+      "subtitle": "Ansträngningslös Kompetensbedömning",
+      "description": "Allt du behöver för att bedöma kompetenser rättvist, noggrant och effektivt."
+    },
+    "evc": {
+      "title": "För EVC-leverantörer",
+      "subtitle": "Effektivisera Dina EVC-processer",
+      "description": "Enkla verktyg för att hantera vägar, vägleda kandidater och validera resultat enkelt."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal Kommer snart",
+    "description": "SkillVal är på väg! Var redo att validera kompetenser och driva tillväxt som aldrig förr."
+  },
+  "newsletter": {
+    "title": "Håll dig uppdaterad",
+    "subtitle": "Registrera dig för uppdateringar",
+    "description": "Registrera dig på väntelistan och få uppdateringar om SkillVal",
+    "placeholder": "Din e-post",
+    "button": "Registrera dig",
+    "success": "Tack för din registrering!",
+    "sending": "Skickar...",
+    "error": "Något gick fel. Försök igen senare."
+  },
+  "contact": {
+    "name": "Ditt namn",
+    "email": "E-postadress",
+    "subject": "Ämne",
+    "message": "Ditt meddelande",
+    "button": "Skicka",
+    "success": "Tack för ditt meddelande!",
+    "sending": "Skickar...",
+    "error": "Något gick fel. Försök igen senare."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakta oss",
+      "name": "Ditt namn",
+      "email": "E-postadress",
+      "subject": "Ämne",
+      "message": "Ditt meddelande",
+      "button": "Skicka",
+      "success": "Tack för ditt meddelande!",
+      "sending": "Skickar...",
+      "error": "Något gick fel. Försök igen senare."
+    },
+    "copyright": " 2024 SkillVal B.V. Alla rättigheter förbehållna."
+  }
+}

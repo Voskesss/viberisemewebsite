@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Weniger Arbeit, mehr Flow, mehr Sicherheit",
+    "subtitle": "SkillVal: Die Plattform, die Fähigkeiten validiert und Karrieren aufwertet",
+    "description": "SkillVal ermöglicht Fachleuten und Organisationen, Fähigkeiten durch EVC-Prozesse und Kompetenzberichte zu identifizieren und zu validieren. Von den Zielen bis zu den Ergebnissen bleiben Sie fokussiert auf das, was wirklich zählt: Wachstum und Entwicklung."
+  },
+  "features": {
+    "workflow": {
+      "title": "Hervorragender Workflow",
+      "description": "Kompetenzvalidierungsplattform, die Organisationen nutzen, um sich auf die Identifizierung, Validierung und Nutzung von Fähigkeiten zu konzentrieren, die Wachstum und Erfolg fördern."
+    },
+    "collaboration": {
+      "title": "Teamzusammenarbeit",
+      "description": "Kompetenzvalidierungsplattform, die Mentoren, Prüfer, EVC-Anbieter und Arbeitgeber verbindet, um effektiv zusammenzuarbeiten und sich auf Kompetenzentwicklung, Validierung und Karrierewachstum zu konzentrieren."
+    },
+    "security": {
+      "title": "KI und menschliche Validierung zur Betrugsprävention",
+      "description": "KI und menschliche Validierung arbeiten zusammen, um Betrug zu verhindern und Vertrauen in Kompetenzbewertungen zu gewährleisten."
+    }
+  },
+  "powerful": {
+    "title": "Einfach zu lernen und äußerst leistungsfähig",
+    "description": "SkillVal vereinfacht die Kompetenzvalidierung und ermöglicht Teams, ihre Ziele zu erreichen und bedeutsame Fortschritte zu erzielen."
+  },
+  "validation": {
+    "title": "Für die Validierung jeder Kompetenz",
+    "description": "Ob durch EVC-Prozesse oder detaillierte Kompetenzberichte, SkillVal gewährleistet eine genaue Anerkennung von Kompetenzen. Stärken Sie Einzelpersonen und Organisationen mit vertrauenswürdigen Bewertungen für jede Karrierephase."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Für Prüfungsgesellschaften",
+      "subtitle": "Compliance mit Vertrauen sicherstellen",
+      "description": "Zuverlässige Berichte und Einblicke, um Audits einfach und transparent zu gestalten."
+    },
+    "assessors": {
+      "title": "Für Prüfer",
+      "subtitle": "Mühelose Kompetenzbewertung",
+      "description": "Alles, was Sie brauchen, um Fähigkeiten fair, genau und effizient zu bewerten."
+    },
+    "evc": {
+      "title": "Für EVC-Anbieter",
+      "subtitle": "Optimieren Sie Ihre EVC-Prozesse",
+      "description": "Einfache Tools zur Verwaltung von Wegen, Führung von Kandidaten und müheloser Validierung von Ergebnissen."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal kommt bald",
+    "description": "SkillVal ist fast da! Seien Sie bereit, Kompetenzen zu validieren und Wachstum wie nie zuvor zu fördern."
+  },
+  "newsletter": {
+    "title": "Bleiben Sie auf dem Laufenden",
+    "subtitle": "Abonnieren Sie Updates",
+    "description": "Treten Sie der Warteliste bei, um Updates über SkillVal zu erhalten",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "Abonnieren",
+    "success": "Vielen Dank für Ihre Anmeldung!",
+    "sending": "Wird gesendet...",
+    "error": "Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut."
+  },
+  "contact": {
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht",
+    "button": "Senden",
+    "success": "Vielen Dank für Ihre Nachricht!",
+    "sending": "Wird gesendet...",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakt",
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "button": "Senden",
+      "success": "Vielen Dank für Ihre Nachricht!",
+      "sending": "Wird gesendet...",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+    },
+    "copyright": " 2024 SkillVal B.V. Alle Rechte vorbehalten."
+  },
+  "meta": {
+    "title": "SkillVal | KI-gestützte technische Bewertungsplattform für Entwickler",
+    "description": "Validieren Sie technische Fähigkeiten von Entwicklern mit KI. Objektive und effiziente Bewertungen für Recruiting und Talententwicklung."
+  }
+}

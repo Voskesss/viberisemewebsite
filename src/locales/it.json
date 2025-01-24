@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Meno lavoro, più fluidità, più sicurezza",
+    "subtitle": "SkillVal: La piattaforma che valida le competenze e aggiunge valore alle carriere",
+    "description": "SkillVal permette a professionisti e organizzazioni di identificare e validare le competenze attraverso processi EVC e report delle competenze. Dagli obiettivi ai risultati, la nostra piattaforma ti mantiene concentrato su ciò che conta davvero: crescita e sviluppo."
+  },
+  "features": {
+    "workflow": {
+      "title": "Flusso di lavoro eccezionale",
+      "description": "Piattaforma di validazione delle competenze che le organizzazioni utilizzano per concentrarsi sull'identificazione, la validazione e lo sfruttamento delle competenze che guidano la crescita e il successo."
+    },
+    "collaboration": {
+      "title": "Collaborazione di squadra",
+      "description": "Piattaforma di validazione delle competenze che connette mentor, valutatori, fornitori EVC e datori di lavoro per collaborare efficacemente e rimanere concentrati sullo sviluppo delle competenze, la validazione e la crescita professionale."
+    },
+    "security": {
+      "title": "IA e validazione umana per prevenire le frodi",
+      "description": "L'IA e la validazione umana lavorano insieme per prevenire le frodi e garantire la fiducia nelle valutazioni delle competenze."
+    }
+  },
+  "powerful": {
+    "title": "Facile da imparare ed estremamente potente",
+    "description": "SkillVal semplifica la validazione delle competenze permettendo ai team di raggiungere i loro obiettivi e guidare progressi significativi."
+  },
+  "validation": {
+    "title": "Per la validazione di ogni competenza",
+    "description": "Sia attraverso processi EVC che report dettagliati delle competenze, SkillVal assicura un riconoscimento accurato delle competenze. Dai potere a individui e organizzazioni con valutazioni affidabili per ogni fase della carriera."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Per società di revisione",
+      "subtitle": "Garantire la conformità con fiducia",
+      "description": "Report e approfondimenti affidabili per rendere gli audit semplici e trasparenti."
+    },
+    "assessors": {
+      "title": "Per valutatori",
+      "subtitle": "Valutazione delle competenze senza sforzo",
+      "description": "Tutto ciò di cui hai bisogno per valutare le competenze in modo equo, accurato ed efficiente."
+    },
+    "evc": {
+      "title": "Per fornitori EVC",
+      "subtitle": "Ottimizza i tuoi processi EVC",
+      "description": "Strumenti semplici per gestire i percorsi, guidare i candidati e validare i risultati con facilità."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal in arrivo",
+    "description": "SkillVal è quasi qui! Preparati a validare le competenze e promuovere la crescita come mai prima d'ora."
+  },
+  "newsletter": {
+    "title": "Rimani aggiornato",
+    "subtitle": "Iscriviti per gli aggiornamenti",
+    "description": "Unisciti alla nostra lista d'attesa per ricevere aggiornamenti su SkillVal",
+    "placeholder": "Il tuo indirizzo email",
+    "button": "Iscriviti",
+    "success": "Grazie per l'iscrizione!",
+    "sending": "Invio in corso...",
+    "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+  },
+  "contact": {
+    "name": "Il tuo nome",
+    "email": "Indirizzo email",
+    "subject": "Oggetto",
+    "message": "Il tuo messaggio",
+    "button": "Invia",
+    "success": "Grazie per il tuo messaggio!",
+    "sending": "Invio in corso...",
+    "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contattaci",
+      "name": "Il tuo nome",
+      "email": "Indirizzo email",
+      "subject": "Oggetto",
+      "message": "Il tuo messaggio",
+      "button": "Invia",
+      "success": "Grazie per il tuo messaggio!",
+      "sending": "Invio in corso...",
+      "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+    },
+    "copyright": " 2024 SkillVal B.V. Tutti i diritti riservati."
+  },
+  "meta": {
+    "title": "SkillVal | Piattaforma di valutazione tecnica basata su IA per sviluppatori",
+    "description": "Valida le competenze tecniche degli sviluppatori con l'IA. Valutazioni obiettive ed efficienti per il recruiting e lo sviluppo del talento."
+  }
+}

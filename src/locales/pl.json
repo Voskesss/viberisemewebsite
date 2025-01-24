@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "SkillVal | Platforma oceny technicznej oparta na AI dla programistów",
+    "description": "Waliduj umiejętności techniczne programistów za pomocą AI. Obiektywne i efektywne oceny dla rekrutacji i rozwoju talentów."
+  },
+  "hero": {
+    "title": "Mniej pracy, więcej przepływu, więcej bezpieczeństwa",
+    "subtitle": "SkillVal: Platforma, która waliduje umiejętności i dodaje wartość do kariery",
+    "description": "SkillVal umożliwia profesjonalistom i organizacjom identyfikację i walidację umiejętności poprzez procesy EVC i raporty kompetencji. Od celów do rezultatów, nasza platforma utrzymuje Cię skupionym na tym, co naprawdę ważne: wzrost i rozwój."
+  },
+  "features": {
+    "workflow": {
+      "title": "Wspaniały przepływ pracy",
+      "description": "Platforma walidacji umiejętności, której organizacje używają do skupienia się na identyfikacji, walidacji i wykorzystaniu umiejętności napędzających wzrost i sukces."
+    },
+    "collaboration": {
+      "title": "Współpraca zespołowa",
+      "description": "Platforma walidacji umiejętności łącząca mentorów, asesorów, dostawców EVC i pracodawców w celu efektywnej współpracy i skupienia się na rozwoju umiejętności, walidacji i rozwoju kariery."
+    },
+    "security": {
+      "title": "AI i Walidacja Ludzka w zapobieganiu oszustwom",
+      "description": "AI i Walidacja Ludzka współpracują, aby zapobiegać oszustwom i zapewnić zaufanie w ocenie umiejętności."
+    }
+  },
+  "powerful": {
+    "title": "Łatwy do nauki i niezwykle potężny",
+    "description": "SkillVal upraszcza walidację umiejętności i umożliwia zespołom osiąganie celów i znaczący postęp."
+  },
+  "validation": {
+    "title": "Do walidacji każdej umiejętności",
+    "description": "Czy to poprzez procesy EVC, czy szczegółowe raporty umiejętności, SkillVal zapewnia dokładne uznawanie kompetencji. Umożliwiaj jednostkom i organizacjom wiarygodną ocenę na każdym etapie kariery."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Dla Firm Audytorskich",
+      "subtitle": "Zapewnij Zgodność z Pewnością",
+      "description": "Wiarygodne raporty i spostrzeżenia, aby uczynić audyty prostymi i przejrzystymi."
+    },
+    "assessors": {
+      "title": "Dla Asesorów",
+      "subtitle": "Bezwysiłkowa Ocena Umiejętności",
+      "description": "Wszystko, czego potrzebujesz do sprawiedliwej, dokładnej i efektywnej oceny umiejętności."
+    },
+    "evc": {
+      "title": "Dla Dostawców EVC",
+      "subtitle": "Usprawnij Swoje Procesy EVC",
+      "description": "Proste narzędzia do zarządzania ścieżkami, prowadzenia kandydatów i łatwej walidacji wyników."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal Wkrótce",
+    "description": "SkillVal nadchodzi! Bądź gotowy do walidacji umiejętności i napędzania wzrostu jak nigdy dotąd."
+  },
+  "newsletter": {
+    "title": "Bądź na bieżąco",
+    "subtitle": "Zapisz się na aktualizacje",
+    "description": "Zapisz się na listę oczekujących i otrzymuj aktualizacje o SkillVal",
+    "placeholder": "Twój e-mail",
+    "button": "Zapisz się",
+    "success": "Dziękujemy za zapisanie się!",
+    "sending": "Wysyłanie...",
+    "error": "Coś poszło nie tak. Spróbuj ponownie później."
+  },
+  "contact": {
+    "name": "Twoje imię",
+    "email": "Adres e-mail",
+    "subject": "Temat",
+    "message": "Twoja wiadomość",
+    "button": "Wyślij",
+    "success": "Dziękujemy za wiadomość!",
+    "sending": "Wysyłanie...",
+    "error": "Coś poszło nie tak. Spróbuj ponownie później."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakt",
+      "name": "Twoje imię",
+      "email": "Adres e-mail",
+      "subject": "Temat",
+      "message": "Twoja wiadomość",
+      "button": "Wyślij",
+      "success": "Dziękujemy za wiadomość!",
+      "sending": "Wysyłanie...",
+      "error": "Coś poszło nie tak. Spróbuj ponownie później."
+    },
+    "copyright": " 2024 SkillVal B.V. Wszelkie prawa zastrzeżone."
+  }
+}

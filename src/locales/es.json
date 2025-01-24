@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Menos trabajo, más fluidez, más seguridad",
+    "subtitle": "SkillVal: La plataforma que valida habilidades y añade valor a las carreras",
+    "description": "SkillVal permite a profesionales y organizaciones identificar y validar habilidades a través de procesos EVC e informes de competencias. Desde los objetivos hasta los resultados, nuestra plataforma te mantiene enfocado en lo que realmente importa: el crecimiento y desarrollo."
+  },
+  "features": {
+    "workflow": {
+      "title": "Flujo de trabajo excepcional",
+      "description": "Plataforma de validación de habilidades que las organizaciones utilizan para centrarse en identificar, validar y aprovechar las habilidades que impulsan el crecimiento y el éxito."
+    },
+    "collaboration": {
+      "title": "Colaboración en equipo",
+      "description": "Plataforma de validación de habilidades que conecta mentores, evaluadores, proveedores EVC y empleadores para colaborar eficazmente y mantenerse enfocados en el desarrollo de habilidades, validación y crecimiento profesional."
+    },
+    "security": {
+      "title": "IA y validación humana para prevenir el fraude",
+      "description": "La IA y la validación humana trabajan juntas para prevenir el fraude y garantizar la confianza en las evaluaciones de habilidades."
+    }
+  },
+  "powerful": {
+    "title": "Fácil de aprender y extremadamente potente",
+    "description": "SkillVal simplifica la validación de habilidades mientras permite a los equipos alcanzar sus objetivos e impulsar un progreso significativo."
+  },
+  "validation": {
+    "title": "Para la validación de cada habilidad",
+    "description": "Ya sea a través de procesos EVC o informes detallados de habilidades, SkillVal asegura un reconocimiento preciso de las competencias. Empodere a individuos y organizaciones con evaluaciones confiables para cada etapa profesional."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Para empresas de auditoría",
+      "subtitle": "Asegurar el cumplimiento con confianza",
+      "description": "Informes y perspectivas fiables para hacer las auditorías simples y transparentes."
+    },
+    "assessors": {
+      "title": "Para evaluadores",
+      "subtitle": "Evaluación de habilidades sin esfuerzo",
+      "description": "Todo lo que necesitas para evaluar habilidades de manera justa, precisa y eficiente."
+    },
+    "evc": {
+      "title": "Para proveedores EVC",
+      "subtitle": "Optimiza tus procesos EVC",
+      "description": "Herramientas simples para gestionar rutas, guiar candidatos y validar resultados con facilidad."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal próximamente",
+    "description": "¡SkillVal está casi aquí! Prepárate para validar habilidades e impulsar el crecimiento como nunca antes."
+  },
+  "newsletter": {
+    "title": "Mantente informado",
+    "subtitle": "Suscríbete para actualizaciones",
+    "description": "Únete a nuestra lista de espera para recibir actualizaciones sobre SkillVal",
+    "placeholder": "Tu dirección de correo",
+    "button": "Suscribirse",
+    "success": "¡Gracias por suscribirte!",
+    "sending": "Enviando...",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+  },
+  "contact": {
+    "name": "Su nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Su mensaje",
+    "button": "Enviar",
+    "success": "¡Gracias por su mensaje!",
+    "sending": "Enviando...",
+    "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contáctenos",
+      "name": "Su nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "message": "Su mensaje",
+      "button": "Enviar",
+      "success": "¡Gracias por su mensaje!",
+      "sending": "Enviando...",
+      "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+    },
+    "copyright": " 2024 SkillVal B.V. Todos los derechos reservados."
+  },
+  "meta": {
+    "title": "SkillVal | Plataforma de evaluación técnica impulsada por IA para desarrolladores",
+    "description": "Valide las habilidades técnicas de los desarrolladores con IA. Evaluaciones objetivas y eficientes para reclutamiento y desarrollo de talento."
+  }
+}

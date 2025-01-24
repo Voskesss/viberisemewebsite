@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "SkillVal | Plataforma de Avaliação Técnica com IA para Desenvolvedores",
+    "description": "Valide habilidades técnicas de desenvolvedores com IA. Avaliações objetivas e eficientes para recrutamento e desenvolvimento de talentos."
+  },
+  "hero": {
+    "title": "Menos trabalho, mais fluxo, mais segurança",
+    "subtitle": "SkillVal: A plataforma que valida competências e agrega valor às carreiras",
+    "description": "SkillVal permite que profissionais e organizações identifiquem e validem competências através de processos EVC e relatórios de competências. De objetivos a resultados, nossa plataforma mantém você focado no que realmente importa: crescimento e desenvolvimento."
+  },
+  "features": {
+    "workflow": {
+      "title": "Fluxo de trabalho incrível",
+      "description": "Plataforma de validação de competências que as organizações usam para se concentrar na identificação, validação e aproveitamento de competências que impulsionam o crescimento e o sucesso."
+    },
+    "collaboration": {
+      "title": "Colaboração em equipe",
+      "description": "Plataforma de validação de competências que conecta mentores, avaliadores, provedores EVC e empregadores para colaborar efetivamente e manter o foco no desenvolvimento, validação e crescimento profissional."
+    },
+    "security": {
+      "title": "IA e Validação Humana para prevenir fraudes",
+      "description": "IA e Validação Humana trabalham juntas para prevenir fraudes e garantir a confiança nas avaliações de competências."
+    }
+  },
+  "powerful": {
+    "title": "Fácil de aprender e extremamente poderoso",
+    "description": "SkillVal simplifica a validação de competências e permite que as equipes alcancem seus objetivos e façam progressos significativos."
+  },
+  "validation": {
+    "title": "Para validação de qualquer competência",
+    "description": "Seja através de processos EVC ou relatórios detalhados de competências, o SkillVal garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Para Empresas de Auditoria",
+      "subtitle": "Garanta a Conformidade com Confiança",
+      "description": "Relatórios e insights confiáveis para tornar as auditorias simples e transparentes."
+    },
+    "assessors": {
+      "title": "Para Avaliadores",
+      "subtitle": "Avaliação de Competências Sem Esforço",
+      "description": "Tudo o que você precisa para avaliar competências de forma justa, precisa e eficiente."
+    },
+    "evc": {
+      "title": "Para Provedores EVC",
+      "subtitle": "Otimize Seus Processos EVC",
+      "description": "Ferramentas simples para gerenciar trajetórias, orientar candidatos e validar resultados facilmente."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal em breve",
+    "description": "SkillVal está chegando! Prepare-se para validar competências e impulsionar o crescimento como nunca antes."
+  },
+  "newsletter": {
+    "title": "Mantenha-se atualizado",
+    "subtitle": "Inscreva-se para atualizações",
+    "description": "Inscreva-se na lista de espera e receba atualizações sobre o SkillVal",
+    "placeholder": "Seu e-mail",
+    "button": "Inscrever-se",
+    "success": "Obrigado por se inscrever!",
+    "sending": "Enviando...",
+    "error": "Algo deu errado. Tente novamente mais tarde."
+  },
+  "contact": {
+    "name": "Seu nome",
+    "email": "Endereço de e-mail",
+    "subject": "Assunto",
+    "message": "Sua mensagem",
+    "button": "Enviar",
+    "success": "Obrigado pela sua mensagem!",
+    "sending": "Enviando...",
+    "error": "Algo deu errado. Por favor, tente novamente mais tarde."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contato",
+      "name": "Seu nome",
+      "email": "Endereço de e-mail",
+      "subject": "Assunto",
+      "message": "Sua mensagem",
+      "button": "Enviar",
+      "success": "Obrigado pela sua mensagem!",
+      "sending": "Enviando...",
+      "error": "Algo deu errado. Por favor, tente novamente mais tarde."
+    },
+    "copyright": " 2024 SkillVal B.V. Todos os direitos reservados."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "SkillVal | Plateforme d'évaluation technique alimentée par l'IA pour les développeurs",
+    "description": "Validez les compétences techniques des développeurs avec l'IA. Évaluations objectives et efficaces pour le recrutement et le développement des talents."
+  },
+  "hero": {
+    "title": "Moins de travail, plus de fluidité, plus de sécurité",
+    "subtitle": "SkillVal : La plateforme qui valide les compétences et valorise les carrières",
+    "description": "SkillVal permet aux professionnels et aux organisations d'identifier et de valider les compétences grâce aux processus EVC et aux rapports de compétences. Des objectifs aux résultats, notre plateforme vous garde concentré sur ce qui compte vraiment : la croissance et le développement."
+  },
+  "features": {
+    "workflow": {
+      "title": "Flux de travail exceptionnel",
+      "description": "Plateforme de validation des compétences que les organisations utilisent pour se concentrer sur l'identification, la validation et l'exploitation des compétences qui favorisent la croissance et le succès."
+    },
+    "collaboration": {
+      "title": "Collaboration en équipe",
+      "description": "Plateforme de validation des compétences qui connecte les mentors, les évaluateurs, les prestataires EVC et les employeurs pour collaborer efficacement et rester concentrés sur le développement des compétences, la validation et l'évolution de carrière."
+    },
+    "security": {
+      "title": "IA et validation humaine pour prévenir la fraude",
+      "description": "L'IA et la validation humaine travaillent ensemble pour prévenir la fraude et assurer la confiance dans les évaluations des compétences."
+    }
+  },
+  "powerful": {
+    "title": "Facile à apprendre et extrêmement puissant",
+    "description": "SkillVal simplifie la validation des compétences tout en permettant aux équipes d'atteindre leurs objectifs et de réaliser des progrès significatifs."
+  },
+  "validation": {
+    "title": "Pour la validation de chaque compétence",
+    "description": "Que ce soit par les processus EVC ou des rapports de compétences détaillés, SkillVal assure une reconnaissance précise des compétences. Donnez du pouvoir aux individus et aux organisations avec des évaluations fiables pour chaque étape de carrière."
+  },
+  "carousel": {
+    "audit": {
+      "title": "Pour les cabinets d'audit",
+      "subtitle": "Assurer la conformité en toute confiance",
+      "description": "Des rapports et des aperçus fiables pour rendre les audits simples et transparents."
+    },
+    "assessors": {
+      "title": "Pour les évaluateurs",
+      "subtitle": "Évaluation des compétences sans effort",
+      "description": "Tout ce dont vous avez besoin pour évaluer les compétences de manière équitable, précise et efficace."
+    },
+    "evc": {
+      "title": "Pour les prestataires EVC",
+      "subtitle": "Optimisez vos processus EVC",
+      "description": "Des outils simples pour gérer les parcours, guider les candidats et valider les résultats en toute simplicité."
+    }
+  },
+  "comingSoon": {
+    "title": "SkillVal arrive bientôt",
+    "description": "SkillVal est presque là ! Soyez prêt à valider les compétences et à favoriser la croissance comme jamais auparavant."
+  },
+  "newsletter": {
+    "title": "Restez informé",
+    "subtitle": "Abonnez-vous aux mises à jour",
+    "description": "Rejoignez notre liste d'attente pour recevoir des mises à jour sur SkillVal",
+    "placeholder": "Votre adresse e-mail",
+    "button": "S'abonner",
+    "success": "Merci pour votre inscription !",
+    "sending": "Envoi en cours...",
+    "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "contact": {
+    "name": "Votre nom",
+    "email": "Adresse e-mail",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "button": "Envoyer",
+    "success": "Merci pour votre message !",
+    "sending": "Envoi en cours...",
+    "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contactez-nous",
+      "name": "Votre nom",
+      "email": "Adresse e-mail",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "button": "Envoyer",
+      "success": "Merci pour votre message !",
+      "sending": "Envoi en cours...",
+      "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+    },
+    "copyright": " 2024 SkillVal B.V. Tous droits réservés."
+  }
+}
