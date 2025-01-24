@@ -116,23 +116,28 @@
     "groups": {
       "users": {
         "title": "För Användare",
-        "description": "Ta kontroll över din data och tjäna på den"
+        "description": "Ta kontroll över din data och tjäna på den",
+        "badge": "För konsumenter"
       },
       "companies": {
         "title": "För Företag",
-        "description": "Etiskt datautbyte för innovation"
+        "description": "Etiskt datautbyte för innovation",
+        "badge": "För företag"
       },
       "investors": {
         "title": "För Investerare",
-        "description": "Investera i datans framtid"
+        "description": "Investera i datans framtid",
+        "badge": "För investerare"
       },
       "developers": {
         "title": "För Utvecklare",
-        "description": "Bygg med oss"
+        "description": "Bygg med oss",
+        "badge": "För utvecklare"
       },
       "influencers": {
         "title": "Influencers",
-        "description": "Öka din räckvidd och tjäna mer på ditt innehåll samtidigt som du behåller din integritet."
+        "description": "Öka din räckvidd och tjäna mer på ditt innehåll samtidigt som du behåller din integritet.",
+        "badge": "För influencers"
       }
     },
     "cta": {

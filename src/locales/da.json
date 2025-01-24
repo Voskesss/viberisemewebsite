@@ -51,23 +51,28 @@
     "groups": {
       "users": {
         "title": "For Brugere",
-        "description": "Tag kontrol over dine data og tjen på dem"
+        "description": "Tag kontrol over dine data og tjen på dem",
+        "badge": "For forbrugere"
       },
       "companies": {
         "title": "For Virksomheder",
-        "description": "Etisk dataudveksling for innovation"
+        "description": "Etisk dataudveksling for innovation",
+        "badge": "For virksomheder"
       },
       "investors": {
         "title": "For Investorer",
-        "description": "Invester i fremtidens data"
+        "description": "Invester i fremtidens data",
+        "badge": "For investorer"
       },
       "developers": {
         "title": "For Udviklere",
-        "description": "Byg med os"
+        "description": "Byg med os",
+        "badge": "For udviklere"
       },
       "influencers": {
         "title": "Influencere",
-        "description": "Øg din rækkevidde og tjen mere på dit indhold, mens du bevarer dit privatliv."
+        "description": "Øg din rækkevidde og tjen mere på dit indhold, mens du bevarer dit privatliv.",
+        "badge": "For influencere"
       }
     },
     "cta": {

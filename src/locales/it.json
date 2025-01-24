@@ -6,6 +6,7 @@
   "customer": {
     "title": "Prendi il Controllo della Tua Vita Digitale",
     "subtitle": "Con VibeRise, decidi tu cosa succede ai tuoi dati. Guadagna, proteggi la tua privacy e crea impatto.",
+    "badge": "Per i consumatori",
     "features": {
       "privacy": {
         "title": "Controllo Totale della Privacy",
@@ -29,6 +30,7 @@
   "company": {
     "title": "Costruisci il Futuro dei Dati",
     "subtitle": "Diventa parte di una piattaforma rivoluzionaria dove lo scambio equo di dati è centrale.",
+    "badge": "Per le aziende",
     "features": {
       "insights": {
         "title": "Preziosi Insight sui Dati",
@@ -52,6 +54,7 @@
   "investor": {
     "title": "Investi nel Futuro dei Dati",
     "subtitle": "Fai parte di una rivoluzione nei dati personali. Investi in una piattaforma che mette al centro privacy, controllo e distribuzione equa.",
+    "badge": "Per gli investitori",
     "features": {
       "growth": {
         "title": "Crescita Esponenziale",
@@ -75,6 +78,7 @@
   "developer": {
     "title": "Costruisci la Rivoluzione",
     "subtitle": "Fai parte di un movimento open source che democratizza internet. Insieme costruiamo un futuro digitale più equo.",
+    "badge": "Per gli sviluppatori",
     "features": {
       "opensource": {
         "title": "Open Source",
@@ -159,6 +163,7 @@
   },
   "influencer": {
     "title": "Crea Impatto con i Tuoi Contenuti",
+    "badge": "Per gli influencer",
     "description": "Raggiungi più persone, guadagna di più con i tuoi contenuti e mantieni il pieno controllo dei tuoi dati. Con VibeRise, ottieni gli strumenti per espandere la tua portata garantendo la protezione della tua privacy.",
     "features": {
       "reach": {

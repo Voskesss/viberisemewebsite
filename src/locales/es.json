@@ -101,6 +101,7 @@
     "description": "Toma el control de tus datos. VibeRise.me te permite poseer, gestionar y monetizar tus datos personales mientras mantienes total privacidad y seguridad."
   },
   "customer": {
+    "badge": "Para consumidores",
     "title": "Toma el Control de Tu Vida Digital",
     "subtitle": "Con VibeRise, tú decides qué sucede con tus datos. Gana dinero, protege tu privacidad y genera impacto.",
     "features": {
@@ -124,6 +125,7 @@
     }
   },
   "company": {
+    "badge": "Para empresas",
     "title": "Construye el Futuro de los Datos",
     "subtitle": "Forma parte de una plataforma revolucionaria donde el intercambio justo de datos es central.",
     "features": {
@@ -147,6 +149,7 @@
     }
   },
   "investor": {
+    "badge": "Para inversores",
     "title": "Invierte en el Futuro de los Datos",
     "subtitle": "Sé parte de una revolución en datos personales. Invierte en una plataforma que pone la privacidad, el control y la distribución justa en el centro.",
     "features": {
@@ -170,6 +173,7 @@
     }
   },
   "developer": {
+    "badge": "Para desarrolladores",
     "title": "Construye la Revolución",
     "subtitle": "Sé parte de un movimiento open source que democratiza internet. Juntos construimos un futuro digital más justo.",
     "features": {
@@ -239,6 +243,7 @@
     }
   },
   "influencer": {
+    "badge": "Para influencers",
     "title": "Crea Impacto con Tu Contenido",
     "description": "Llega a más personas, gana más con tu contenido y mantén el control total de tus datos. Con VibeRise, obtienes las herramientas para expandir tu alcance mientras se garantiza la protección de tu privacidad.",
     "features": {

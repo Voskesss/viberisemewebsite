@@ -142,8 +142,9 @@
     "copyright": " 2024 SkillVal B.V. All rights reserved."
   },
   "customer": {
-    "title": "Take Control of Your Digital Life",
-    "subtitle": "With VibeRise, you decide what happens with your data. Earn from it, protect your privacy, and make an impact.",
+    "title": "Your data, your rules",
+    "subtitle": "Take control of your personal data and earn from it, with complete privacy",
+    "badge": "For consumers",
     "features": {
       "privacy": {
         "title": "Total Privacy Control",
@@ -165,8 +166,9 @@
     }
   },
   "company": {
-    "title": "Build the Future of Data",
-    "subtitle": "Become part of a revolutionary platform where fair data exchange is central.",
+    "title": "Empower your business with data",
+    "subtitle": "Improve your business processes with secure and ethical data solutions",
+    "badge": "For companies",
     "features": {
       "insights": {
         "title": "Valuable Data Insights",
@@ -188,8 +190,9 @@
     }
   },
   "investor": {
-    "title": "Invest in the Future of Data",
-    "subtitle": "Become part of a revolution in personal data. Invest in a platform that prioritizes privacy, control, and fair distribution.",
+    "title": "Invest in the Future",
+    "subtitle": "Become part of the data revolution",
+    "badge": "For investors",
     "features": {
       "growth": {
         "title": "Exponential Growth",
@@ -211,8 +214,9 @@
     }
   },
   "developer": {
-    "title": "Build the Revolution",
-    "subtitle": "Become part of an open source movement democratizing the internet. Together we build a fairer digital future.",
+    "title": "Build the Future",
+    "subtitle": "Join our open source community",
+    "badge": "For developers",
     "features": {
       "opensource": {
         "title": "Open Source",
@@ -234,8 +238,9 @@
     }
   },
   "influencer": {
-    "title": "Amplify Your Impact",
-    "subtitle": "Reach more, earn more and make a difference with VibeRise's influencer platform.",
+    "title": "Make Impact with Your Content",
+    "subtitle": "Reach more people, earn more from your content, and maintain full control over your data",
+    "badge": "For influencers",
     "description": "Reach more people, earn more from your content, and maintain full control over your data. With VibeRise, you get the tools to expand your reach while ensuring your privacy remains protected.",
     "features": {
       "reach": {

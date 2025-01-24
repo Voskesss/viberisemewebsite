@@ -157,8 +157,9 @@
     "copyright": " 2024 SkillVal B.V. Alle rechten voorbehouden."
   },
   "customer": {
-    "title": "Neem Controle Over Je Digitale Leven",
-    "subtitle": "Met VibeRise bepaal jij wat er met je data gebeurt. Verdien eraan, bescherm je privacy, en maak impact.",
+    "title": "Jouw data, jouw regels",
+    "subtitle": "Neem controle over je persoonlijke data en verdien eraan, met volledige privacy",
+    "badge": "Voor consumenten",
     "features": {
       "privacy": {
         "title": "Totale Privacy Controle",
@@ -180,8 +181,9 @@
     }
   },
   "company": {
-    "title": "Bouw Mee aan de Toekomst van Data",
-    "subtitle": "Word onderdeel van een revolutionair platform waar eerlijke data-uitwisseling centraal staat.",
+    "title": "Versterk je bedrijf met data",
+    "subtitle": "Verbeter je bedrijfsprocessen met veilige en ethische data-oplossingen",
+    "badge": "Voor bedrijven",
     "features": {
       "insights": {
         "title": "Waardevolle Data Inzichten",
@@ -204,6 +206,7 @@
   "influencer": {
     "title": "Maak Impact met Je Content",
     "description": "Bereik meer mensen, verdien meer met je content en behoud volledige controle over je data. Met VibeRise krijg je de tools om je bereik te vergroten terwijl je privacy gewaarborgd blijft.",
+    "badge": "Voor influencers",
     "features": {
       "reach": {
         "title": "Vergroot Je Bereik",
@@ -225,8 +228,9 @@
     }
   },
   "investor": {
-    "title": "Investeer in de Toekomst van Data",
-    "subtitle": "Word deel van een revolutie in persoonlijke data. Investeer in een platform dat privacy, controle en eerlijke verdeling centraal stelt.",
+    "title": "Investeer in de Toekomst",
+    "subtitle": "Word deel van de data revolutie",
+    "badge": "Voor investeerders",
     "features": {
       "growth": {
         "title": "Exponentiële Groei",
@@ -248,8 +252,9 @@
     }
   },
   "developer": {
-    "title": "Bouw Mee aan de Revolutie",
-    "subtitle": "Word onderdeel van een open source beweging die het internet democratiseert. Samen bouwen we aan een eerlijkere digitale toekomst.",
+    "title": "Bouw Mee aan de Toekomst",
+    "subtitle": "Word onderdeel van onze open source community",
+    "badge": "Voor developers",
     "features": {
       "opensource": {
         "title": "Open Source",

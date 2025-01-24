@@ -62,23 +62,28 @@
     "groups": {
       "users": {
         "title": "Para Usuários",
-        "description": "Assuma o controle de seus dados e ganhe com eles"
+        "description": "Assuma o controle de seus dados e ganhe com eles",
+        "badge": "Para consumidores"
       },
       "companies": {
         "title": "Para Empresas",
-        "description": "Troca ética de dados para inovação"
+        "description": "Troca ética de dados para inovação",
+        "badge": "Para empresas"
       },
       "investors": {
         "title": "Para Investidores",
-        "description": "Invista no futuro dos dados"
+        "description": "Invista no futuro dos dados",
+        "badge": "Para investidores"
       },
       "developers": {
         "title": "Para Desenvolvedores",
-        "description": "Construa conosco"
+        "description": "Construa conosco",
+        "badge": "Para desenvolvedores"
       },
       "influencers": {
         "title": "Influenciadores",
-        "description": "Aumente seu alcance e ganhe mais com seu conteúdo enquanto mantém sua privacidade."
+        "description": "Aumente seu alcance e ganhe mais com seu conteúdo enquanto mantém sua privacidade.",
+        "badge": "Para influenciadores"
       }
     },
     "cta": {

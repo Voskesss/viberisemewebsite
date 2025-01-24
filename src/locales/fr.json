@@ -79,25 +79,30 @@
       "title": "Rejoignez le Mouvement"
     },
     "groups": {
-      "users": {
+      "customer": {
+        "badge": "Pour les consommateurs",
         "title": "Pour les Utilisateurs",
         "description": "Prenez le contrôle de vos données et gagnez-en"
       },
-      "companies": {
+      "company": {
+        "badge": "Pour les entreprises",
         "title": "Pour les Entreprises",
         "description": "Échange éthique de données pour l'innovation"
       },
-      "investors": {
+      "influencer": {
+        "badge": "Pour les influenceurs",
+        "title": "Influenceurs",
+        "description": "Augmentez votre portée et gagnez plus avec votre contenu tout en préservant votre vie privée."
+      },
+      "investor": {
+        "badge": "Pour les investisseurs",
         "title": "Pour les Investisseurs",
         "description": "Investissez dans l'avenir des données"
       },
-      "developers": {
+      "developer": {
+        "badge": "Pour les développeurs",
         "title": "Pour les Développeurs",
         "description": "Construisez avec nous"
-      },
-      "influencers": {
-        "title": "Influenceurs",
-        "description": "Augmentez votre portée et gagnez plus avec votre contenu tout en préservant votre vie privée."
       }
     },
     "cta": {

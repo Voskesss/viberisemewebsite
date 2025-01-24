@@ -6,6 +6,7 @@
   "customer": {
     "title": "Przejmij Kontrolę nad Swoim Cyfrowym Życiem",
     "subtitle": "Z VibeRise to Ty decydujesz, co dzieje się z Twoimi danymi. Zarabiaj, chroń swoją prywatność i wywieraj wpływ.",
+    "badge": "Dla konsumentów",
     "features": {
       "privacy": {
         "title": "Pełna Kontrola Prywatności",
@@ -29,6 +30,7 @@
   "company": {
     "title": "Buduj Przyszłość Danych",
     "subtitle": "Zostań częścią rewolucyjnej platformy, gdzie uczciwa wymiana danych jest kluczowa.",
+    "badge": "Dla firm",
     "features": {
       "insights": {
         "title": "Cenne Wglądy w Dane",
@@ -52,6 +54,7 @@
   "investor": {
     "title": "Inwestuj w Przyszłość Danych",
     "subtitle": "Bądź częścią rewolucji w danych osobowych. Inwestuj w platformę, która stawia prywatność, kontrolę i uczciwą dystrybucję na pierwszym miejscu.",
+    "badge": "Dla inwestorów",
     "features": {
       "growth": {
         "title": "Wzrost Wykładniczy",
@@ -75,6 +78,7 @@
   "developer": {
     "title": "Buduj Rewolucję",
     "subtitle": "Bądź częścią ruchu open source demokratyzującego internet. Razem budujemy sprawiedliwszą cyfrową przyszłość.",
+    "badge": "Dla programistów",
     "features": {
       "opensource": {
         "title": "Open Source",
@@ -160,6 +164,7 @@
   "influencer": {
     "title": "Twórz Wpływ Swoją Treścią",
     "description": "Docieraj do większej liczby osób, zarabiaj więcej na swojej treści i zachowaj pełną kontrolę nad swoimi danymi. Z VibeRise otrzymujesz narzędzia do zwiększenia zasięgu, jednocześnie zapewniając ochronę swojej prywatności.",
+    "badge": "Dla influencerów",
     "features": {
       "reach": {
         "title": "Zwiększ Swój Zasięg",

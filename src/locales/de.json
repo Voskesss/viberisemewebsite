@@ -6,6 +6,7 @@
   "customer": {
     "title": "Übernehmen Sie die Kontrolle über Ihr digitales Leben",
     "subtitle": "Mit VibeRise bestimmen Sie, was mit Ihren Daten passiert. Verdienen Sie damit, schützen Sie Ihre Privatsphäre und bewirken Sie etwas.",
+    "badge": "Für Verbraucher",
     "features": {
       "privacy": {
         "title": "Vollständige Privatsphäre-Kontrolle",
@@ -29,6 +30,7 @@
   "company": {
     "title": "Gestalten Sie die Zukunft der Daten mit",
     "subtitle": "Werden Sie Teil einer revolutionären Plattform, bei der der faire Datenaustausch im Mittelpunkt steht.",
+    "badge": "Für Unternehmen",
     "features": {
       "insights": {
         "title": "Wertvolle Dateneinblicke",
@@ -52,6 +54,7 @@
   "investor": {
     "title": "Investieren Sie in die Zukunft der Daten",
     "subtitle": "Werden Sie Teil einer Revolution in persönlichen Daten. Investieren Sie in eine Plattform, die Privatsphäre, Kontrolle und faire Verteilung in den Mittelpunkt stellt.",
+    "badge": "Für Investoren",
     "features": {
       "growth": {
         "title": "Exponentielles Wachstum",
@@ -75,6 +78,7 @@
   "developer": {
     "title": "Gestalten Sie die Revolution mit",
     "subtitle": "Werden Sie Teil einer Open-Source-Bewegung, die das Internet demokratisiert. Gemeinsam bauen wir an einer faireren digitalen Zukunft.",
+    "badge": "Für Entwickler",
     "features": {
       "opensource": {
         "title": "Open Source",
@@ -160,6 +164,7 @@
   "influencer": {
     "title": "Verstärke deinen Einfluss",
     "description": "Erreiche mehr Menschen, verdiene mehr mit deinen Inhalten und behalte die volle Kontrolle über deine Daten. Mit VibeRise erhältst du die Tools, um deine Reichweite zu vergrößern, während deine Privatsphäre geschützt bleibt.",
+    "badge": "Für Influencer",
     "features": {
       "reach": {
         "title": "Erweitern Sie Ihre Reichweite",
