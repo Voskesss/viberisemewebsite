@@ -5,8 +5,18 @@
   },
   "hero": {
     "title": "Menos trabalho, mais fluxo, mais segurança",
-    "subtitle": "SkillVal: A plataforma que valida competências e agrega valor às carreiras",
-    "description": "SkillVal permite que profissionais e organizações identifiquem e validem competências através de processos EVC e relatórios de competências. De objetivos a resultados, nossa plataforma mantém você focado no que realmente importa: crescimento e desenvolvimento."
+    "subtitle": "VibeRise: A plataforma que potencializa sua identidade digital",
+    "description": "Assuma o controle de sua vida digital. Gerencie seus dados, proteja sua privacidade e seja recompensado por sua atenção.",
+    "cta": "Junte-se à Revolução",
+    "words": {
+      "me": "eu",
+      "social": "social",
+      "privacy": "privacidade",
+      "data": "dados",
+      "advertising": "publicidade",
+      "communication": "comunicação",
+      "world": "mundo"
+    }
   },
   "features": {
     "workflow": {

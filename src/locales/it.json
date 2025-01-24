@@ -141,6 +141,21 @@
       "button": "Inizia Ora"
     }
   },
+  "hero": {
+    "title": "Meno lavoro, più fluidità, più sicurezza",
+    "subtitle": "VibeRise: La piattaforma che potenzia la tua identità digitale",
+    "description": "Prendi il controllo della tua vita digitale. Gestisci i tuoi dati, proteggi la tua privacy e ricevi ricompense per la tua attenzione.",
+    "cta": "Unisciti alla Rivoluzione",
+    "words": {
+      "me": "io",
+      "social": "sociale",
+      "privacy": "privacy",
+      "data": "dati",
+      "advertising": "pubblicità",
+      "communication": "comunicazione",
+      "world": "mondo"
+    }
+  },
   "influencer": {
     "title": "Potenzia il Tuo Impatto",
     "subtitle": "Raggiungi di più, guadagna di più e fai la differenza con la piattaforma per influencer di VibeRise.",

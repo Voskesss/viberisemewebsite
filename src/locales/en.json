@@ -10,7 +10,17 @@
   "hero": {
     "title": "Your Data, Your Power",
     "subtitle": "Take control of your digital life",
-    "description": "Own your data, protect your privacy, and get rewarded for your attention"
+    "description": "Own your data, protect your privacy, and get rewarded for your attention",
+    "cta": "Join the Revolution",
+    "words": {
+      "me": "me",
+      "social": "social",
+      "privacy": "privacy",
+      "data": "data",
+      "advertising": "advertising",
+      "communication": "communication",
+      "world": "world"
+    }
   },
   "features": {
     "title": "Powerful Features for Your Data",
@@ -46,6 +56,10 @@
       "developers": {
         "title": "For Developers",
         "description": "Build with us"
+      },
+      "influencers": {
+        "title": "Influencers",
+        "description": "Increase your reach and earn more with your content while maintaining your privacy."
       }
     },
     "cta": {
@@ -216,6 +230,29 @@
         "description": "Receive rewards for your contributions. Build a reputation in the Web3 community."
       },
       "cta": "Start Contributing"
+    }
+  },
+  "influencer": {
+    "title": "Amplify Your Impact",
+    "subtitle": "Reach more, earn more and make a difference with VibeRise's influencer platform.",
+    "features": {
+      "reach": {
+        "title": "Expand Your Reach",
+        "description": "Reach a wider audience with our advanced targeting and recommendation algorithms."
+      },
+      "earnings": {
+        "title": "Maximize Your Earnings",
+        "description": "Earn directly from your content and receive fair compensation for your influence."
+      },
+      "analytics": {
+        "title": "In-Depth Analytics",
+        "description": "Get detailed insights into your performance and follower behavior."
+      },
+      "community": {
+        "title": "Build Your Community",
+        "description": "Create a strong and engaged community around your brand and values."
+      },
+      "cta": "Start Growing"
     }
   }
 }

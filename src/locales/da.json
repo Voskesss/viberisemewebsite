@@ -6,7 +6,16 @@
   "hero": {
     "title": "Mindre arbejde, mere flow, mere sikkerhed",
     "subtitle": "SkillVal: Platformen der validerer færdigheder og tilfører værdi til karrierer",
-    "description": "SkillVal gør det muligt for fagfolk og organisationer at identificere og validere kompetencer gennem EVC-processer og kompetencerapporter. Fra mål til resultater holder vores platform dig fokuseret på det, der virkelig betyder noget: vækst og udvikling."
+    "description": "SkillVal gør det muligt for fagfolk og organisationer at identificere og validere kompetencer gennem EVC-processer og kompetencerapporter. Fra mål til resultater holder vores platform dig fokuseret på det, der virkelig betyder noget: vækst og udvikling.",
+    "words": {
+      "me": "mig",
+      "social": "social",
+      "privacy": "privatliv",
+      "data": "data",
+      "advertising": "reklame",
+      "communication": "kommunikation",
+      "world": "verden"
+    }
   },
   "features": {
     "workflow": {

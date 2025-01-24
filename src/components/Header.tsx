@@ -13,7 +13,9 @@ const Header = () => {
       <div className="container mx-auto px-4 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <span className="text-2xl font-bold text-gray-900">VibeRise</span>
+          <span className="text-2xl font-bold text-white">
+            VibeRise<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.me</span>
+          </span>
         </a>
 
         {/* Right side navigation */}
@@ -51,16 +53,6 @@ const Header = () => {
               </div>
             )}
           </div>
-
-          {/* Login button */}
-          <a
-            href="https://app.skillval.eu"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 text-white hover:text-blue-400 transition-colors"
-          >
-            Login
-          </a>
         </div>
       </div>
     </header>

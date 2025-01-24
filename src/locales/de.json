@@ -142,10 +142,12 @@
     }
   },
   "hero": {
+    "title": "Weniger Arbeit, mehr Flow, mehr Sicherheit",
+    "subtitle": "VibeRise: Die Plattform, die Ihre digitale Identität stärkt",
     "description": "Übernehmen Sie die Kontrolle über Ihr digitales Leben. Verwalten Sie Ihre Daten, schützen Sie Ihre Privatsphäre und werden Sie für Ihre Aufmerksamkeit belohnt.",
     "cta": "Schließen Sie sich der Revolution an",
     "words": {
-      "me": "me",
+      "me": "ich",
       "social": "sozial",
       "privacy": "privat",
       "data": "daten",

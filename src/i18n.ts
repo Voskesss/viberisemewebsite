@@ -26,6 +26,11 @@ export const languages = {
   da: { nativeName: 'Dansk', flag: '🇩🇰' }
 };
 
+// Debug functie om taal te forceren voor testen
+export const forceLanguage = (lang: keyof typeof languages) => {
+  i18n.changeLanguage(lang);
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -45,8 +50,9 @@ i18n
     fallbackLng: 'en',
     supportedLngs: ['en', 'nl', 'de', 'fr', 'es', 'it', 'pt', 'pl', 'sv', 'da'],
     detection: {
-      order: ['navigator', 'htmlTag', 'path', 'subdomain'],
+      order: ['querystring', 'navigator', 'htmlTag', 'path', 'subdomain'],
       caches: ['localStorage'],
+      lookupQuerystring: 'lang', // Hiermee kun je ?lang=es gebruiken in de URL
       lookupLocalStorage: 'i18nextLng'
     },
     interpolation: {
