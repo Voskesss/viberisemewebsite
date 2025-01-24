@@ -50,24 +50,7 @@ const InvestorSection = () => {
 
   return (
     <section className="relative" id="investors-section">
-      {/* Overgang van vorige sectie */}
-      <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-gray-50 to-transparent -translate-y-full pointer-events-none" />
-      
-      {/* Golvende overgang */}
-      <div className="absolute top-0 inset-x-0 -translate-y-[99%] z-10">
-        <svg 
-          className="w-full h-[100px] fill-white transform rotate-180" 
-          viewBox="0 0 1440 100" 
-          preserveAspectRatio="none"
-        >
-          <path 
-            d="M0,0 C480,100 960,100 1440,0 L1440,100 L0,100 Z" 
-            className="fill-gray-50"
-          />
-        </svg>
-      </div>
-
-      <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden">
+      <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden full-width">
         {/* Energetische achtergrond */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-green-100/20" />
