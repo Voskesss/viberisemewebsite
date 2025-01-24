@@ -54,12 +54,39 @@
       "developers": {
         "title": "For Udviklere",
         "description": "Byg med os"
+      },
+      "influencers": {
+        "title": "Influencere",
+        "description": "Øg din rækkevidde og tjen mere på dit indhold, mens du bevarer dit privatliv."
       }
     },
     "cta": {
       "title": "Vær Med til at Hæve Verdens Vibe",
       "subtitle": "Sammen skaber vi en mere bevidst digital verden",
       "button": "Start Nu"
+    }
+  },
+  "influencer": {
+    "title": "Forstærk Din Indflydelse",
+    "subtitle": "Nå længere ud, tjen mere og gør en forskel med VibeRises platform for influencere.",
+    "features": {
+      "reach": {
+        "title": "Udvid Din Rækkevidde",
+        "description": "Nå ud til et bredere publikum med vores avancerede målretnings- og anbefalingsalgoritmer."
+      },
+      "earnings": {
+        "title": "Maksimer Din Indtjening",
+        "description": "Tjen direkte på dit indhold og få fair kompensation for din indflydelse."
+      },
+      "analytics": {
+        "title": "Dybdegående Analyser",
+        "description": "Få detaljeret indsigt i din præstation og dine følgeres adfærd."
+      },
+      "community": {
+        "title": "Byg Dit Fællesskab",
+        "description": "Skab et stærkt og engageret fællesskab omkring dit brand og dine værdier."
+      },
+      "cta": "Start Din Vækst"
     }
   },
   "powerful": {

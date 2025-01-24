@@ -225,12 +225,39 @@
       "developers": {
         "title": "Para Desarrolladores",
         "description": "Construye con nosotros"
+      },
+      "influencers": {
+        "title": "Influencers",
+        "description": "Aumenta tu alcance y gana más con tu contenido mientras mantienes tu privacidad."
       }
     },
     "cta": {
       "title": "Únete para Elevar el Vibe del Mundo",
       "subtitle": "Juntos creamos un mundo digital más consciente",
       "button": "Empezar"
+    }
+  },
+  "influencer": {
+    "title": "Potencia Tu Impacto",
+    "subtitle": "Alcanza más, gana más y marca la diferencia con la plataforma para influencers de VibeRise.",
+    "features": {
+      "reach": {
+        "title": "Amplía Tu Alcance",
+        "description": "Llega a una audiencia más amplia con nuestros algoritmos avanzados de segmentación y recomendación."
+      },
+      "earnings": {
+        "title": "Maximiza Tus Ingresos",
+        "description": "Gana directamente con tu contenido y recibe una compensación justa por tu influencia."
+      },
+      "analytics": {
+        "title": "Análisis Profundo",
+        "description": "Obtén información detallada sobre tu rendimiento y el comportamiento de tus seguidores."
+      },
+      "community": {
+        "title": "Construye Tu Comunidad",
+        "description": "Crea una comunidad fuerte y comprometida en torno a tu marca y valores."
+      },
+      "cta": "Comienza a Crecer"
     }
   }
 }

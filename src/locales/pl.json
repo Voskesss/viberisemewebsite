@@ -126,6 +126,10 @@
         "title": "Dla Inwestorów",
         "description": "Inwestuj w przyszłość danych"
       },
+      "influencers": {
+        "title": "Influencerzy",
+        "description": "Zwiększ swój zasięg i zarabiaj więcej na swojej treści, zachowując prywatność."
+      },
       "developers": {
         "title": "Dla Programistów",
         "description": "Buduj razem z nami"
@@ -135,6 +139,29 @@
       "title": "Dołącz, aby Podnieść Światowy Vibe",
       "subtitle": "Razem tworzymy bardziej świadomy cyfrowy świat",
       "button": "Rozpocznij"
+    }
+  },
+  "influencer": {
+    "title": "Wzmocnij Swój Wpływ",
+    "subtitle": "Osiągaj więcej, zarabiaj więcej i wprowadzaj zmiany dzięki platformie VibeRise dla influencerów.",
+    "features": {
+      "reach": {
+        "title": "Zwiększ Swój Zasięg",
+        "description": "Docieraj do szerszej publiczności dzięki naszym zaawansowanym algorytmom targetowania i rekomendacji."
+      },
+      "earnings": {
+        "title": "Maksymalizuj Swoje Zarobki",
+        "description": "Zarabiaj bezpośrednio na swojej treści i otrzymuj uczciwe wynagrodzenie za swój wpływ."
+      },
+      "analytics": {
+        "title": "Szczegółowe Analizy",
+        "description": "Uzyskaj szczegółowy wgląd w swoje wyniki i zachowania swoich obserwujących."
+      },
+      "community": {
+        "title": "Buduj Swoją Społeczność",
+        "description": "Twórz silną, zaangażowaną społeczność wokół swojej marki i wartości."
+      },
+      "cta": "Zacznij Rosnąć"
     }
   }
 }

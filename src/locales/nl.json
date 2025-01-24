@@ -74,6 +74,10 @@
       "developers": {
         "title": "Voor Ontwikkelaars",
         "description": "Bouw met ons mee"
+      },
+      "influencers": {
+        "title": "Influencers",
+        "description": "Vergroot je bereik en verdien meer met je content terwijl je je privacy behoudt."
       }
     },
     "cta": {
@@ -241,6 +245,29 @@
         "description": "Ontvang beloningen voor je bijdragen. Bouw een reputatie op in de Web3 gemeenschap."
       },
       "cta": "Begin met Bijdragen"
+    }
+  },
+  "influencer": {
+    "title": "Versterk Je Impact",
+    "subtitle": "Bereik meer, verdien meer en maak een verschil met VibeRise's platform voor influencers.",
+    "features": {
+      "reach": {
+        "title": "Vergroot Je Bereik",
+        "description": "Bereik een breder publiek met onze geavanceerde targeting en aanbevelingsalgoritmen."
+      },
+      "earnings": {
+        "title": "Maximaliseer Je Inkomsten",
+        "description": "Verdien direct aan je content en krijg eerlijke vergoedingen voor je invloed."
+      },
+      "analytics": {
+        "title": "Diepgaande Analytics",
+        "description": "Krijg gedetailleerde inzichten in je prestaties en het gedrag van je volgers."
+      },
+      "community": {
+        "title": "Bouw Je Community",
+        "description": "Creëer een sterke, betrokken gemeenschap rond je merk en waarden."
+      },
+      "cta": "Start Met Groeien"
     }
   }
 }

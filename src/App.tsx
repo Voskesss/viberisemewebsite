@@ -14,6 +14,8 @@ import ValidationSection from './components/ValidationSection'
 import Footer from './components/Footer'
 import SEO from './components/SEO'
 import Header from './components/Header'
+import InfluencerSection from './components/InfluencerSection'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const { i18n } = useTranslation();
@@ -36,6 +38,7 @@ function App() {
           <Features />
           <CustomerSection />
           <CompanySection />
+          <InfluencerSection />
           <InvestorSection />
           <DeveloperSection />
           <ValidationSection />
@@ -43,6 +46,7 @@ function App() {
           <NewsletterSection />
         </main>
         <Footer />
+        <ScrollToTop />
       </div>
     </HelmetProvider>
   )

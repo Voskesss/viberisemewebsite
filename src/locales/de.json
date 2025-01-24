@@ -129,6 +129,10 @@
       "developers": {
         "title": "Für Entwickler",
         "description": "Bauen Sie mit uns"
+      },
+      "influencers": {
+        "title": "Influencer",
+        "description": "Erweitern Sie Ihre Reichweite und verdienen Sie mehr mit Ihren Inhalten, während Sie Ihre Privatsphäre bewahren."
       }
     },
     "cta": {
@@ -148,6 +152,29 @@
       "advertising": "werbung",
       "communication": "kommunikation",
       "world": "welt"
+    }
+  },
+  "influencer": {
+    "title": "Verstärken Sie Ihre Wirkung",
+    "subtitle": "Erreichen Sie mehr, verdienen Sie mehr und bewirken Sie etwas mit der Influencer-Plattform von VibeRise.",
+    "features": {
+      "reach": {
+        "title": "Erweitern Sie Ihre Reichweite",
+        "description": "Erreichen Sie ein breiteres Publikum mit unseren fortschrittlichen Targeting- und Empfehlungsalgorithmen."
+      },
+      "earnings": {
+        "title": "Maximieren Sie Ihre Einnahmen",
+        "description": "Verdienen Sie direkt mit Ihren Inhalten und erhalten Sie faire Vergütung für Ihren Einfluss."
+      },
+      "analytics": {
+        "title": "Tiefgehende Analysen",
+        "description": "Erhalten Sie detaillierte Einblicke in Ihre Leistung und das Verhalten Ihrer Follower."
+      },
+      "community": {
+        "title": "Bauen Sie Ihre Community auf",
+        "description": "Schaffen Sie eine starke, engagierte Gemeinschaft rund um Ihre Marke und Werte."
+      },
+      "cta": "Starten Sie Ihr Wachstum"
     }
   }
 }

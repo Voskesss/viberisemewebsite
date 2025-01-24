@@ -189,7 +189,7 @@ const Features = () => {
           <h3 className="text-3xl font-bold text-gray-900 mb-12">
             {t('features.movement.title')}
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Users */}
             <a href="#users-section" className="group">
               <motion.div
@@ -226,6 +226,26 @@ const Features = () => {
                 </h4>
                 <p className="text-gray-600">
                   {t('features.groups.companies.description')}
+                </p>
+              </motion.div>
+            </a>
+
+            {/* Influencers */}
+            <a href="#influencers-section" className="group">
+              <motion.div
+                whileHover={{ y: -5, scale: 1.02 }}
+                className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-6 shadow-lg border border-pink-100 h-full"
+              >
+                <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl mb-4 mx-auto flex items-center justify-center">
+                  <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                  {t('features.groups.influencers.title')}
+                </h4>
+                <p className="text-gray-600">
+                  {t('features.groups.influencers.description')}
                 </p>
               </motion.div>
             </a>
