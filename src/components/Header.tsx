@@ -38,9 +38,21 @@ const Header = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const offset = 72; // Hoogte van de header
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
       setIsMenuOpen(false);
     }
+  };
+
+  const handleLanguageChange = (code: string) => {
+    i18n.changeLanguage(code);
+    setIsOpen(false);
   };
 
   return (
@@ -58,7 +70,10 @@ const Header = () => {
           {/* Language selector (altijd zichtbaar) */}
           <div className="relative" ref={langRef}>
             <button
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsOpen(!isOpen);
+              }}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
               <span className="text-xl">{currentLanguage.flag}</span>
@@ -69,14 +84,14 @@ const Header = () => {
 
             {/* Dropdown */}
             {isOpen && (
-              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[160px]">
+              <div 
+                className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[160px] z-50"
+                onClick={(e) => e.stopPropagation()}
+              >
                 {Object.entries(languages).map(([code, { nativeName, flag }]) => (
                   <button
                     key={code}
-                    onClick={() => {
-                      i18n.changeLanguage(code);
-                      setIsOpen(false);
-                    }}
+                    onClick={() => handleLanguageChange(code)}
                     className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-white/5 transition-colors ${
                       code === i18n.language ? 'text-blue-400 font-medium' : 'text-white/90 hover:text-white'
                     }`}
@@ -92,7 +107,10 @@ const Header = () => {
           {/* Hamburger menu voor mobiel */}
           <div className="relative lg:hidden" ref={menuRef}>
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsMenuOpen(!isMenuOpen);
+              }}
               className="p-2 text-white hover:bg-white/5 rounded-lg transition-colors"
               aria-label="Menu"
             >
@@ -112,7 +130,10 @@ const Header = () => {
 
             {/* Mobiel menu */}
             {isMenuOpen && (
-              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px]">
+              <div 
+                className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px] z-50"
+                onClick={(e) => e.stopPropagation()}
+              >
                 {sections.map(({ id, name }) => (
                   <button
                     key={id}
@@ -129,7 +150,10 @@ const Header = () => {
           {/* Desktop menu */}
           <div className="hidden lg:block relative" ref={menuRef}>
             <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsMenuOpen(!isMenuOpen);
+              }}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
               <span className="text-sm font-bold">VibeRise</span>
@@ -141,7 +165,10 @@ const Header = () => {
 
             {/* Desktop dropdown */}
             {isMenuOpen && (
-              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px]">
+              <div 
+                className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[200px] z-50"
+                onClick={(e) => e.stopPropagation()}
+              >
                 {sections.map(({ id, name }) => (
                   <button
                     key={id}
@@ -149,40 +176,6 @@ const Header = () => {
                     className="w-full text-left px-4 py-2 hover:bg-white/5 transition-colors text-white/90 hover:text-white text-sm"
                   >
                     {name}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Language selector (alleen op desktop) */}
-          <div className="hidden lg:block relative" ref={langRef}>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
-            >
-              <span className="text-xl">{currentLanguage.flag}</span>
-              <span className="text-sm font-medium opacity-0 max-w-0 group-hover:max-w-[100px] group-hover:opacity-100 transition-all duration-300 overflow-hidden whitespace-nowrap">
-                {currentLanguage.nativeName}
-              </span>
-            </button>
-
-            {/* Dropdown */}
-            {isOpen && (
-              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[160px]">
-                {Object.entries(languages).map(([code, { nativeName, flag }]) => (
-                  <button
-                    key={code}
-                    onClick={() => {
-                      i18n.changeLanguage(code);
-                      setIsOpen(false);
-                    }}
-                    className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-white/5 transition-colors ${
-                      code === i18n.language ? 'text-blue-400 font-medium' : 'text-white/90 hover:text-white'
-                    }`}
-                  >
-                    <span className="text-xl">{flag}</span>
-                    <span className="text-sm">{nativeName}</span>
                   </button>
                 ))}
               </div>
