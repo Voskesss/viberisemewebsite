@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
+import WaitlistModal from './WaitlistModal';
 
 const InfluencerSection = () => {
   const { t } = useTranslation();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const features = [
     {
@@ -168,17 +171,28 @@ const InfluencerSection = () => {
           </div>
 
           {/* Call to Action */}
-          <motion.div
+          <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
             className="text-center mt-16"
           >
-            <button className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-full text-lg font-medium hover:from-pink-700 hover:to-purple-700 transition-all transform hover:scale-105">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
+            >
               {t('influencer.features.cta')}
             </button>
           </motion.div>
         </div>
       </div>
+
+      {/* Wachtlijst Modal */}
+      <WaitlistModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        userGroup="influencer"
+      />
     </section>
   );
 };

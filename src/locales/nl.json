@@ -274,5 +274,18 @@
       },
       "cta": "Begin met Bijdragen"
     }
+  },
+  "waitlist": {
+    "title": "Doe mee met de revolutie",
+    "description": {
+      "consumer": "Word één van de eerste consumenten die controle krijgt over hun data",
+      "company": "Word één van de eerste bedrijven die ethisch omgaat met data",
+      "influencer": "Word één van de eerste influencers die écht eigenaar is van hun content",
+      "investor": "Word één van de eerste investeerders in de toekomst van data",
+      "developer": "Word één van de eerste developers die meewerkt aan een eerlijk internet"
+    },
+    "emailPlaceholder": "Jouw e-mailadres",
+    "submit": "Aanmelden voor wachtlijst",
+    "privacy": "We respecteren je privacy. Je kunt je altijd afmelden."
   }
 }

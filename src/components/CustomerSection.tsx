@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
+import WaitlistModal from './WaitlistModal';
 
 const CustomerSection = () => {
   const { t } = useTranslation();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const features = [
     {
@@ -192,15 +195,22 @@ const CustomerSection = () => {
             transition={{ delay: 0.4 }}
             className="text-center mt-16"
           >
-            <a 
-              href="#start-now" 
+            <button 
+              onClick={() => setIsModalOpen(true)}
               className="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
             >
               {t('customer.features.cta')}
-            </a>
+            </button>
           </motion.div>
         </div>
       </div>
+
+      {/* Wachtlijst Modal */}
+      <WaitlistModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        userGroup="consumer"
+      />
     </section>
   );
 };
