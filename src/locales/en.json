@@ -9,23 +9,41 @@
     "description": "Own your data, protect your privacy, and get rewarded for your attention"
   },
   "features": {
-    "title": "Your Digital Life, Your Rules",
-    "subtitle": "Just like Mastodon revolutionized social media with decentralization, we're revolutionizing your entire digital presence. Your data lives in your personal container, movable and controlled by you.",
-    "data": {
-      "title": "Portable Data Container",
-      "description": "Your data lives in your personal container that you can take anywhere. Switch platforms, move between services - your digital life stays in your control, always."
-    },
-    "ai": {
-      "title": "Your Personal AI, Truly Personal",
-      "description": "Your AI assistant learns and evolves with you, but unlike others, all its data stays in your container. No cloud storage, no data sharing - just your private AI helper."
-    },
-    "rewards": {
-      "title": "Choose Your Interactions",
-      "description": "Select which companies can see your data and what ads you want to see. Get paid directly for your attention, without intermediaries taking a cut."
+    "title": "Raise the World's Vibe Together",
+    "subtitle": "We believe that when everyone has control over their digital presence and data, consciousness rises and the world becomes a better place. Join us in creating this positive change.",
+    "main": {
+      "title": "Elevate Global Consciousness",
+      "description": "Like blockchain revolutionized finance, we're revolutionizing how people interact with their data. When people have control, awareness rises and better things happen in the world."
     },
     "community": {
-      "title": "Break Free from Big Tech",
-      "description": "Join a decentralized future where you're not dependent on big tech companies. Your data, your AI, your choice - just like Mastodon showed us with social media."
+      "title": "Open Source Community",
+      "description": "Join our open source community and help build the foundation for a more conscious digital world. Together we can create technology that serves humanity."
+    },
+    "blockchain": {
+      "title": "Blockchain-Powered Future",
+      "description": "Utilizing blockchain technology to ensure true data ownership and transparency. Your digital presence, secured and controlled by you."
+    },
+    "groups": {
+      "users": {
+        "title": "For Users",
+        "description": "Take control of your digital presence, protect your privacy, and get rewarded for your contributions.",
+        "link": "/for-users"
+      },
+      "companies": {
+        "title": "For Companies",
+        "description": "Connect with conscious users who actively choose to engage with your brand.",
+        "link": "/for-companies"
+      },
+      "investors": {
+        "title": "For Investors",
+        "description": "Be part of the revolution in digital consciousness and data ownership.",
+        "link": "/for-investors"
+      },
+      "developers": {
+        "title": "For Developers",
+        "description": "Join our open source community and help build the future of digital interaction.",
+        "link": "/for-developers"
+      }
     }
   },
   "powerful": {
