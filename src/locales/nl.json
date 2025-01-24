@@ -24,6 +24,51 @@
     "security": {
       "title": "AI en Menselijke Validatie om fraude te voorkomen",
       "description": "AI en Menselijke Validatie werken samen om fraude te voorkomen en vertrouwen in vaardigheidsbeoordelingen te waarborgen."
+    },
+    "cta": {
+      "title": "Doe Mee en Verhoog de Wereldwijde Vibe",
+      "subtitle": "Samen creëren we een bewustere digitale wereld",
+      "button": "Begin Nu"
+    },
+    "title": "Krachtige Features voor Jouw Data",
+    "subtitle": "Ontdek hoe VibeRise je helpt om de controle over je digitale leven terug te nemen",
+    "main": {
+      "title": "Globaal Bewustzijn",
+      "description": "Word deel van een wereldwijd netwerk dat streeft naar digitale vrijheid en eerlijke data-uitwisseling"
+    },
+    "community": {
+      "title": "Sterke Gemeenschap",
+      "description": "Verbind met gelijkgestemden die geloven in een eerlijke digitale toekomst"
+    },
+    "blockchain": {
+      "title": "Blockchain Technologie",
+      "description": "Veilige en transparante data-uitwisseling met de nieuwste blockchain innovaties"
+    },
+    "movement": {
+      "title": "Doe Met Ons Mee"
+    },
+    "groups": {
+      "users": {
+        "title": "Voor Gebruikers",
+        "description": "Neem controle over je data en verdien eraan"
+      },
+      "companies": {
+        "title": "Voor Bedrijven",
+        "description": "Ethische data-uitwisseling voor innovatie"
+      },
+      "investors": {
+        "title": "Voor Investeerders",
+        "description": "Investeer in de toekomst van data"
+      },
+      "developers": {
+        "title": "Voor Ontwikkelaars",
+        "description": "Bouw met ons mee"
+      }
+    },
+    "cta": {
+      "title": "Doe Mee en Verhoog de Wereldwijde Vibe",
+      "subtitle": "Samen creëren we een bewustere digitale wereld",
+      "button": "Begin Nu"
     }
   },
   "powerful": {

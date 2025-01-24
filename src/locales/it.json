@@ -1,88 +1,140 @@
 {
-  "hero": {
-    "title": "Meno lavoro, più fluidità, più sicurezza",
-    "subtitle": "SkillVal: La piattaforma che valida le competenze e aggiunge valore alle carriere",
-    "description": "SkillVal permette a professionisti e organizzazioni di identificare e validare le competenze attraverso processi EVC e report delle competenze. Dagli obiettivi ai risultati, la nostra piattaforma ti mantiene concentrato su ciò che conta davvero: crescita e sviluppo."
+  "metadata": {
+    "title": "VibeRise.me | I Tuoi Dati, Il Tuo Potere",
+    "description": "Prendi il controllo dei tuoi dati. VibeRise.me ti permette di possedere, gestire e monetizzare i tuoi dati personali mantenendo totale privacy e sicurezza."
+  },
+  "customer": {
+    "title": "Prendi il Controllo della Tua Vita Digitale",
+    "subtitle": "Con VibeRise, decidi tu cosa succede ai tuoi dati. Guadagna, proteggi la tua privacy e crea impatto.",
+    "features": {
+      "privacy": {
+        "title": "Controllo Totale della Privacy",
+        "description": "Blocca il tracking, usa VPN standard e renditi non tracciabile. Decidi tu cosa succede ai tuoi dati."
+      },
+      "earnings": {
+        "title": "Guadagna con i Tuoi Dati",
+        "description": "Guadagni con i tuoi dati. Scegli quali dati condividere e ricevi pagamenti diretti per ogni interazione."
+      },
+      "social": {
+        "title": "Social Media Sicuri",
+        "description": "Usa i social media alle tue condizioni. Nessun tracking, nessuna pubblicità, pura connessione con gli altri."
+      },
+      "impact": {
+        "title": "Impatto Diretto",
+        "description": "Vedi direttamente come la tua gestione dei dati contribuisce a un mondo migliore. Monitora il tuo impatto in tempo reale."
+      },
+      "cta": "Inizia a Guadagnare Ora"
+    }
+  },
+  "company": {
+    "title": "Costruisci il Futuro dei Dati",
+    "subtitle": "Diventa parte di una piattaforma rivoluzionaria dove lo scambio equo di dati è centrale.",
+    "features": {
+      "insights": {
+        "title": "Preziosi Insight sui Dati",
+        "description": "Ottieni accesso diretto a dati equi e trasparenti da utenti che scelgono consapevolmente di condividere."
+      },
+      "impact": {
+        "title": "Impatto Diretto",
+        "description": "Fai parte di una rivoluzione nella gestione dei dati. Costruisci un internet più equo per tutti."
+      },
+      "model": {
+        "title": "Modello di Business Equo",
+        "description": "Paga solo per i dati che usi. Diretto, trasparente e senza intermediari."
+      },
+      "compliance": {
+        "title": "Privacy & Conformità",
+        "description": "Completamente conforme al GDPR. Ogni scambio di dati è trasparente e tracciabile via blockchain."
+      },
+      "cta": "Diventa Partner"
+    }
+  },
+  "investor": {
+    "title": "Investi nel Futuro dei Dati",
+    "subtitle": "Fai parte di una rivoluzione nei dati personali. Investi in una piattaforma che mette al centro privacy, controllo e distribuzione equa.",
+    "features": {
+      "growth": {
+        "title": "Crescita Esponenziale",
+        "description": "Investi in una piattaforma che sta plasmando il futuro dello scambio di dati. Beneficia dell'adozione precoce e degli effetti di rete."
+      },
+      "security": {
+        "title": "Investimento Sicuro",
+        "description": "Token basati su blockchain e smart contract assicurano trasparenza e sicurezza del tuo investimento."
+      },
+      "impact": {
+        "title": "Impatto Globale",
+        "description": "Aiuta a costruire un internet più equo. Fai parte di un movimento globale per la democratizzazione dei dati."
+      },
+      "market": {
+        "title": "Quota di Mercato",
+        "description": "Ottieni accesso anticipato a un mercato in crescita dei dati personali. Posizionati in questa industria emergente."
+      },
+      "cta": "Diventa Early Investor"
+    }
+  },
+  "developer": {
+    "title": "Costruisci la Rivoluzione",
+    "subtitle": "Fai parte di un movimento open source che democratizza internet. Insieme costruiamo un futuro digitale più equo.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Contribuisci a una piattaforma completamente open source. Costruisci il futuro di internet."
+      },
+      "tech": {
+        "title": "Tecnologia All'avanguardia",
+        "description": "Lavora con le ultime tecnologie: blockchain, AI e sistemi decentralizzati."
+      },
+      "community": {
+        "title": "Community Attiva",
+        "description": "Unisciti a una community vivace di sviluppatori che costruiscono un mondo digitale migliore."
+      },
+      "rewards": {
+        "title": "Ricompense & Riconoscimento",
+        "description": "Ricevi ricompense per i tuoi contributi. Costruisci una reputazione nella community Web3."
+      },
+      "cta": "Inizia a Contribuire"
+    }
   },
   "features": {
-    "workflow": {
-      "title": "Flusso di lavoro eccezionale",
-      "description": "Piattaforma di validazione delle competenze che le organizzazioni utilizzano per concentrarsi sull'identificazione, la validazione e lo sfruttamento delle competenze che guidano la crescita e il successo."
+    "title": "Funzionalità Potenti per i Tuoi Dati",
+    "subtitle": "Scopri come VibeRise ti aiuta a riprendere il controllo della tua vita digitale",
+    "main": {
+      "title": "Coscienza Globale",
+      "description": "Unisciti a una rete mondiale che si impegna per la libertà digitale e lo scambio equo di dati"
     },
-    "collaboration": {
-      "title": "Collaborazione di squadra",
-      "description": "Piattaforma di validazione delle competenze che connette mentor, valutatori, fornitori EVC e datori di lavoro per collaborare efficacemente e rimanere concentrati sullo sviluppo delle competenze, la validazione e la crescita professionale."
+    "community": {
+      "title": "Comunità Forte",
+      "description": "Connettiti con persone che la pensano come te e credono in un futuro digitale equo"
     },
-    "security": {
-      "title": "IA e validazione umana per prevenire le frodi",
-      "description": "L'IA e la validazione umana lavorano insieme per prevenire le frodi e garantire la fiducia nelle valutazioni delle competenze."
+    "blockchain": {
+      "title": "Tecnologia Blockchain",
+      "description": "Scambio di dati sicuro e trasparente con le ultime innovazioni blockchain"
+    },
+    "movement": {
+      "title": "Unisciti al Movimento"
+    },
+    "groups": {
+      "users": {
+        "title": "Per gli Utenti",
+        "description": "Prendi il controllo dei tuoi dati e guadagna"
+      },
+      "companies": {
+        "title": "Per le Aziende",
+        "description": "Scambio etico di dati per l'innovazione"
+      },
+      "investors": {
+        "title": "Per gli Investitori",
+        "description": "Investi nel futuro dei dati"
+      },
+      "developers": {
+        "title": "Per gli Sviluppatori",
+        "description": "Costruisci con noi"
+      }
+    },
+    "cta": {
+      "title": "Unisciti per Elevare il Vibe del Mondo",
+      "subtitle": "Insieme creiamo un mondo digitale più consapevole",
+      "button": "Inizia Ora"
     }
-  },
-  "powerful": {
-    "title": "Facile da imparare ed estremamente potente",
-    "description": "SkillVal semplifica la validazione delle competenze permettendo ai team di raggiungere i loro obiettivi e guidare progressi significativi."
-  },
-  "validation": {
-    "title": "Per la validazione di ogni competenza",
-    "description": "Sia attraverso processi EVC che report dettagliati delle competenze, SkillVal assicura un riconoscimento accurato delle competenze. Dai potere a individui e organizzazioni con valutazioni affidabili per ogni fase della carriera."
-  },
-  "carousel": {
-    "audit": {
-      "title": "Per società di revisione",
-      "subtitle": "Garantire la conformità con fiducia",
-      "description": "Report e approfondimenti affidabili per rendere gli audit semplici e trasparenti."
-    },
-    "assessors": {
-      "title": "Per valutatori",
-      "subtitle": "Valutazione delle competenze senza sforzo",
-      "description": "Tutto ciò di cui hai bisogno per valutare le competenze in modo equo, accurato ed efficiente."
-    },
-    "evc": {
-      "title": "Per fornitori EVC",
-      "subtitle": "Ottimizza i tuoi processi EVC",
-      "description": "Strumenti semplici per gestire i percorsi, guidare i candidati e validare i risultati con facilità."
-    }
-  },
-  "comingSoon": {
-    "title": "SkillVal in arrivo",
-    "description": "SkillVal è quasi qui! Preparati a validare le competenze e promuovere la crescita come mai prima d'ora."
-  },
-  "newsletter": {
-    "title": "Rimani aggiornato",
-    "subtitle": "Iscriviti per gli aggiornamenti",
-    "description": "Unisciti alla nostra lista d'attesa per ricevere aggiornamenti su SkillVal",
-    "placeholder": "Il tuo indirizzo email",
-    "button": "Iscriviti",
-    "success": "Grazie per l'iscrizione!",
-    "sending": "Invio in corso...",
-    "error": "Qualcosa è andato storto. Per favore riprova più tardi."
-  },
-  "contact": {
-    "name": "Il tuo nome",
-    "email": "Indirizzo email",
-    "subject": "Oggetto",
-    "message": "Il tuo messaggio",
-    "button": "Invia",
-    "success": "Grazie per il tuo messaggio!",
-    "sending": "Invio in corso...",
-    "error": "Qualcosa è andato storto. Per favore riprova più tardi."
-  },
-  "footer": {
-    "contact": {
-      "title": "Contattaci",
-      "name": "Il tuo nome",
-      "email": "Indirizzo email",
-      "subject": "Oggetto",
-      "message": "Il tuo messaggio",
-      "button": "Invia",
-      "success": "Grazie per il tuo messaggio!",
-      "sending": "Invio in corso...",
-      "error": "Qualcosa è andato storto. Per favore riprova più tardi."
-    },
-    "copyright": " 2024 SkillVal B.V. Tutti i diritti riservati."
-  },
-  "meta": {
-    "title": "SkillVal | Piattaforma di valutazione tecnica basata su IA per sviluppatori",
-    "description": "Valida le competenze tecniche degli sviluppatori con l'IA. Valutazioni obiettive ed efficienti per il recruiting e lo sviluppo del talento."
   }
 }

@@ -84,5 +84,47 @@
       "error": "Något gick fel. Försök igen senare."
     },
     "copyright": " 2024 SkillVal B.V. Alla rättigheter förbehållna."
+  },
+  "features": {
+    "title": "Kraftfulla Funktioner för Din Data",
+    "subtitle": "Upptäck hur VibeRise hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
+    "main": {
+      "title": "Globalt Medvetande",
+      "description": "Gå med i ett globalt nätverk som strävar efter digital frihet och rättvist datautbyte"
+    },
+    "community": {
+      "title": "Stark Gemenskap",
+      "description": "Anslut med likasinnade som tror på en rättvis digital framtid"
+    },
+    "blockchain": {
+      "title": "Blockchain-teknik",
+      "description": "Säkert och transparent datautbyte med de senaste blockchain-innovationerna"
+    },
+    "movement": {
+      "title": "Gå Med i Rörelsen"
+    },
+    "groups": {
+      "users": {
+        "title": "För Användare",
+        "description": "Ta kontroll över din data och tjäna på den"
+      },
+      "companies": {
+        "title": "För Företag",
+        "description": "Etiskt datautbyte för innovation"
+      },
+      "investors": {
+        "title": "För Investerare",
+        "description": "Investera i datans framtid"
+      },
+      "developers": {
+        "title": "För Utvecklare",
+        "description": "Bygg med oss"
+      }
+    },
+    "cta": {
+      "title": "Gå Med för att Höja Världens Vibe",
+      "subtitle": "Tillsammans skapar vi en mer medveten digital värld",
+      "button": "Börja Nu"
+    }
   }
 }

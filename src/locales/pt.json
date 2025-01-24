@@ -30,6 +30,48 @@
     "title": "Para validação de qualquer competência",
     "description": "Seja através de processos EVC ou relatórios detalhados de competências, o SkillVal garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
   },
+  "features": {
+    "title": "Recursos Poderosos para seus Dados",
+    "subtitle": "Descubra como o VibeRise ajuda você a retomar o controle de sua vida digital",
+    "main": {
+      "title": "Consciência Global",
+      "description": "Junte-se a uma rede mundial que luta pela liberdade digital e troca justa de dados"
+    },
+    "community": {
+      "title": "Comunidade Forte",
+      "description": "Conecte-se com pessoas que pensam como você e acreditam em um futuro digital justo"
+    },
+    "blockchain": {
+      "title": "Tecnologia Blockchain",
+      "description": "Troca de dados segura e transparente com as últimas inovações em blockchain"
+    },
+    "movement": {
+      "title": "Junte-se ao Movimento"
+    },
+    "groups": {
+      "users": {
+        "title": "Para Usuários",
+        "description": "Assuma o controle de seus dados e ganhe com eles"
+      },
+      "companies": {
+        "title": "Para Empresas",
+        "description": "Troca ética de dados para inovação"
+      },
+      "investors": {
+        "title": "Para Investidores",
+        "description": "Invista no futuro dos dados"
+      },
+      "developers": {
+        "title": "Para Desenvolvedores",
+        "description": "Construa conosco"
+      }
+    },
+    "cta": {
+      "title": "Junte-se para Elevar o Vibe do Mundo",
+      "subtitle": "Juntos criamos um mundo digital mais consciente",
+      "button": "Começar"
+    }
+  },
   "carousel": {
     "audit": {
       "title": "Para Empresas de Auditoria",

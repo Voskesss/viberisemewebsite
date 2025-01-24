@@ -1,88 +1,140 @@
 {
-  "hero": {
-    "title": "Weniger Arbeit, mehr Flow, mehr Sicherheit",
-    "subtitle": "SkillVal: Die Plattform, die Fähigkeiten validiert und Karrieren aufwertet",
-    "description": "SkillVal ermöglicht Fachleuten und Organisationen, Fähigkeiten durch EVC-Prozesse und Kompetenzberichte zu identifizieren und zu validieren. Von den Zielen bis zu den Ergebnissen bleiben Sie fokussiert auf das, was wirklich zählt: Wachstum und Entwicklung."
+  "metadata": {
+    "title": "VibeRise.me | Deine Daten, Deine Kraft",
+    "description": "Übernehmen Sie die Kontrolle über Ihre Daten. VibeRise.me ermöglicht es Ihnen, Ihre persönlichen Daten zu besitzen, zu verwalten und zu monetarisieren, während Sie vollständige Privatsphäre und Sicherheit bewahren."
+  },
+  "customer": {
+    "title": "Übernehmen Sie die Kontrolle über Ihr digitales Leben",
+    "subtitle": "Mit VibeRise bestimmen Sie, was mit Ihren Daten passiert. Verdienen Sie damit, schützen Sie Ihre Privatsphäre und bewirken Sie etwas.",
+    "features": {
+      "privacy": {
+        "title": "Vollständige Privatsphäre-Kontrolle",
+        "description": "Blockieren Sie Tracking, nutzen Sie Standard-VPN und machen Sie sich nicht nachverfolgbar. Sie bestimmen, was mit Ihren Daten passiert."
+      },
+      "earnings": {
+        "title": "Verdienen Sie mit Ihren Daten",
+        "description": "Sie verdienen an Ihren eigenen Daten. Wählen Sie selbst, welche Daten Sie teilen und erhalten Sie direkte Zahlungen für jede Interaktion."
+      },
+      "social": {
+        "title": "Sichere soziale Medien",
+        "description": "Nutzen Sie soziale Medien zu Ihren Bedingungen. Kein Tracking, keine Werbung, pure Verbindung mit anderen."
+      },
+      "impact": {
+        "title": "Direkte Wirkung",
+        "description": "Sehen Sie direkt, wie Ihr Datenmanagement zu einer besseren Welt beiträgt. Verfolgen Sie Ihre Wirkung in Echtzeit."
+      },
+      "cta": "Jetzt mit dem Verdienen beginnen"
+    }
+  },
+  "company": {
+    "title": "Gestalten Sie die Zukunft der Daten mit",
+    "subtitle": "Werden Sie Teil einer revolutionären Plattform, bei der der faire Datenaustausch im Mittelpunkt steht.",
+    "features": {
+      "insights": {
+        "title": "Wertvolle Dateneinblicke",
+        "description": "Erhalten Sie direkten Zugang zu fairen, transparenten Daten von Nutzern, die sich bewusst für das Teilen entscheiden."
+      },
+      "impact": {
+        "title": "Direkte Wirkung",
+        "description": "Seien Sie Teil einer Revolution im Datenmanagement. Bauen Sie mit an einem faireren Internet für alle."
+      },
+      "model": {
+        "title": "Faires Geschäftsmodell",
+        "description": "Zahlen Sie nur für die Daten, die Sie nutzen. Direkt, transparent und ohne Zwischenhändler."
+      },
+      "compliance": {
+        "title": "Datenschutz & Compliance",
+        "description": "Vollständig DSGVO-konform. Jeder Datenaustausch ist transparent und über Blockchain nachverfolgbar."
+      },
+      "cta": "Partner werden"
+    }
+  },
+  "investor": {
+    "title": "Investieren Sie in die Zukunft der Daten",
+    "subtitle": "Werden Sie Teil einer Revolution in persönlichen Daten. Investieren Sie in eine Plattform, die Privatsphäre, Kontrolle und faire Verteilung in den Mittelpunkt stellt.",
+    "features": {
+      "growth": {
+        "title": "Exponentielles Wachstum",
+        "description": "Investieren Sie in eine Plattform, die die Zukunft des Datenaustauschs gestaltet. Profitieren Sie von früher Adoption und Netzwerkeffekten."
+      },
+      "security": {
+        "title": "Sichere Investition",
+        "description": "Blockchain-basierte Token und Smart Contracts sorgen für Transparenz und Sicherheit Ihrer Investition."
+      },
+      "impact": {
+        "title": "Globale Wirkung",
+        "description": "Helfen Sie mit, ein faireres Internet aufzubauen. Seien Sie Teil einer weltweiten Bewegung für Datendemokratisierung."
+      },
+      "market": {
+        "title": "Marktanteil",
+        "description": "Erhalten Sie frühen Zugang zu einem wachsenden Markt für persönliche Daten. Positionieren Sie sich in dieser aufstrebenden Branche."
+      },
+      "cta": "Early Investor werden"
+    }
+  },
+  "developer": {
+    "title": "Gestalten Sie die Revolution mit",
+    "subtitle": "Werden Sie Teil einer Open-Source-Bewegung, die das Internet demokratisiert. Gemeinsam bauen wir an einer faireren digitalen Zukunft.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Tragen Sie zu einer vollständig Open-Source-Plattform bei. Gestalten Sie die Zukunft des Internets mit."
+      },
+      "tech": {
+        "title": "Modernste Technologie",
+        "description": "Arbeiten Sie mit den neuesten Technologien: Blockchain, KI und dezentrale Systeme."
+      },
+      "community": {
+        "title": "Aktive Community",
+        "description": "Werden Sie Teil einer lebendigen Community von Entwicklern, die an einer besseren digitalen Welt bauen."
+      },
+      "rewards": {
+        "title": "Belohnung & Anerkennung",
+        "description": "Erhalten Sie Belohnungen für Ihre Beiträge. Bauen Sie sich einen Ruf in der Web3-Community auf."
+      },
+      "cta": "Mit dem Beitragen beginnen"
+    }
   },
   "features": {
-    "workflow": {
-      "title": "Hervorragender Workflow",
-      "description": "Kompetenzvalidierungsplattform, die Organisationen nutzen, um sich auf die Identifizierung, Validierung und Nutzung von Fähigkeiten zu konzentrieren, die Wachstum und Erfolg fördern."
+    "title": "Leistungsstarke Funktionen für Ihre Daten",
+    "subtitle": "Entdecken Sie, wie VibeRise Ihnen hilft, die Kontrolle über Ihr digitales Leben zurückzugewinnen",
+    "main": {
+      "title": "Globales Bewusstsein",
+      "description": "Werden Sie Teil eines weltweiten Netzwerks, das sich für digitale Freiheit und fairen Datenaustausch einsetzt"
     },
-    "collaboration": {
-      "title": "Teamzusammenarbeit",
-      "description": "Kompetenzvalidierungsplattform, die Mentoren, Prüfer, EVC-Anbieter und Arbeitgeber verbindet, um effektiv zusammenzuarbeiten und sich auf Kompetenzentwicklung, Validierung und Karrierewachstum zu konzentrieren."
+    "community": {
+      "title": "Starke Gemeinschaft",
+      "description": "Verbinden Sie sich mit Gleichgesinnten, die an eine faire digitale Zukunft glauben"
     },
-    "security": {
-      "title": "KI und menschliche Validierung zur Betrugsprävention",
-      "description": "KI und menschliche Validierung arbeiten zusammen, um Betrug zu verhindern und Vertrauen in Kompetenzbewertungen zu gewährleisten."
+    "blockchain": {
+      "title": "Blockchain-Technologie",
+      "description": "Sicherer und transparenter Datenaustausch mit den neuesten Blockchain-Innovationen"
+    },
+    "movement": {
+      "title": "Machen Sie Mit"
+    },
+    "groups": {
+      "users": {
+        "title": "Für Benutzer",
+        "description": "Übernehmen Sie die Kontrolle über Ihre Daten und verdienen Sie damit"
+      },
+      "companies": {
+        "title": "Für Unternehmen",
+        "description": "Ethischer Datenaustausch für Innovation"
+      },
+      "investors": {
+        "title": "Für Investoren",
+        "description": "Investieren Sie in die Zukunft der Daten"
+      },
+      "developers": {
+        "title": "Für Entwickler",
+        "description": "Bauen Sie mit uns"
+      }
+    },
+    "cta": {
+      "title": "Machen Sie mit und erhöhen Sie den Vibe der Welt",
+      "subtitle": "Gemeinsam schaffen wir eine bewusstere digitale Welt",
+      "button": "Jetzt Starten"
     }
-  },
-  "powerful": {
-    "title": "Einfach zu lernen und äußerst leistungsfähig",
-    "description": "SkillVal vereinfacht die Kompetenzvalidierung und ermöglicht Teams, ihre Ziele zu erreichen und bedeutsame Fortschritte zu erzielen."
-  },
-  "validation": {
-    "title": "Für die Validierung jeder Kompetenz",
-    "description": "Ob durch EVC-Prozesse oder detaillierte Kompetenzberichte, SkillVal gewährleistet eine genaue Anerkennung von Kompetenzen. Stärken Sie Einzelpersonen und Organisationen mit vertrauenswürdigen Bewertungen für jede Karrierephase."
-  },
-  "carousel": {
-    "audit": {
-      "title": "Für Prüfungsgesellschaften",
-      "subtitle": "Compliance mit Vertrauen sicherstellen",
-      "description": "Zuverlässige Berichte und Einblicke, um Audits einfach und transparent zu gestalten."
-    },
-    "assessors": {
-      "title": "Für Prüfer",
-      "subtitle": "Mühelose Kompetenzbewertung",
-      "description": "Alles, was Sie brauchen, um Fähigkeiten fair, genau und effizient zu bewerten."
-    },
-    "evc": {
-      "title": "Für EVC-Anbieter",
-      "subtitle": "Optimieren Sie Ihre EVC-Prozesse",
-      "description": "Einfache Tools zur Verwaltung von Wegen, Führung von Kandidaten und müheloser Validierung von Ergebnissen."
-    }
-  },
-  "comingSoon": {
-    "title": "SkillVal kommt bald",
-    "description": "SkillVal ist fast da! Seien Sie bereit, Kompetenzen zu validieren und Wachstum wie nie zuvor zu fördern."
-  },
-  "newsletter": {
-    "title": "Bleiben Sie auf dem Laufenden",
-    "subtitle": "Abonnieren Sie Updates",
-    "description": "Treten Sie der Warteliste bei, um Updates über SkillVal zu erhalten",
-    "placeholder": "Ihre E-Mail-Adresse",
-    "button": "Abonnieren",
-    "success": "Vielen Dank für Ihre Anmeldung!",
-    "sending": "Wird gesendet...",
-    "error": "Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut."
-  },
-  "contact": {
-    "name": "Ihr Name",
-    "email": "E-Mail-Adresse",
-    "subject": "Betreff",
-    "message": "Ihre Nachricht",
-    "button": "Senden",
-    "success": "Vielen Dank für Ihre Nachricht!",
-    "sending": "Wird gesendet...",
-    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
-  },
-  "footer": {
-    "contact": {
-      "title": "Kontakt",
-      "name": "Ihr Name",
-      "email": "E-Mail-Adresse",
-      "subject": "Betreff",
-      "message": "Ihre Nachricht",
-      "button": "Senden",
-      "success": "Vielen Dank für Ihre Nachricht!",
-      "sending": "Wird gesendet...",
-      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
-    },
-    "copyright": " 2024 SkillVal B.V. Alle Rechte vorbehalten."
-  },
-  "meta": {
-    "title": "SkillVal | KI-gestützte technische Bewertungsplattform für Entwickler",
-    "description": "Validieren Sie technische Fähigkeiten von Entwicklern mit KI. Objektive und effiziente Bewertungen für Recruiting und Talententwicklung."
   }
 }

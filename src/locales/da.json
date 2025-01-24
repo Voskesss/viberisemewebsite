@@ -20,6 +20,46 @@
     "security": {
       "title": "AI og Menneskelig Validering til at forhindre svindel",
       "description": "AI og Menneskelig Validering arbejder sammen om at forhindre svindel og sikre tillid til kompetencevurderinger."
+    },
+    "title": "Kraftfulde Funktioner til Dine Data",
+    "subtitle": "Opdag hvordan VibeRise hjælper dig med at genvinde kontrollen over dit digitale liv",
+    "main": {
+      "title": "Global Bevidsthed",
+      "description": "Bliv en del af et globalt netværk, der stræber efter digital frihed og fair dataudveksling"
+    },
+    "community": {
+      "title": "Stærkt Fællesskab",
+      "description": "Forbind med ligesindede, der tror på en retfærdig digital fremtid"
+    },
+    "blockchain": {
+      "title": "Blockchain-teknologi",
+      "description": "Sikker og gennemsigtig dataudveksling med de nyeste blockchain-innovationer"
+    },
+    "movement": {
+      "title": "Vær Med i Bevægelsen"
+    },
+    "groups": {
+      "users": {
+        "title": "For Brugere",
+        "description": "Tag kontrol over dine data og tjen på dem"
+      },
+      "companies": {
+        "title": "For Virksomheder",
+        "description": "Etisk dataudveksling for innovation"
+      },
+      "investors": {
+        "title": "For Investorer",
+        "description": "Invester i fremtidens data"
+      },
+      "developers": {
+        "title": "For Udviklere",
+        "description": "Byg med os"
+      }
+    },
+    "cta": {
+      "title": "Vær Med til at Hæve Verdens Vibe",
+      "subtitle": "Sammen skaber vi en mere bevidst digital verden",
+      "button": "Start Nu"
     }
   },
   "powerful": {

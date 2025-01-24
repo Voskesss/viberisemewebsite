@@ -1,88 +1,140 @@
 {
-  "meta": {
-    "title": "SkillVal | Platforma oceny technicznej oparta na AI dla programistów",
-    "description": "Waliduj umiejętności techniczne programistów za pomocą AI. Obiektywne i efektywne oceny dla rekrutacji i rozwoju talentów."
+  "metadata": {
+    "title": "VibeRise.me | Twoje Dane, Twoja Moc",
+    "description": "Przejmij kontrolę nad swoimi danymi. VibeRise.me umożliwia posiadanie, zarządzanie i monetyzację Twoich danych osobowych przy zachowaniu pełnej prywatności i bezpieczeństwa."
   },
-  "hero": {
-    "title": "Mniej pracy, więcej przepływu, więcej bezpieczeństwa",
-    "subtitle": "SkillVal: Platforma, która waliduje umiejętności i dodaje wartość do kariery",
-    "description": "SkillVal umożliwia profesjonalistom i organizacjom identyfikację i walidację umiejętności poprzez procesy EVC i raporty kompetencji. Od celów do rezultatów, nasza platforma utrzymuje Cię skupionym na tym, co naprawdę ważne: wzrost i rozwój."
+  "customer": {
+    "title": "Przejmij Kontrolę nad Swoim Cyfrowym Życiem",
+    "subtitle": "Z VibeRise to Ty decydujesz, co dzieje się z Twoimi danymi. Zarabiaj, chroń swoją prywatność i wywieraj wpływ.",
+    "features": {
+      "privacy": {
+        "title": "Pełna Kontrola Prywatności",
+        "description": "Blokuj śledzenie, korzystaj ze standardowego VPN i stań się niewykrywalny. Ty decydujesz, co dzieje się z Twoimi danymi."
+      },
+      "earnings": {
+        "title": "Zarabiaj na Swoich Danych",
+        "description": "Zarabiasz na własnych danych. Sam wybierasz, które dane udostępnić i otrzymujesz bezpośrednie płatności za każdą interakcję."
+      },
+      "social": {
+        "title": "Bezpieczne Media Społecznościowe",
+        "description": "Korzystaj z mediów społecznościowych na swoich warunkach. Bez śledzenia, bez reklam, czysta łączność z innymi."
+      },
+      "impact": {
+        "title": "Bezpośredni Wpływ",
+        "description": "Zobacz bezpośrednio, jak Twoje zarządzanie danymi przyczynia się do lepszego świata. Śledź swój wpływ w czasie rzeczywistym."
+      },
+      "cta": "Zacznij Zarabiać Teraz"
+    }
+  },
+  "company": {
+    "title": "Buduj Przyszłość Danych",
+    "subtitle": "Zostań częścią rewolucyjnej platformy, gdzie uczciwa wymiana danych jest kluczowa.",
+    "features": {
+      "insights": {
+        "title": "Cenne Wglądy w Dane",
+        "description": "Uzyskaj bezpośredni dostęp do uczciwych, przejrzystych danych od użytkowników, którzy świadomie wybierają udostępnianie."
+      },
+      "impact": {
+        "title": "Bezpośredni Wpływ",
+        "description": "Bądź częścią rewolucji w zarządzaniu danymi. Buduj sprawiedliwszy internet dla wszystkich."
+      },
+      "model": {
+        "title": "Uczciwy Model Biznesowy",
+        "description": "Płać tylko za dane, których używasz. Bezpośrednio, przejrzyście i bez pośredników."
+      },
+      "compliance": {
+        "title": "Prywatność i Zgodność",
+        "description": "W pełni zgodne z RODO. Każda wymiana danych jest przejrzysta i możliwa do śledzenia przez blockchain."
+      },
+      "cta": "Zostań Partnerem"
+    }
+  },
+  "investor": {
+    "title": "Inwestuj w Przyszłość Danych",
+    "subtitle": "Bądź częścią rewolucji w danych osobowych. Inwestuj w platformę, która stawia prywatność, kontrolę i uczciwą dystrybucję na pierwszym miejscu.",
+    "features": {
+      "growth": {
+        "title": "Wzrost Wykładniczy",
+        "description": "Inwestuj w platformę kształtującą przyszłość wymiany danych. Skorzystaj z wczesnej adopcji i efektów sieciowych."
+      },
+      "security": {
+        "title": "Bezpieczna Inwestycja",
+        "description": "Tokeny oparte na blockchain i inteligentne kontrakty zapewniają przejrzystość i bezpieczeństwo Twojej inwestycji."
+      },
+      "impact": {
+        "title": "Globalny Wpływ",
+        "description": "Pomóż budować sprawiedliwszy internet. Bądź częścią globalnego ruchu na rzecz demokratyzacji danych."
+      },
+      "market": {
+        "title": "Udział w Rynku",
+        "description": "Uzyskaj wczesny dostęp do rosnącego rynku danych osobowych. Zajmij pozycję w tej rozwijającej się branży."
+      },
+      "cta": "Zostań Early Investorem"
+    }
+  },
+  "developer": {
+    "title": "Buduj Rewolucję",
+    "subtitle": "Bądź częścią ruchu open source demokratyzującego internet. Razem budujemy sprawiedliwszą cyfrową przyszłość.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Przyczyń się do w pełni otwartej platformy. Buduj przyszłość internetu."
+      },
+      "tech": {
+        "title": "Najnowsza Technologia",
+        "description": "Pracuj z najnowszymi technologiami: blockchain, AI i systemy zdecentralizowane."
+      },
+      "community": {
+        "title": "Aktywna Społeczność",
+        "description": "Dołącz do tętniącej życiem społeczności deweloperów budujących lepszy świat cyfrowy."
+      },
+      "rewards": {
+        "title": "Nagrody i Uznanie",
+        "description": "Otrzymuj nagrody za swoje wkłady. Buduj reputację w społeczności Web3."
+      },
+      "cta": "Zacznij Współtworzyć"
+    }
   },
   "features": {
-    "workflow": {
-      "title": "Wspaniały przepływ pracy",
-      "description": "Platforma walidacji umiejętności, której organizacje używają do skupienia się na identyfikacji, walidacji i wykorzystaniu umiejętności napędzających wzrost i sukces."
+    "title": "Potężne Funkcje dla Twoich Danych",
+    "subtitle": "Odkryj, jak VibeRise pomaga Ci odzyskać kontrolę nad Twoim cyfrowym życiem",
+    "main": {
+      "title": "Globalna Świadomość",
+      "description": "Dołącz do światowej sieci dążącej do cyfrowej wolności i uczciwej wymiany danych"
     },
-    "collaboration": {
-      "title": "Współpraca zespołowa",
-      "description": "Platforma walidacji umiejętności łącząca mentorów, asesorów, dostawców EVC i pracodawców w celu efektywnej współpracy i skupienia się na rozwoju umiejętności, walidacji i rozwoju kariery."
+    "community": {
+      "title": "Silna Społeczność",
+      "description": "Połącz się z osobami myślącymi podobnie, które wierzą w sprawiedliwą cyfrową przyszłość"
     },
-    "security": {
-      "title": "AI i Walidacja Ludzka w zapobieganiu oszustwom",
-      "description": "AI i Walidacja Ludzka współpracują, aby zapobiegać oszustwom i zapewnić zaufanie w ocenie umiejętności."
+    "blockchain": {
+      "title": "Technologia Blockchain",
+      "description": "Bezpieczna i przejrzysta wymiana danych z najnowszymi innowacjami blockchain"
+    },
+    "movement": {
+      "title": "Dołącz do Ruchu"
+    },
+    "groups": {
+      "users": {
+        "title": "Dla Użytkowników",
+        "description": "Przejmij kontrolę nad swoimi danymi i zarabiaj na nich"
+      },
+      "companies": {
+        "title": "Dla Firm",
+        "description": "Etyczna wymiana danych dla innowacji"
+      },
+      "investors": {
+        "title": "Dla Inwestorów",
+        "description": "Inwestuj w przyszłość danych"
+      },
+      "developers": {
+        "title": "Dla Programistów",
+        "description": "Buduj razem z nami"
+      }
+    },
+    "cta": {
+      "title": "Dołącz, aby Podnieść Światowy Vibe",
+      "subtitle": "Razem tworzymy bardziej świadomy cyfrowy świat",
+      "button": "Rozpocznij"
     }
-  },
-  "powerful": {
-    "title": "Łatwy do nauki i niezwykle potężny",
-    "description": "SkillVal upraszcza walidację umiejętności i umożliwia zespołom osiąganie celów i znaczący postęp."
-  },
-  "validation": {
-    "title": "Do walidacji każdej umiejętności",
-    "description": "Czy to poprzez procesy EVC, czy szczegółowe raporty umiejętności, SkillVal zapewnia dokładne uznawanie kompetencji. Umożliwiaj jednostkom i organizacjom wiarygodną ocenę na każdym etapie kariery."
-  },
-  "carousel": {
-    "audit": {
-      "title": "Dla Firm Audytorskich",
-      "subtitle": "Zapewnij Zgodność z Pewnością",
-      "description": "Wiarygodne raporty i spostrzeżenia, aby uczynić audyty prostymi i przejrzystymi."
-    },
-    "assessors": {
-      "title": "Dla Asesorów",
-      "subtitle": "Bezwysiłkowa Ocena Umiejętności",
-      "description": "Wszystko, czego potrzebujesz do sprawiedliwej, dokładnej i efektywnej oceny umiejętności."
-    },
-    "evc": {
-      "title": "Dla Dostawców EVC",
-      "subtitle": "Usprawnij Swoje Procesy EVC",
-      "description": "Proste narzędzia do zarządzania ścieżkami, prowadzenia kandydatów i łatwej walidacji wyników."
-    }
-  },
-  "comingSoon": {
-    "title": "SkillVal Wkrótce",
-    "description": "SkillVal nadchodzi! Bądź gotowy do walidacji umiejętności i napędzania wzrostu jak nigdy dotąd."
-  },
-  "newsletter": {
-    "title": "Bądź na bieżąco",
-    "subtitle": "Zapisz się na aktualizacje",
-    "description": "Zapisz się na listę oczekujących i otrzymuj aktualizacje o SkillVal",
-    "placeholder": "Twój e-mail",
-    "button": "Zapisz się",
-    "success": "Dziękujemy za zapisanie się!",
-    "sending": "Wysyłanie...",
-    "error": "Coś poszło nie tak. Spróbuj ponownie później."
-  },
-  "contact": {
-    "name": "Twoje imię",
-    "email": "Adres e-mail",
-    "subject": "Temat",
-    "message": "Twoja wiadomość",
-    "button": "Wyślij",
-    "success": "Dziękujemy za wiadomość!",
-    "sending": "Wysyłanie...",
-    "error": "Coś poszło nie tak. Spróbuj ponownie później."
-  },
-  "footer": {
-    "contact": {
-      "title": "Kontakt",
-      "name": "Twoje imię",
-      "email": "Adres e-mail",
-      "subject": "Temat",
-      "message": "Twoja wiadomość",
-      "button": "Wyślij",
-      "success": "Dziękujemy za wiadomość!",
-      "sending": "Wysyłanie...",
-      "error": "Coś poszło nie tak. Spróbuj ponownie później."
-    },
-    "copyright": " 2024 SkillVal B.V. Wszelkie prawa zastrzeżone."
   }
 }

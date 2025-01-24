@@ -111,10 +111,16 @@ const CompanySection = () => {
             className="max-w-5xl mx-auto mb-20 relative"
           >
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-              {/* Placeholder voor video - vervang src met echte video URL */}
-              <div className="w-full h-full bg-gray-900 flex items-center justify-center">
-                <div className="text-white text-xl">Video Coming Soon</div>
+              <div style={{padding:'56.25% 0 0 0', position:'relative'}}>
+                <iframe 
+                  src="https://player.vimeo.com/video/1050016503?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                  style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}}
+                  frameBorder="0" 
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  title="VibeRise me Company's"
+                />
               </div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             
             {/* Energetische elementen rond de video */}
@@ -133,6 +139,7 @@ const CompanySection = () => {
             />
           </motion.div>
 
+          {/* Features Grid */}
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {features.map((feature, index) => (
               <motion.div

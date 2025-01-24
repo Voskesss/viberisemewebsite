@@ -1,12 +1,30 @@
 {
   "meta": {
-    "title": "SkillVal | Plateforme d'évaluation technique alimentée par l'IA pour les développeurs",
-    "description": "Validez les compétences techniques des développeurs avec l'IA. Évaluations objectives et efficaces pour le recrutement et le développement des talents."
+    "title": "VibeRise.me | Vos Données, Votre Pouvoir",
+    "description": "Prenez le contrôle de vos données. VibeRise.me vous permet de posséder, gérer et monétiser vos données personnelles tout en maintenant une confidentialité et une sécurité totales."
   },
   "hero": {
-    "title": "Moins de travail, plus de fluidité, plus de sécurité",
-    "subtitle": "SkillVal : La plateforme qui valide les compétences et valorise les carrières",
-    "description": "SkillVal permet aux professionnels et aux organisations d'identifier et de valider les compétences grâce aux processus EVC et aux rapports de compétences. Des objectifs aux résultats, notre plateforme vous garde concentré sur ce qui compte vraiment : la croissance et le développement."
+    "title": "Prenez le Contrôle de Votre Vie Numérique",
+    "subtitle": "Avec VibeRise, vous décidez ce qu'il advient de vos données. Gagnez de l'argent, protégez votre vie privée et créez un impact.",
+    "features": {
+      "privacy": {
+        "title": "Contrôle Total de la Confidentialité",
+        "description": "Bloquez le tracking, utilisez un VPN standard et rendez-vous non traçable. Vous décidez ce qu'il advient de vos données."
+      },
+      "earnings": {
+        "title": "Gagnez avec Vos Données",
+        "description": "Vous gagnez de l'argent avec vos propres données. Choisissez quelles données partager et recevez un paiement direct pour chaque interaction."
+      },
+      "social": {
+        "title": "Médias Sociaux Sécurisés",
+        "description": "Utilisez les médias sociaux selon vos conditions. Pas de tracking, pas de publicité, une connexion pure avec les autres."
+      },
+      "impact": {
+        "title": "Impact Direct",
+        "description": "Voyez directement comment votre gestion des données contribue à un monde meilleur. Suivez votre impact en temps réel."
+      },
+      "cta": "Commencez à Gagner Maintenant"
+    }
   },
   "features": {
     "workflow": {
@@ -29,6 +47,48 @@
   "validation": {
     "title": "Pour la validation de chaque compétence",
     "description": "Que ce soit par les processus EVC ou des rapports de compétences détaillés, SkillVal assure une reconnaissance précise des compétences. Donnez du pouvoir aux individus et aux organisations avec des évaluations fiables pour chaque étape de carrière."
+  },
+  "features": {
+    "title": "Fonctionnalités Puissantes pour Vos Données",
+    "subtitle": "Découvrez comment VibeRise vous aide à reprendre le contrôle de votre vie numérique",
+    "main": {
+      "title": "Conscience Globale",
+      "description": "Rejoignez un réseau mondial qui s'efforce d'atteindre la liberté numérique et l'échange équitable de données"
+    },
+    "community": {
+      "title": "Communauté Forte",
+      "description": "Connectez-vous avec des personnes partageant les mêmes idées qui croient en un avenir numérique équitable"
+    },
+    "blockchain": {
+      "title": "Technologie Blockchain",
+      "description": "Échange de données sûr et transparent avec les dernières innovations blockchain"
+    },
+    "movement": {
+      "title": "Rejoignez le Mouvement"
+    },
+    "groups": {
+      "users": {
+        "title": "Pour les Utilisateurs",
+        "description": "Prenez le contrôle de vos données et gagnez-en"
+      },
+      "companies": {
+        "title": "Pour les Entreprises",
+        "description": "Échange éthique de données pour l'innovation"
+      },
+      "investors": {
+        "title": "Pour les Investisseurs",
+        "description": "Investissez dans l'avenir des données"
+      },
+      "developers": {
+        "title": "Pour les Développeurs",
+        "description": "Construisez avec nous"
+      }
+    },
+    "cta": {
+      "title": "Rejoignez-nous pour Élever le Vibe du Monde",
+      "subtitle": "Ensemble, créons un monde numérique plus conscient",
+      "button": "Commencer"
+    }
   },
   "carousel": {
     "audit": {

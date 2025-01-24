@@ -84,5 +84,143 @@
   "meta": {
     "title": "SkillVal | Plataforma de evaluación técnica impulsada por IA para desarrolladores",
     "description": "Valide las habilidades técnicas de los desarrolladores con IA. Evaluaciones objetivas y eficientes para reclutamiento y desarrollo de talento."
+  },
+  "metadata": {
+    "title": "VibeRise.me | Tus Datos, Tu Poder",
+    "description": "Toma el control de tus datos. VibeRise.me te permite poseer, gestionar y monetizar tus datos personales mientras mantienes total privacidad y seguridad."
+  },
+  "customer": {
+    "title": "Toma el Control de Tu Vida Digital",
+    "subtitle": "Con VibeRise, tú decides qué sucede con tus datos. Gana dinero, protege tu privacidad y genera impacto.",
+    "features": {
+      "privacy": {
+        "title": "Control Total de Privacidad",
+        "description": "Bloquea el rastreo, usa VPN estándar y hazte no rastreable. Tú decides qué sucede con tus datos."
+      },
+      "earnings": {
+        "title": "Gana con Tus Datos",
+        "description": "Tú ganas dinero con tus propios datos. Elige qué datos compartir y recibe pagos directos por cada interacción."
+      },
+      "social": {
+        "title": "Redes Sociales Seguras",
+        "description": "Usa las redes sociales en tus términos. Sin rastreo, sin publicidad, conexión pura con otros."
+      },
+      "impact": {
+        "title": "Impacto Directo",
+        "description": "Ve directamente cómo tu gestión de datos contribuye a un mundo mejor. Sigue tu impacto en tiempo real."
+      },
+      "cta": "Empieza a Ganar Ahora"
+    }
+  },
+  "company": {
+    "title": "Construye el Futuro de los Datos",
+    "subtitle": "Forma parte de una plataforma revolucionaria donde el intercambio justo de datos es central.",
+    "features": {
+      "insights": {
+        "title": "Insights de Datos Valiosos",
+        "description": "Obtén acceso directo a datos justos y transparentes de usuarios que eligen conscientemente compartir."
+      },
+      "impact": {
+        "title": "Impacto Directo",
+        "description": "Sé parte de una revolución en la gestión de datos. Construye un internet más justo para todos."
+      },
+      "model": {
+        "title": "Modelo de Negocio Justo",
+        "description": "Paga solo por los datos que uses. Directo, transparente y sin intermediarios."
+      },
+      "compliance": {
+        "title": "Privacidad y Cumplimiento",
+        "description": "Totalmente compatible con GDPR. Todo intercambio de datos es transparente y rastreable vía blockchain."
+      },
+      "cta": "Conviértete en Socio"
+    }
+  },
+  "investor": {
+    "title": "Invierte en el Futuro de los Datos",
+    "subtitle": "Sé parte de una revolución en datos personales. Invierte en una plataforma que pone la privacidad, el control y la distribución justa en el centro.",
+    "features": {
+      "growth": {
+        "title": "Crecimiento Exponencial",
+        "description": "Invierte en una plataforma que está dando forma al futuro del intercambio de datos. Benefíciate de la adopción temprana y los efectos de red."
+      },
+      "security": {
+        "title": "Inversión Segura",
+        "description": "Tokens basados en blockchain y contratos inteligentes aseguran la transparencia y seguridad de tu inversión."
+      },
+      "impact": {
+        "title": "Impacto Global",
+        "description": "Ayuda a construir un internet más justo. Sé parte de un movimiento global por la democratización de datos."
+      },
+      "market": {
+        "title": "Cuota de Mercado",
+        "description": "Obtén acceso temprano a un mercado creciente de datos personales. Posiciónate en esta industria emergente."
+      },
+      "cta": "Conviértete en Early Investor"
+    }
+  },
+  "developer": {
+    "title": "Construye la Revolución",
+    "subtitle": "Sé parte de un movimiento open source que democratiza internet. Juntos construimos un futuro digital más justo.",
+    "features": {
+      "opensource": {
+        "title": "Open Source",
+        "description": "Contribuye a una plataforma totalmente open source. Construye el futuro de internet."
+      },
+      "tech": {
+        "title": "Tecnología de Punta",
+        "description": "Trabaja con las últimas tecnologías: blockchain, IA y sistemas descentralizados."
+      },
+      "community": {
+        "title": "Comunidad Activa",
+        "description": "Únete a una comunidad vibrante de desarrolladores que construyen un mundo digital mejor."
+      },
+      "rewards": {
+        "title": "Recompensas y Reconocimiento",
+        "description": "Recibe recompensas por tus contribuciones. Construye una reputación en la comunidad Web3."
+      },
+      "cta": "Empieza a Contribuir"
+    }
+  },
+  "features": {
+    "title": "Funciones Potentes para tus Datos",
+    "subtitle": "Descubre cómo VibeRise te ayuda a recuperar el control de tu vida digital",
+    "main": {
+      "title": "Conciencia Global",
+      "description": "Únete a una red mundial que lucha por la libertad digital y el intercambio justo de datos"
+    },
+    "community": {
+      "title": "Comunidad Fuerte",
+      "description": "Conéctate con personas que comparten tus ideas y creen en un futuro digital justo"
+    },
+    "blockchain": {
+      "title": "Tecnología Blockchain",
+      "description": "Intercambio de datos seguro y transparente con las últimas innovaciones blockchain"
+    },
+    "movement": {
+      "title": "Únete al Movimiento"
+    },
+    "groups": {
+      "users": {
+        "title": "Para Usuarios",
+        "description": "Toma el control de tus datos y gana con ellos"
+      },
+      "companies": {
+        "title": "Para Empresas",
+        "description": "Intercambio ético de datos para la innovación"
+      },
+      "investors": {
+        "title": "Para Inversores",
+        "description": "Invierte en el futuro de los datos"
+      },
+      "developers": {
+        "title": "Para Desarrolladores",
+        "description": "Construye con nosotros"
+      }
+    },
+    "cta": {
+      "title": "Únete para Elevar el Vibe del Mundo",
+      "subtitle": "Juntos creamos un mundo digital más consciente",
+      "button": "Empezar"
+    }
   }
 }

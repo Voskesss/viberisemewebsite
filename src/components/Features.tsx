@@ -187,7 +187,7 @@ const Features = () => {
           className="text-center mb-16"
         >
           <h3 className="text-3xl font-bold text-gray-900 mb-12">
-            Join the Movement
+            {t('features.movement.title')}
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Users */}
@@ -282,17 +282,17 @@ const Features = () => {
           <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-purple-50 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Join us in Raising the World's Vibe
+                {t('features.cta.title')}
               </h3>
               <p className="text-xl text-gray-700 mb-8">
-                Together we can create a more conscious digital world
+                {t('features.cta.subtitle')}
               </p>
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-xl text-lg font-medium hover:shadow-lg transition-shadow duration-300"
               >
-                Get Started
+                {t('features.cta.button')}
               </motion.button>
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-100/40 to-blue-100/40 transform rotate-6 scale-150" />

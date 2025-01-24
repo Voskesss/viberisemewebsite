@@ -13,41 +13,45 @@
     "description": "Own your data, protect your privacy, and get rewarded for your attention"
   },
   "features": {
-    "title": "Raise the World's Vibe Together",
-    "subtitle": "We believe that when everyone has control over their digital presence and data, consciousness rises and the world becomes a better place. Join us in creating this positive change.",
+    "title": "Powerful Features for Your Data",
+    "subtitle": "Discover how VibeRise helps you take back control of your digital life",
     "main": {
-      "title": "Elevate Global Consciousness",
-      "description": "Like blockchain revolutionized finance, we're revolutionizing how people interact with their data. When people have control, awareness rises and better things happen in the world."
+      "title": "Global Consciousness",
+      "description": "Become part of a worldwide network striving for digital freedom and fair data exchange"
     },
     "community": {
-      "title": "Open Source Community",
-      "description": "Join our open source community and help build the foundation for a more conscious digital world. Together we can create technology that serves humanity."
+      "title": "Strong Community",
+      "description": "Connect with like-minded individuals who believe in a fair digital future"
     },
     "blockchain": {
-      "title": "Blockchain-Powered Future",
-      "description": "Utilizing blockchain technology to ensure true data ownership and transparency. Your digital presence, secured and controlled by you."
+      "title": "Blockchain Technology",
+      "description": "Secure and transparent data exchange with the latest blockchain innovations"
+    },
+    "movement": {
+      "title": "Join the Movement"
     },
     "groups": {
       "users": {
         "title": "For Users",
-        "description": "Take control of your digital presence, protect your privacy, and get rewarded for your contributions.",
-        "link": "/for-users"
+        "description": "Take control of your data and earn from it"
       },
       "companies": {
         "title": "For Companies",
-        "description": "Connect with conscious users who actively choose to engage with your brand.",
-        "link": "/for-companies"
+        "description": "Ethical data exchange for innovation"
       },
       "investors": {
         "title": "For Investors",
-        "description": "Be part of the revolution in digital consciousness and data ownership.",
-        "link": "/for-investors"
+        "description": "Invest in the future of data"
       },
       "developers": {
         "title": "For Developers",
-        "description": "Join our open source community and help build the future of digital interaction.",
-        "link": "/for-developers"
+        "description": "Build with us"
       }
+    },
+    "cta": {
+      "title": "Join us in Raising the World's Vibe",
+      "subtitle": "Together we can create a more conscious digital world",
+      "button": "Get Started"
     }
   },
   "powerful": {
