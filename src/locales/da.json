@@ -168,16 +168,23 @@
     "copyright": " 2024 SkillVal B.V. Alle rettigheder forbeholdes."
   },
   "waitlist": {
-    "title": "Vær med i revolutionen",
+    "title": "Sluit je aan bij VibeRise",
     "description": {
-      "consumer": "Bliv en af de første forbrugere, der får kontrol over deres data",
-      "company": "Bliv en af de første virksomheder, der håndterer data etisk",
-      "influencer": "Bliv en af de første influencere, der virkelig ejer deres indhold",
-      "investor": "Bliv en af de første investorer i fremtidens data",
-      "developer": "Bliv en af de første udviklere, der bygger et retfærdigt internet"
+      "consumer": "Word onderdeel van de beweging voor digitale vrijheid",
+      "company": "Ontdek hoe VibeRise jouw bedrijf kan helpen",
+      "influencer": "Versterk je bereik met VibeRise",
+      "investor": "Investeer in de toekomst van digitale vrijheid",
+      "developer": "Bouw mee aan de toekomst van het internet"
     },
-    "emailPlaceholder": "Din e-mailadresse",
-    "submit": "Tilmeld venteliste",
-    "privacy": "Vi respekterer dit privatliv. Du kan altid afmelde dig."
+    "emailPlaceholder": "Jouw e-mailadres",
+    "submit": "Aanmelden",
+    "loading": "Even geduld...",
+    "privacy": "Door je aan te melden ga je akkoord met onze privacyvoorwaarden",
+    "success": {
+      "title": "Welkom bij VibeRise!",
+      "position": "Je staat op positie {{position}} in de wachtlijst",
+      "referral": "Deel deze link om hoger op de lijst te komen:",
+      "close": "Sluiten"
+    }
   }
 }
