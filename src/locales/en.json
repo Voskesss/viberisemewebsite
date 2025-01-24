@@ -1,50 +1,66 @@
 {
   "meta": {
-    "title": "SkillVal | AI-Powered Technical Assessment Platform for Developers",
-    "description": "Validate technical skills of developers with AI. Objective and efficient assessments for recruitment and talent development."
+    "title": "VibeRise.me | Your Data, Your Power - Take Control of Your Digital Life",
+    "description": "Experience a new era of data ownership where you're in control. Own your data, protect your privacy, and get rewarded for your attention."
   },
   "hero": {
-    "title": "Less work, more flow, more safety",
-    "subtitle": "SkillVal: The platform that validates skills and adds value to careers",
-    "description": "SkillVal empowers professionals and organizations to identify and validate skills through EVC processes and skill reports. From goals to results, our platform keeps you focused on what truly matters: growth and development."
+    "title": "Your Data, Your Power",
+    "subtitle": "Take control of your digital life",
+    "description": "Own your data, protect your privacy, and get rewarded for your attention"
   },
   "features": {
-    "workflow": {
-      "title": "Awesome workflow",
-      "description": "Skill validation platform organizations use to focus on identifying, validating, and leveraging skills that drive growth and success."
+    "title": "Your Digital Life, Your Rules",
+    "subtitle": "Just like Mastodon revolutionized social media with decentralization, we're revolutionizing your entire digital presence. Your data lives in your personal container, movable and controlled by you.",
+    "data": {
+      "title": "Portable Data Container",
+      "description": "Your data lives in your personal container that you can take anywhere. Switch platforms, move between services - your digital life stays in your control, always."
     },
-    "collaboration": {
-      "title": "Collaborate with team",
-      "description": "Skill validation platform that connects mentors, assessors, EVC providers, and employers to collaborate effectively and stay focused on skill development, validation, and career growth."
+    "ai": {
+      "title": "Your Personal AI, Truly Personal",
+      "description": "Your AI assistant learns and evolves with you, but unlike others, all its data stays in your container. No cloud storage, no data sharing - just your private AI helper."
     },
-    "security": {
-      "title": "AI and Human Validation to prevent fraud",
-      "description": "AI and Human Validation working together to prevent fraud and ensure trust in skill assessments."
+    "rewards": {
+      "title": "Choose Your Interactions",
+      "description": "Select which companies can see your data and what ads you want to see. Get paid directly for your attention, without intermediaries taking a cut."
+    },
+    "community": {
+      "title": "Break Free from Big Tech",
+      "description": "Join a decentralized future where you're not dependent on big tech companies. Your data, your AI, your choice - just like Mastodon showed us with social media."
     }
   },
   "powerful": {
-    "title": "Easy to learn and extremely powerful",
-    "description": "SkillVal simplifies skill validation while empowering teams to achieve their goals and drive meaningful progress."
+    "title": "A New Era of Digital Control",
+    "description": "At VibeRise.me, we believe your data should work for you. Wherever you go, whichever device you use, your digital life follows—secure, private, and in your control.",
+    "description2": "Our AI assistant learns from you to assist you, without sending your habits or preferences to anyone else. Every insight it gains belongs to you.",
+    "secure": {
+      "title": "Secure & Private",
+      "description": "Your digital life follows—secure and in your control"
+    },
+    "rewards": {
+      "title": "Earn Rewards",
+      "description": "Get paid for the ads you choose to see"
+    },
+    "earned": "Earned this month"
   },
   "validation": {
-    "title": "For validation of every skill",
-    "description": "Whether through EVC processes or detailed skill reports, SkillVal ensures accurate recognition of competencies. Empower individuals and organizations with trusted assessments for every career stage."
+    "title": "Ethical by Design",
+    "description": "Our open-source community ensures innovation thrives, and only partners who sign and follow our 'Matter of Principle' are allowed to integrate with us."
   },
   "carousel": {
-    "audit": {
-      "title": "For Audit Companies",
-      "subtitle": "Ensure Compliance with Confidence",
-      "description": "Reliable reports and insights to make audits simple and transparent."
+    "privacy": {
+      "title": "Privacy First",
+      "subtitle": "Your Data, Your Control",
+      "description": "Complete control over your personal information and digital footprint."
     },
-    "assessors": {
-      "title": "For Assessors",
-      "subtitle": "Effortless Skill Assessment",
-      "description": "Everything you need to evaluate skills fairly, accurately, and efficiently."
+    "ai": {
+      "title": "Smart Assistant",
+      "subtitle": "AI That Works For You",
+      "description": "Personalized assistance without compromising your privacy."
     },
-    "evc": {
-      "title": "For EVC Providers",
-      "subtitle": "Streamline Your EVC Processes",
-      "description": "Simple tools to manage pathways, guide candidates, and validate results with ease."
+    "rewards": {
+      "title": "Get Rewarded",
+      "subtitle": "Your Attention, Your Value",
+      "description": "Choose your ads and get paid for your engagement."
     }
   },
   "comingSoon": {

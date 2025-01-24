@@ -1,4 +1,26 @@
+import React from 'react';
+
 const Hero = () => {
+  const words = [
+    'me',
+    'social',
+    'privacy',
+    'data',
+    'advertising',
+    'communication',
+    'world'
+  ];
+
+  const [currentWord, setCurrentWord] = React.useState(0);
+
+  React.useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentWord((prev) => (prev + 1) % words.length);
+    }, 5000); // Verander woord elke 5 seconden
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div className="full-width relative hero-section min-h-[800px] md:min-h-[90vh] bg-black">
       {/* Video Background */}
@@ -20,25 +42,32 @@ const Hero = () => {
       <div className="absolute bottom-0 left-0 right-0 z-20">
         <div className="container mx-auto px-4 pb-4">
           <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-6xl md:text-8xl font-semibold text-white mb-8 tracking-wide font-quicksand">
+              VibeRise
+              <span 
+                key={words[currentWord]}
+                className="font-light italic opacity-90 -ml-2 transform -rotate-6 inline-block transition-opacity duration-1000"
+              >.{words[currentWord]}</span>
+            </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-6">
               Take control of your digital life. Own your data, protect your privacy, and get rewarded for your attention.
             </p>
-            <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all mb-8">
+            <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-opacity-90 transition-all mb-8">
               Join the Revolution
             </button>
           </div>
         </div>
 
-        {/* Moderne golf onderaan */}
+        {/* Simpele elegante kromming */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg 
-            viewBox="0 0 1440 120" 
+            viewBox="0 0 1440 100" 
             className="w-full text-white"
             preserveAspectRatio="none"
           >
             <path
               fill="currentColor"
-              d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,58.7C672,53,768,43,864,48C960,53,1056,75,1152,74.7C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"
+              d="M0,0 C480,100 960,100 1440,0 L1440 100 L0 100 Z"
             />
           </svg>
         </div>

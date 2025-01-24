@@ -17,6 +17,10 @@
   }
 }
 
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -115,6 +119,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Custom styles */
+.text-shadow-soft {
+  text-shadow: 0 2px 10px rgba(255,255,255,0.15);
+}
+
 /* Custom animations */
 @keyframes float {
   0% { transform: translateY(0px); }
@@ -122,6 +131,30 @@ button:focus-visible {
   100% { transform: translateY(0px); }
 }
 
+@keyframes slowPulse1 {
+  0%, 100% { opacity: 1; }
+  40% { opacity: 0.8; }
+  50% { opacity: 0; }
+  90% { opacity: 0; }
+  95% { opacity: 0.8; }
+}
+
+@keyframes slowPulse2 {
+  0%, 100% { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 0.8; }
+  90% { opacity: 1; }
+  95% { opacity: 0.8; }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+.animate-slow-pulse-1 {
+  animation: slowPulse1 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-slow-pulse-2 {
+  animation: slowPulse2 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
