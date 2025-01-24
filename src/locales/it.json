@@ -186,16 +186,23 @@
     }
   },
   "waitlist": {
-    "title": "Unisciti alla rivoluzione",
+    "title": "Unisciti a VibeRise",
     "description": {
-      "consumer": "Sii uno dei primi consumatori a prendere il controllo dei propri dati",
-      "company": "Sii una delle prime aziende a gestire i dati in modo etico",
-      "influencer": "Sii uno dei primi influencer a possedere veramente i propri contenuti",
-      "investor": "Sii uno dei primi investitori nel futuro dei dati",
-      "developer": "Sii uno dei primi sviluppatori a costruire un internet equo"
+      "consumer": "Diventa parte del movimento per la libertà digitale",
+      "company": "Scopri come VibeRise può aiutare la tua azienda",
+      "influencer": "Amplifica la tua portata con VibeRise",
+      "investor": "Investi nel futuro della libertà digitale",
+      "developer": "Costruisci il futuro di Internet"
     },
     "emailPlaceholder": "Il tuo indirizzo email",
-    "submit": "Unisciti alla lista d'attesa",
-    "privacy": "Rispettiamo la tua privacy. Puoi cancellarti in qualsiasi momento."
+    "submit": "Unisciti",
+    "loading": "Attendere prego...",
+    "privacy": "Registrandoti, accetti le nostre condizioni sulla privacy",
+    "success": {
+      "title": "Benvenuto su VibeRise!",
+      "position": "Sei in posizione {{position}} nella lista d'attesa",
+      "referral": "Condividi questo link per salire nella lista:",
+      "close": "Chiudi"
+    }
   }
 }

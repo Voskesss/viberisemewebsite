@@ -176,17 +176,24 @@
     "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
   },
   "waitlist": {
-    "title": "Rejoignez la révolution",
+    "title": "Rejoignez VibeRise",
     "description": {
-      "consumer": "Soyez l'un des premiers consommateurs à prendre le contrôle de vos données",
-      "company": "Soyez l'une des premières entreprises à gérer les données de manière éthique",
-      "influencer": "Soyez l'un des premiers influenceurs à vraiment posséder votre contenu",
-      "investor": "Soyez l'un des premiers investisseurs dans l'avenir des données",
-      "developer": "Soyez l'un des premiers développeurs à construire un internet équitable"
+      "consumer": "Faites partie du mouvement pour la liberté numérique",
+      "company": "Découvrez comment VibeRise peut aider votre entreprise",
+      "influencer": "Amplifiez votre portée avec VibeRise",
+      "investor": "Investissez dans l'avenir de la liberté numérique",
+      "developer": "Construisez l'avenir d'Internet"
     },
     "emailPlaceholder": "Votre adresse e-mail",
-    "submit": "Rejoindre la liste d'attente",
-    "privacy": "Nous respectons votre vie privée. Vous pouvez vous désinscrire à tout moment."
+    "submit": "Rejoindre",
+    "loading": "Veuillez patienter...",
+    "privacy": "En vous inscrivant, vous acceptez nos conditions de confidentialité",
+    "success": {
+      "title": "Bienvenue sur VibeRise !",
+      "position": "Vous êtes en position {{position}} sur la liste d'attente",
+      "referral": "Partagez ce lien pour monter dans la liste :",
+      "close": "Fermer"
+    }
   },
   "footer": {
     "contact": {

@@ -170,16 +170,23 @@
     }
   },
   "waitlist": {
-    "title": "Gå med i revolutionen",
+    "title": "Gå med i VibeRise",
     "description": {
-      "consumer": "Bli en av de första konsumenterna som får kontroll över sina data",
-      "company": "Bli ett av de första företagen som hanterar data etiskt",
-      "influencer": "Bli en av de första influencers som verkligen äger sitt innehåll",
-      "investor": "Bli en av de första investerarna i framtidens data",
-      "developer": "Bli en av de första utvecklarna som bygger ett rättvist internet"
+      "consumer": "Bli en del av rörelsen för digital frihet",
+      "company": "Upptäck hur VibeRise kan hjälpa ditt företag",
+      "influencer": "Förstärk din räckvidd med VibeRise",
+      "investor": "Investera i framtiden för digital frihet",
+      "developer": "Bygg internets framtid"
     },
     "emailPlaceholder": "Din e-postadress",
-    "submit": "Gå med på väntelistan",
-    "privacy": "Vi respekterar din integritet. Du kan avregistrera dig när som helst."
+    "submit": "Gå med",
+    "loading": "Vänligen vänta...",
+    "privacy": "Genom att registrera dig godkänner du våra sekretessvillkor",
+    "success": {
+      "title": "Välkommen till VibeRise!",
+      "position": "Du är på plats {{position}} i väntelistan",
+      "referral": "Dela denna länk för att avancera i listan:",
+      "close": "Stäng"
+    }
   }
 }

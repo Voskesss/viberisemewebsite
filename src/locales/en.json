@@ -263,16 +263,23 @@
     }
   },
   "waitlist": {
-    "title": "Join the revolution",
+    "title": "Join VibeRise",
     "description": {
-      "consumer": "Be one of the first consumers to gain control over their data",
-      "company": "Be one of the first companies to handle data ethically",
-      "influencer": "Be one of the first influencers to truly own their content",
-      "investor": "Be one of the first investors in the future of data",
-      "developer": "Be one of the first developers to build a fair internet"
+      "consumer": "Become part of the digital freedom movement",
+      "company": "Discover how VibeRise can help your business",
+      "influencer": "Amplify your reach with VibeRise",
+      "investor": "Invest in the future of digital freedom",
+      "developer": "Build the future of the internet"
     },
     "emailPlaceholder": "Your email address",
-    "submit": "Join waitlist",
-    "privacy": "We respect your privacy. You can unsubscribe at any time."
+    "submit": "Join Now",
+    "loading": "Please wait...",
+    "privacy": "By signing up, you agree to our privacy terms",
+    "success": {
+      "title": "Welcome to VibeRise!",
+      "position": "You are position {{position}} on the waitlist",
+      "referral": "Share this link to move up the list:",
+      "close": "Close"
+    }
   }
 }

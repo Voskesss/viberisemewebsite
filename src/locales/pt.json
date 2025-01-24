@@ -137,17 +137,24 @@
     "description": "SkillVal está chegando! Prepare-se para validar competências e impulsionar o crescimento como nunca antes."
   },
   "waitlist": {
-    "title": "Junte-se à revolução",
+    "title": "Junte-se ao VibeRise",
     "description": {
-      "consumer": "Seja um dos primeiros consumidores a ter controle sobre seus dados",
-      "company": "Seja uma das primeiras empresas a lidar com dados de forma ética",
-      "influencer": "Seja um dos primeiros influenciadores a ser realmente dono do seu conteúdo",
-      "investor": "Seja um dos primeiros investidores no futuro dos dados",
-      "developer": "Seja um dos primeiros desenvolvedores a construir uma internet justa"
+      "consumer": "Faça parte do movimento pela liberdade digital",
+      "company": "Descubra como o VibeRise pode ajudar sua empresa",
+      "influencer": "Amplie seu alcance com o VibeRise",
+      "investor": "Invista no futuro da liberdade digital",
+      "developer": "Construa o futuro da Internet"
     },
     "emailPlaceholder": "Seu endereço de e-mail",
-    "submit": "Entrar na lista de espera",
-    "privacy": "Respeitamos sua privacidade. Você pode cancelar a qualquer momento."
+    "submit": "Participar",
+    "loading": "Aguarde...",
+    "privacy": "Ao se inscrever, você concorda com nossos termos de privacidade",
+    "success": {
+      "title": "Bem-vindo ao VibeRise!",
+      "position": "Você está na posição {{position}} da lista de espera",
+      "referral": "Compartilhe este link para subir na lista:",
+      "close": "Fechar"
+    }
   },
   "newsletter": {
     "title": "Mantenha-se atualizado",
