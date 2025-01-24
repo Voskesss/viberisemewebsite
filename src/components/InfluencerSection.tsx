@@ -83,7 +83,7 @@ const InfluencerSection = () => {
               transition={{ delay: 0.2 }}
               className="text-xl text-gray-600"
             >
-              {t('influencer.subtitle')}
+              {t('influencer.description')}
             </motion.p>
           </div>
 
@@ -94,16 +94,16 @@ const InfluencerSection = () => {
             className="max-w-5xl mx-auto mb-20 relative"
           >
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-              <div style={{padding:'56.25% 0 0 0', position:'relative'}}>
+              <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                 <iframe 
-                  src="https://player.vimeo.com/video/1050016503?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
-                  style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}}
-                  frameBorder="0" 
+                  src="https://player.vimeo.com/video/1050050298?badge=0&autopause=0&player_id=0&app_id=58479" 
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                  frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                  title="VibeRise me Influencer's"
+                  title="VibeRise influencers"
                 />
               </div>
-              <script src="https://player.vimeo.com/api/player.js"></script>
+              <script src="https://player.vimeo.com/api/player.js" async />
             </div>
             
             {/* Energetische elementen rond de video */}
