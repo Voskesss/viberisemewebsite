@@ -55,6 +55,40 @@ const Header = () => {
 
         {/* Right side navigation */}
         <div className="flex items-center gap-6">
+          {/* Language selector (altijd zichtbaar) */}
+          <div className="relative" ref={langRef}>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
+            >
+              <span className="text-xl">{currentLanguage.flag}</span>
+              <span className="hidden lg:block text-sm font-medium opacity-0 max-w-0 group-hover:max-w-[100px] group-hover:opacity-100 transition-all duration-300 overflow-hidden whitespace-nowrap">
+                {currentLanguage.nativeName}
+              </span>
+            </button>
+
+            {/* Dropdown */}
+            {isOpen && (
+              <div className="absolute top-full right-0 mt-2 bg-[#0A192F]/95 backdrop-blur-sm rounded-lg shadow-lg py-2 min-w-[160px]">
+                {Object.entries(languages).map(([code, { nativeName, flag }]) => (
+                  <button
+                    key={code}
+                    onClick={() => {
+                      i18n.changeLanguage(code);
+                      setIsOpen(false);
+                    }}
+                    className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-white/5 transition-colors ${
+                      code === i18n.language ? 'text-blue-400 font-medium' : 'text-white/90 hover:text-white'
+                    }`}
+                  >
+                    <span className="text-xl">{flag}</span>
+                    <span className="text-sm">{nativeName}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           {/* Hamburger menu voor mobiel */}
           <div className="relative lg:hidden" ref={menuRef}>
             <button
@@ -88,24 +122,6 @@ const Header = () => {
                     {name}
                   </button>
                 ))}
-                {/* Taal selector in mobiel menu */}
-                <div className="border-t border-white/10 mt-2 pt-2">
-                  {Object.entries(languages).map(([code, { nativeName, flag }]) => (
-                    <button
-                      key={code}
-                      onClick={() => {
-                        i18n.changeLanguage(code);
-                        setIsMenuOpen(false);
-                      }}
-                      className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-white/5 transition-colors ${
-                        code === i18n.language ? 'text-blue-400 font-medium' : 'text-white/90 hover:text-white'
-                      }`}
-                    >
-                      <span className="text-xl">{flag}</span>
-                      <span className="text-sm">{nativeName}</span>
-                    </button>
-                  ))}
-                </div>
               </div>
             )}
           </div>
