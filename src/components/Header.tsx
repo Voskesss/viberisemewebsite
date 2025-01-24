@@ -13,14 +13,13 @@ const Header = () => {
 
   const sections = [
     { id: 'features-section', name: t('features.title') },
-    { id: 'users-section', name: t('features.groups.users.title') },
-    { id: 'companies-section', name: t('features.groups.companies.title') },
-    { id: 'influencers-section', name: t('features.groups.influencers.title') },
-    { id: 'developers-section', name: t('features.groups.developers.title') },
-    { id: 'investors-section', name: t('features.groups.investors.title') },
+    { id: 'users-section', name: t('customer.title') },
+    { id: 'companies-section', name: t('company.title') },
+    { id: 'influencers-section', name: t('influencer.title') },
+    { id: 'developers-section', name: t('developer.title') },
+    { id: 'investors-section', name: t('investor.title') },
   ];
 
-  // Sluit menu's als er buiten geklikt wordt
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
@@ -35,20 +34,48 @@ const Header = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = 72; // Hoogte van de header
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
+  const handleSectionClick = (e: React.MouseEvent, id: string) => {
+    e.preventDefault();
+    e.stopPropagation();
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-      setIsMenuOpen(false);
+    const section = document.getElementById(id);
+    if (!section) {
+      console.warn(`Section with id ${id} not found`);
+      return;
     }
+
+    setIsMenuOpen(false);
+
+    setTimeout(() => {
+      const isMobile = window.innerWidth < 1024;
+      const headerOffset = 72;
+
+      if (isMobile) {
+        section.scrollIntoView();
+        window.scrollBy({
+          top: -headerOffset,
+          behavior: 'smooth'
+        });
+      } else {
+        const sectionPosition = section.getBoundingClientRect().top;
+        const offsetPosition = sectionPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 50);
   };
+
+  useEffect(() => {
+    const handleTouchStart = () => {
+      setIsMenuOpen(false);
+      setIsOpen(false);
+    };
+
+    document.addEventListener('touchstart', handleTouchStart);
+    return () => document.removeEventListener('touchstart', handleTouchStart);
+  }, []);
 
   const handleLanguageChange = (code: string) => {
     i18n.changeLanguage(code);
@@ -137,7 +164,7 @@ const Header = () => {
                 {sections.map(({ id, name }) => (
                   <button
                     key={id}
-                    onClick={() => scrollToSection(id)}
+                    onClick={(e) => handleSectionClick(e, id)}
                     className="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors text-white/90 hover:text-white text-sm"
                   >
                     {name}
@@ -172,7 +199,7 @@ const Header = () => {
                 {sections.map(({ id, name }) => (
                   <button
                     key={id}
-                    onClick={() => scrollToSection(id)}
+                    onClick={(e) => handleSectionClick(e, id)}
                     className="w-full text-left px-4 py-2 hover:bg-white/5 transition-colors text-white/90 hover:text-white text-sm"
                   >
                     {name}

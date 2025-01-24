@@ -8,19 +8,16 @@ const CarouselSection = () => {
 
   const slides = [
     {
-      image: "/images/testimonial-3.jpg",
       title: t('carousel.audit.title'),
       subtitle: t('carousel.audit.subtitle'),
       description: t('carousel.audit.description')
     },
     {
-      image: "/images/testimonial-2.jpg",
       title: t('carousel.assessors.title'),
       subtitle: t('carousel.assessors.subtitle'),
       description: t('carousel.assessors.description')
     },
     {
-      image: "/images/testimonial-1.jpg",
       title: t('carousel.evc.title'),
       subtitle: t('carousel.evc.subtitle'),
       description: t('carousel.evc.description')
@@ -77,18 +74,9 @@ const CarouselSection = () => {
       </div>
 
       <div className="container mx-auto px-4 py-24">
-        <div {...handlers} className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Afbeelding sectie */}
-          <div className="relative max-w-[480px] mx-auto">
-            <img
-              src={slides[currentSlide].image}
-              alt={slides[currentSlide].title}
-              className="rounded-lg shadow-2xl w-full transition-opacity duration-500"
-            />
-          </div>
-
+        <div {...handlers} className="max-w-3xl mx-auto">
           {/* Tekst sectie */}
-          <div className="text-white">
+          <div className="text-white text-center">
             <h2 className="text-4xl font-bold mb-4">
               {slides[currentSlide].title}
             </h2>
