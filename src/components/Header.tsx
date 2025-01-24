@@ -15,7 +15,7 @@ const Header = () => {
         <a href="/" className="flex items-center">
           <img
             className="h-12 w-auto"
-            src="/images/logo-dark.png"
+            src="/viberisemewebsite/images/logo-dark.png"
             alt="SkillVal"
           />
         </a>

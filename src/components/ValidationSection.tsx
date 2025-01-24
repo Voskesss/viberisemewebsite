@@ -11,7 +11,7 @@ const ValidationSection = () => {
           <div className="relative">
             <img
               className="w-full h-auto rounded-lg shadow-lg"
-              src="/images/validation.png"
+              src="/viberisemewebsite/images/validation.png"
               alt={t('validation.image')}
             />
           </div>

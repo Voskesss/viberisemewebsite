@@ -11,8 +11,8 @@ const Footer = () => {
           {/* Logo & Info */}
           <div className="flex flex-col items-center md:items-start">
             <img
-              className="h-8 w-auto mb-4"
-              src="/images/logo-light.png"
+              className="h-12 w-auto mb-4"
+              src="/viberisemewebsite/images/logo-light.png"
               alt="SkillVal"
             />
             <p className="text-sm text-gray-500 text-center md:text-left">

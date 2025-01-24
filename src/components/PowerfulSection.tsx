@@ -41,9 +41,9 @@ const PowerfulSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-transparent md:hidden" />
             <img
-              className="w-full h-auto rounded-lg shadow-lg"
-              src="/images/dashboard.png"
+              src="/viberisemewebsite/images/dashboard.png"
               alt={t('powerful.image')}
+              className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
         </div>

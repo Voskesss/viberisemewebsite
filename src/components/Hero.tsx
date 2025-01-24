@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="full-width relative hero-section min-h-[600px] md:min-h-[800px] bg-white" style={{
-      backgroundImage: 'url(/images/hero-bg.jpg)',
+      backgroundImage: 'url(/viberisemewebsite/images/hero-bg.jpg)',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center top'
@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Logo links bovenin */}
       <div className="absolute top-32 left-8 md:left-12 lg:left-16 z-10 w-[40%] md:w-[50%] max-w-[450px] min-w-[180px]">
         <img
-          src="/images/logo-light.png"
+          src="/viberisemewebsite/images/logo-light.png"
           alt="SkillVal"
           className="w-full h-auto"
         />
