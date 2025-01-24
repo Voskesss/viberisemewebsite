@@ -135,16 +135,26 @@
     "sending": "Bezig met verzenden...",
     "error": "Er ging iets mis. Probeer het later opnieuw."
   },
+  "navigation": {
+    "features": "Functies",
+    "pricing": "Prijzen",
+    "about": "Over ons",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "blog": "Blog"
+  },
   "footer": {
-    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke data te beheren en te benutten.",
+    "product": "Product",
+    "company": "Bedrijf",
+    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke gegevens te beheren en er geld mee te verdienen.",
     "contact": {
-      "title": "Neem contact op",
+      "title": "Contact",
       "name": "Naam",
-      "email": "E-mailadres",
+      "email": "E-mail",
       "message": "Bericht",
-      "send": "Verstuur",
-      "success": "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.",
-      "error": "Er is iets misgegaan. Probeer het later nog eens."
+      "send": "Versturen",
+      "success": "Bedankt voor je bericht! We nemen snel contact op.",
+      "error": "Er ging iets mis. Probeer het later nog eens."
     },
     "copyright": "Alle rechten voorbehouden"
   },

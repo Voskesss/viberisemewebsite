@@ -8,9 +8,6 @@ import CustomerSection from './components/CustomerSection'
 import CompanySection from './components/CompanySection'
 import InvestorSection from './components/InvestorSection'
 import DeveloperSection from './components/DeveloperSection'
-import NewsletterSection from './components/NewsletterSection'
-import CarouselSection from './components/CarouselSection'
-import ValidationSection from './components/ValidationSection'
 import Footer from './components/Footer'
 import SEO from './components/SEO'
 import Header from './components/Header'
@@ -41,9 +38,7 @@ function App() {
           <InfluencerSection />
           <InvestorSection />
           <DeveloperSection />
-          <ValidationSection />
-          <CarouselSection />
-          <NewsletterSection />
+          
         </main>
         <Footer />
         <ScrollToTop />
