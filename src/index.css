@@ -115,56 +115,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Hero backgrounds */
-.hero-section {
-  background-image: url('/images/homepage-bg.jpg');
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin-top: -40px; /* Laat de hero iets onder de header beginnen */
-}
-
-/* Hero section background positioning */
-.hero-section {
-  background-position: center 50px !important;
-}
-
-@media (min-width: 768px) {
-  .hero-section {
-    background-size: cover !important;
-  }
-}
-
-.hero-section::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 150px;
-  background: white;
-  clip-path: ellipse(100% 100% at 50% 100%);
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    background-image: url('/images/mobile-bg.jpg');
-    background-position: center top;
-    background-size: cover !important;
-    min-height: auto;
-    padding-top: 85%; /* Hogere ratio voor meer van de afbeelding */
-    margin-bottom: 2rem;
-    margin-top: -20px;
-  }
-
-  .hero-section::after {
-    height: 40px;
-    bottom: -1px;
-  }
-}
-
 /* Custom animations */
 @keyframes float {
   0% { transform: translateY(0px); }

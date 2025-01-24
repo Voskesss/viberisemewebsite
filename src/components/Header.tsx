@@ -13,11 +13,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <img
-            className="h-12 w-auto"
-            src="/viberisemewebsite/images/logo-dark.png"
-            alt="SkillVal"
-          />
+          <span className="text-2xl font-bold text-gray-900">VibeRise</span>
         </a>
 
         {/* Right side navigation */}

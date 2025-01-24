@@ -10,21 +10,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           {/* Logo & Info */}
           <div className="flex flex-col items-center md:items-start">
-            <img
-              className="h-12 w-auto mb-4"
-              src="/viberisemewebsite/images/logo-light.png"
-              alt="SkillVal"
-            />
-            <p className="text-sm text-gray-500 text-center md:text-left">
-              SkillVal<br />
-              Arnhem, Nederland
+            <span className="text-2xl font-bold text-white mb-4">VibeRise</span>
+            <p className="text-sm text-gray-400 text-center md:text-left">
+              Your data should work for you.
             </p>
-            <a
-              href="mailto:info@skillval.eu"
-              className="text-sm text-gray-500 hover:text-gray-900 mt-2"
-            >
-              info@skillval.eu
-            </a>
           </div>
 
           {/* Contact Form */}
