@@ -4,10 +4,15 @@ interface WaitlistResponse {
   error?: string;
   position?: number;
   referralLink?: string;
+  userGroup?: string;
 }
 
 export async function joinWaitlist(email: string, userGroup: string): Promise<WaitlistResponse> {
   try {
+    // Maak een unieke referral link
+    const referralLink = new URL(import.meta.env.VITE_WEBSITE_URL);
+    referralLink.searchParams.set('ref', email);
+
     const response = await fetch('https://api.getwaitlist.com/api/v1/waiter', {
       method: 'POST',
       headers: {
@@ -17,9 +22,11 @@ export async function joinWaitlist(email: string, userGroup: string): Promise<Wa
       body: JSON.stringify({
         email,
         waitlist_id: import.meta.env.VITE_WAITLIST_ID,
-        referral_link: `${import.meta.env.VITE_WEBSITE_URL}?ref=${email}`,
-        profile: {
-          userGroup
+        referral_link: referralLink.toString(),
+        metadata: {
+          userGroup,
+          registrationDate: new Date().toISOString(),
+          source: document.referrer || 'direct'
         }
       })
     });
@@ -33,7 +40,8 @@ export async function joinWaitlist(email: string, userGroup: string): Promise<Wa
     return {
       success: true,
       position: data.position,
-      referralLink: data.referral_link
+      referralLink: data.referral_link,
+      userGroup
     };
   } catch (error) {
     console.error('Waitlist error:', error);
