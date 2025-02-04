@@ -122,7 +122,6 @@ const InvestorSection = () => {
                 title="VibeRise investors"
               />
             </div>
-            <script src="https://player.vimeo.com/api/player.js" async></script>
           </motion.div>
 
           {/* Features Grid */}
@@ -160,14 +159,13 @@ const InvestorSection = () => {
             </button>
           </motion.div>
         </div>
-
-        {/* Wachtlijst Modal */}
-        <WaitlistModal
-          isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
-          userGroup="investor"
-        />
       </div>
+      {/* Wachtlijst Modal */}
+      <WaitlistModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        userGroup="investor"
+      />
     </section>
   );
 };
