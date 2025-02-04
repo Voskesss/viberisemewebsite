@@ -75,19 +75,19 @@ const Features = () => {
           >
             <motion.div
               animate={{ 
-                scale: [1, 1.02, 1],
-                rotate: [-0.5, 0.5, -0.5]
+                scale: [1, 1.03, 1],
+                rotate: [-1, 1, -1]
               }}
               transition={{
-                duration: 4,
+                duration: 3,
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
               className="inline-block"
             >
-              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent relative">
+              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-500 bg-clip-text text-transparent relative">
                 {t('features.title')}
-                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600/20 via-blue-600/20 to-purple-600/20 blur-xl -z-10 rounded-full opacity-50" />
+                <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/20 via-yellow-600/20 to-yellow-500/20 blur-xl -z-10 rounded-full opacity-50" />
               </h2>
             </motion.div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -106,15 +106,15 @@ const Features = () => {
             {/* Global Consciousness Card */}
             <motion.div 
               variants={item}
-              whileHover={{ y: -5, scale: 1.02 }}
+              whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-purple-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 019-9" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -129,15 +129,15 @@ const Features = () => {
             {/* Community Card */}
             <motion.div 
               variants={item}
-              whileHover={{ y: -5, scale: 1.02 }}
+              whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -152,15 +152,15 @@ const Features = () => {
             {/* Blockchain Card */}
             <motion.div 
               variants={item}
-              whileHover={{ y: -5, scale: 1.02 }}
+              whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-cyan-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
