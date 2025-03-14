@@ -36,12 +36,13 @@
       "title": "AI en Menselijke Validatie om fraude te voorkomen",
       "description": "AI en Menselijke Validatie werken samen om fraude te voorkomen en vertrouwen in vaardigheidsbeoordelingen te waarborgen."
     },
-    "title": "Jouw Data, Jouw Regels",
+    "mainTitle": "Jouw Data, Jouw Regels",
     "subtitle": "Word onderdeel van de revolutie waar jij bepaalt wat er met jouw data gebeurt. En verdien eraan!",
-    "cta": {
+    "mainCta": {
       "title": "Klaar om te beginnen?",
       "text": "Begin vandaag nog met het beschermen van je data.",
-      "button": "Begin nu"
+      "button": "Begin nu",
+      "subtitle": "Ontdek hoe VibePhone je digitale leven kan transformeren"
     },
     "main": {
       "title": "100% Privacy Gegarandeerd",
@@ -54,6 +55,32 @@
     "blockchain": {
       "title": "Jij Hebt De Controle",
       "description": "Bepaal zelf wie jouw data mag gebruiken. Één klik om toegang in te trekken."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Een revolutionair apparaat dat al je communicatie, identiteit en digitale leven integreert in één naadloze ervaring.",
+      "features": {
+        "privacy": {
+          "title": "Privacy-First Ontwerp",
+          "description": "Gebouwd met privacy als uitgangspunt, niet als extra functie. Jouw gegevens blijven van jou."
+        },
+        "cloud": {
+          "title": "Cloud-Gebaseerd Systeem",
+          "description": "Alle functionaliteit komt uit de cloud, waardoor het apparaat betaalbaar blijft en altijd up-to-date is."
+        },
+        "calling": {
+          "title": "Één Communicatieplatform",
+          "description": "Vergeet e-mail, WhatsApp en SMS. VibePhone integreert alle communicatie in één intuïtief platform."
+        },
+        "independence": {
+          "title": "Onafhankelijkheid Gegarandeerd",
+          "description": "Geen afhankelijkheid van grote Amerikaanse techbedrijven. Jij bepaalt wie toegang heeft tot jouw digitale leven."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "De technische kern van het VibePhone ecosysteem. Een geavanceerde kaart die jouw digitale identiteit veilig opslaat."
+      }
     },
     "movement": {
       "title": "Doe Met Ons Mee"
