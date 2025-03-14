@@ -111,8 +111,34 @@
       "description": "Deine Online-Aktivität ist wertvoll. Wir sorgen dafür, dass du dafür bezahlt wirst."
     },
     "blockchain": {
-      "title": "Du Hast Die Kontrolle",
-      "description": "Bestimme selbst, wer deine Daten nutzen darf. Ein Klick zum Widerrufen."
+      "title": "Sie haben die Kontrolle",
+      "description": "Wählen Sie, wer Ihre Daten nutzen darf. Ein Klick, um den Zugriff zu widerrufen."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Ein revolutionäres Gerät, das Ihre gesamte Kommunikation, Identität und Ihr digitales Leben in einer nahtlosen Erfahrung integriert.",
+      "features": {
+        "privacy": {
+          "title": "Privacy-First Design",
+          "description": "Mit Datenschutz als Grundlage gebaut, nicht als Zusatzfunktion. Ihre Daten bleiben Ihre."
+        },
+        "cloud": {
+          "title": "Cloud-basiertes System",
+          "description": "Alle Funktionen kommen aus der Cloud, wodurch das Gerät erschwinglich und immer auf dem neuesten Stand bleibt."
+        },
+        "calling": {
+          "title": "Eine Kommunikationsplattform",
+          "description": "Vergessen Sie E-Mail, WhatsApp und SMS. VibePhone integriert die gesamte Kommunikation in eine intuitive Plattform."
+        },
+        "independence": {
+          "title": "Unabhängigkeit garantiert",
+          "description": "Keine Abhängigkeit von großen amerikanischen Technologieunternehmen. Sie entscheiden, wer Zugang zu Ihrem digitalen Leben hat."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Der technische Kern des VibePhone-Ökosystems. Eine fortschrittliche Karte, die Ihre digitale Identität sicher speichert."
+      }
     },
     "movement": {
       "title": "Machen Sie Mit"
@@ -142,7 +168,14 @@
     "cta": {
       "title": "Bereit zu starten?",
       "text": "Beginne noch heute damit, deine Daten zu schützen.",
-      "button": "Jetzt starten"
+      "button": "Jetzt starten",
+      "subtitle": "Entdecken Sie, wie VibePhone Ihr digitales Leben transformieren kann"
+    },
+    "mainCta": {
+      "title": "Bereit anzufangen?",
+      "text": "Beginnen Sie noch heute mit dem Schutz Ihrer Daten.",
+      "button": "Jetzt starten",
+      "subtitle": "Entdecken Sie, wie VibePhone Ihr digitales Leben transformieren kann"
     }
   },
   "hero": {

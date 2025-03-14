@@ -111,8 +111,40 @@
       "description": "Połącz się z osobami myślącymi podobnie, które wierzą w sprawiedliwą cyfrową przyszłość"
     },
     "blockchain": {
-      "title": "Technologia Blockchain",
-      "description": "Bezpieczna i przejrzysta wymiana danych z najnowszymi innowacjami blockchain"
+      "title": "Masz Kontrolę",
+      "description": "Wybierz, kto może korzystać z Twoich danych. Jedno kliknięcie, aby cofnąć dostęp."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Rewolucyjne urządzenie, które integruje całe Twoje cyfrowe życie w jednym płynnym doświadczeniu.",
+      "features": {
+        "privacy": {
+          "title": "Projekt z Prywatnością na Pierwszym Miejscu",
+          "description": "Zbudowany z prywatnością jako podstawą, a nie jako dodatkowa funkcja. Twoje dane pozostają Twoje."
+        },
+        "cloud": {
+          "title": "System Oparty na Chmurze",
+          "description": "Wszystkie funkcje pochodzą z chmury, co sprawia, że urządzenie jest przystępne cenowo i zawsze aktualne."
+        },
+        "calling": {
+          "title": "Jedna Platforma Komunikacyjna",
+          "description": "Zapomnij o e-mailu, WhatsApp i SMS. VibePhone integruje całą komunikację w jednej intuicyjnej platformie."
+        },
+        "independence": {
+          "title": "Gwarantowana Niezależność",
+          "description": "Brak zależności od dużych amerykańskich firm technologicznych. To Ty decydujesz, kto ma dostęp do Twojego cyfrowego życia."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Techniczne serce ekosystemu VibePhone. Zaawansowana karta, która bezpiecznie przechowuje Twoją cyfrową tożsamość."
+      }
+    },
+    "mainCta": {
+      "title": "Gotowy, aby zacząć?",
+      "text": "Zacznij chronić swoje dane już dzisiaj.",
+      "button": "Rozpocznij",
+      "subtitle": "Odkryj, jak VibePhone może przekształcić Twoje cyfrowe życie"
     },
     "movement": {
       "title": "Dołącz do Ruchu"

@@ -26,6 +26,12 @@
   "features": {
     "title": "Your Data, Your Rules",
     "subtitle": "Join the revolution where you decide what happens with your data. And get paid for it!",
+    "mainCta": {
+      "title": "Ready to get started?",
+      "text": "Start protecting your data today.",
+      "button": "Get Started",
+      "subtitle": "Discover how VibePhone can transform your digital life"
+    },
     "main": {
       "title": "100% Privacy Guaranteed",
       "description": "Your data is yours. Period. We ensure no one can access it without your permission."
@@ -37,6 +43,32 @@
     "blockchain": {
       "title": "You're In Control",
       "description": "Choose who can use your data. One click to revoke access."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "A revolutionary device that integrates all your communication, identity, and digital life into one seamless experience.",
+      "features": {
+        "privacy": {
+          "title": "Privacy-First Design",
+          "description": "Built with privacy as the foundation, not as an extra feature. Your data remains yours."
+        },
+        "cloud": {
+          "title": "Cloud-Based System",
+          "description": "All functionality comes from the cloud, keeping the device affordable and always up-to-date."
+        },
+        "calling": {
+          "title": "One Communication Platform",
+          "description": "Forget email, WhatsApp, and SMS. VibePhone integrates all communication into one intuitive platform."
+        },
+        "independence": {
+          "title": "Independence Guaranteed",
+          "description": "No dependence on big American tech companies. You decide who has access to your digital life."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "The technical core of the VibePhone ecosystem. An advanced card that securely stores your digital identity."
+      }
     },
     "movement": {
       "title": "Join the Movement"

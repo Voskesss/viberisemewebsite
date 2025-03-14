@@ -42,8 +42,40 @@
       "description": "Forbind med ligesindede, der tror på en retfærdig digital fremtid"
     },
     "blockchain": {
-      "title": "Blockchain-teknologi",
-      "description": "Sikker og gennemsigtig dataudveksling med de nyeste blockchain-innovationer"
+      "title": "Du Har Kontrollen",
+      "description": "Vælg, hvem der kan bruge dine data. Et klik for at tilbagekalde adgangen."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "En revolutionerende enhed, der integrerer al din kommunikation, identitet og digitale liv i én sammenhængende oplevelse.",
+      "features": {
+        "privacy": {
+          "title": "Privacy-First Design",
+          "description": "Bygget med privatliv som grundlag, ikke som en ekstra funktion. Dine data forbliver dine."
+        },
+        "cloud": {
+          "title": "Cloud-baseret system",
+          "description": "Al funktionalitet kommer fra skyen, hvilket holder enheden overkommelig og altid opdateret."
+        },
+        "calling": {
+          "title": "Én Kommunikationsplatform",
+          "description": "Glem e-mail, WhatsApp og SMS. VibePhone integrerer al kommunikation i én intuitiv platform."
+        },
+        "independence": {
+          "title": "Uafhængighed Garanteret",
+          "description": "Ingen afhængighed af store amerikanske teknologivirksomheder. Du bestemmer, hvem der har adgang til dit digitale liv."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Den tekniske kerne i VibePhone-økosystemet. Et avanceret kort, der sikkert gemmer din digitale identitet."
+      }
+    },
+    "mainCta": {
+      "title": "Klar til at komme i gang?",
+      "text": "Begynd at beskytte dine data i dag.",
+      "button": "Kom i gang",
+      "subtitle": "Opdag hvordan VibePhone kan transformere dit digitale liv"
     },
     "movement": {
       "title": "Vær Med i Bevægelsen"

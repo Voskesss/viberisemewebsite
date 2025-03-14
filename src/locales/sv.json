@@ -18,6 +18,22 @@
       "for": "för"
     }
   },
+  "featuresOld": {
+    "title": "Dina Data, Dina Regler",
+    "subtitle": "Anslut dig till revolutionen där du bestämmer vad som händer med dina data. Och få betalt för det!",
+    "main": {
+      "title": "100% Integritet Garanterad",
+      "description": "Dina data är dina. Punkt. Vi ser till att ingen kan komma åt dem utan ditt tillstånd."
+    },
+    "community": {
+      "title": "Tjäna Med Varje Klick",
+      "description": "Din onlineaktivitet är värdefull. Vi ser till att du får betalt för den."
+    },
+    "social": {
+      "title": "Anslut Med Likasinnade",
+      "description": "Anslut med likasinnade som tror på en rättvis digital framtid"
+    }
+  },
   "features": {
     "workflow": {
       "title": "Fantastiskt arbetsflöde",
@@ -106,8 +122,40 @@
       "description": "Anslut med likasinnade som tror på en rättvis digital framtid"
     },
     "blockchain": {
-      "title": "Blockchain-teknik",
-      "description": "Säkert och transparent datautbyte med de senaste blockchain-innovationerna"
+      "title": "Du Har Kontrollen",
+      "description": "Välj vem som kan använda dina data. Ett klick för att återkalla åtkomst."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "En revolutionerande enhet som integrerar all din kommunikation, identitet och digitala liv i en smidig upplevelse.",
+      "features": {
+        "privacy": {
+          "title": "Integritet-Först Design",
+          "description": "Byggd med integritet som grund, inte som en extrafunktion. Dina data förblir dina."
+        },
+        "cloud": {
+          "title": "Molnbaserat System",
+          "description": "All funktionalitet kommer från molnet, vilket håller enheten prisvärd och alltid uppdaterad."
+        },
+        "calling": {
+          "title": "En Kommunikationsplattform",
+          "description": "Glöm e-post, WhatsApp och SMS. VibePhone integrerar all kommunikation i en intuitiv plattform."
+        },
+        "independence": {
+          "title": "Oberoende Garanterat",
+          "description": "Inget beroende av stora amerikanska teknikföretag. Du bestämmer vem som har tillgång till ditt digitala liv."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Den tekniska kärnan i VibePhone-ekosystemet. Ett avancerat kort som säkert lagrar din digitala identitet."
+      }
+    },
+    "mainCta": {
+      "title": "Redo att börja?",
+      "text": "Börja skydda dina data idag.",
+      "button": "Kom igång",
+      "subtitle": "Upptäck hur VibePhone kan transformera ditt digitala liv"
     },
     "movement": {
       "title": "Gå Med i Rörelsen"

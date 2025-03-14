@@ -111,8 +111,34 @@
       "description": "Connettiti con persone che la pensano come te e credono in un futuro digitale equo"
     },
     "blockchain": {
-      "title": "Tecnologia Blockchain",
-      "description": "Scambio di dati sicuro e trasparente con le ultime innovazioni blockchain"
+      "title": "Tu Hai il Controllo",
+      "description": "Scegli chi può utilizzare i tuoi dati. Un clic per revocare l'accesso."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Un dispositivo rivoluzionario che integra tutte le tue comunicazioni, identità e vita digitale in un'unica esperienza senza soluzione di continuità.",
+      "features": {
+        "privacy": {
+          "title": "Design Privacy-First",
+          "description": "Costruito con la privacy come fondamento, non come funzionalità aggiuntiva. I tuoi dati rimangono tuoi."
+        },
+        "cloud": {
+          "title": "Sistema Basato sul Cloud",
+          "description": "Tutte le funzionalità provengono dal cloud, mantenendo il dispositivo conveniente e sempre aggiornato."
+        },
+        "calling": {
+          "title": "Una Piattaforma di Comunicazione",
+          "description": "Dimentica email, WhatsApp e SMS. VibePhone integra tutte le comunicazioni in un'unica piattaforma intuitiva."
+        },
+        "independence": {
+          "title": "Indipendenza Garantita",
+          "description": "Nessuna dipendenza dalle grandi aziende tecnologiche americane. Sei tu a decidere chi ha accesso alla tua vita digitale."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Il nucleo tecnico dell'ecosistema VibePhone. Una scheda avanzata che memorizza in modo sicuro la tua identità digitale."
+      }
     },
     "movement": {
       "title": "Unisciti al Movimento"
@@ -138,6 +164,12 @@
         "title": "Influencer",
         "description": "Aumenta la tua portata e guadagna di più con i tuoi contenuti mantenendo la tua privacy."
       }
+    },
+    "mainCta": {
+      "title": "Pronto per iniziare?",
+      "text": "Inizia a proteggere i tuoi dati oggi stesso.",
+      "button": "Inizia ora",
+      "subtitle": "Scopri come VibePhone può trasformare la tua vita digitale"
     },
     "cta": {
       "title": "Unisciti per Elevare il Vibe del Mondo",

@@ -15,7 +15,7 @@
       "for": "para"
     }
   },
-  "features": {
+  "featuresOld": {
     "workflow": {
       "title": "Flujo de trabajo excepcional",
       "description": "Plataforma de validación de habilidades que las organizaciones utilizan para centrarse en identificar, validar y aprovechar las habilidades que impulsan el crecimiento y el éxito."
@@ -197,18 +197,42 @@
   },
   "features": {
     "title": "Tus Datos, Tus Reglas",
-    "subtitle": "Únete a la revolución donde tú decides qué sucede con tus datos. ¡Y gana dinero con ellos!",
-    "main": {
-      "title": "100% de Privacidad Garantizada",
-      "description": "Tus datos son tuyos. Punto. Nos aseguramos de que nadie pueda acceder sin tu permiso."
-    },
-    "community": {
-      "title": "Gana Con Cada Clic",
-      "description": "Tu actividad en línea es valiosa. Nos aseguramos de que te paguen por ella."
-    },
+    "subtitle": "Únete a la revolución donde tú decides qué sucede con tus datos. ¡Y recibe un pago por ello!",
     "blockchain": {
       "title": "Tú Tienes el Control",
-      "description": "Decide quién puede usar tus datos. Un clic para revocar el acceso."
+      "description": "Elige quién puede usar tus datos. Un clic para revocar el acceso."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Un dispositivo revolucionario que integra toda tu comunicación, identidad y vida digital en una experiencia fluida.",
+      "features": {
+        "privacy": {
+          "title": "Diseño Centrado en la Privacidad",
+          "description": "Construido con la privacidad como fundamento, no como una característica adicional. Tus datos siguen siendo tuyos."
+        },
+        "cloud": {
+          "title": "Sistema Basado en la Nube",
+          "description": "Toda la funcionalidad proviene de la nube, lo que mantiene el dispositivo asequible y siempre actualizado."
+        },
+        "calling": {
+          "title": "Una Plataforma de Comunicación",
+          "description": "Olvídate del correo electrónico, WhatsApp y SMS. VibePhone integra toda la comunicación en una plataforma intuitiva."
+        },
+        "independence": {
+          "title": "Independencia Garantizada",
+          "description": "Sin dependencia de las grandes empresas tecnológicas estadounidenses. Tú decides quién tiene acceso a tu vida digital."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "El núcleo técnico del ecosistema VibePhone. Una tarjeta avanzada que almacena de forma segura tu identidad digital."
+      }
+    },
+    "mainCta": {
+      "title": "¿Listo para empezar?",
+      "text": "Comienza a proteger tus datos hoy mismo.",
+      "button": "Comenzar",
+      "subtitle": "Descubre cómo VibePhone puede transformar tu vida digital"
     },
     "movement": {
       "title": "Únete al Movimiento"

@@ -60,9 +60,9 @@
     "title": "Pour la validation de chaque compétence",
     "description": "Que ce soit par les processus EVC ou des rapports de compétences détaillés, VibeRise.me assure une reconnaissance précise des compétences. Donnez du pouvoir aux individus et aux organisations avec des évaluations fiables pour chaque étape de carrière."
   },
-  "features": {
+  "featuresPage": {
     "title": "Vos Données, Vos Règles",
-    "subtitle": "Rejoignez la révolution où vous décidez ce qui arrive à vos données. Et soyez payé pour ça !",
+    "subtitle": "Rejoignez la révolution où vous décidez ce qui se passe avec vos données. Et soyez payé pour cela !",
     "main": {
       "title": "100% de Confidentialité Garantie",
       "description": "Vos données sont les vôtres. Point final. Nous veillons à ce que personne n'y accède sans votre permission."
@@ -109,6 +109,38 @@
       "title": "Rejoignez-nous pour Élever le Vibe du Monde",
       "subtitle": "Ensemble, créons un monde numérique plus conscient",
       "button": "Commencer"
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Un appareil révolutionnaire qui intègre toutes vos communications, votre identité et votre vie numérique en une expérience fluide.",
+      "features": {
+        "privacy": {
+          "title": "Conception Axée sur la Confidentialité",
+          "description": "Conçu avec la confidentialité comme fondement, pas comme une fonctionnalité supplémentaire. Vos données restent les vôtres."
+        },
+        "cloud": {
+          "title": "Système Basé sur le Cloud",
+          "description": "Toutes les fonctionnalités proviennent du cloud, ce qui permet à l'appareil de rester abordable et toujours à jour."
+        },
+        "calling": {
+          "title": "Une Plateforme de Communication",
+          "description": "Oubliez les e-mails, WhatsApp et SMS. VibePhone intègre toutes les communications dans une plateforme intuitive."
+        },
+        "independence": {
+          "title": "Indépendance Garantie",
+          "description": "Aucune dépendance vis-à-vis des grandes entreprises technologiques américaines. Vous décidez qui a accès à votre vie numérique."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "Le cœur technique de l'écosystème VibePhone. Une carte avancée qui stocke en toute sécurité votre identité numérique."
+      }
+    },
+    "mainCta": {
+      "title": "Prêt à commencer ?",
+      "text": "Commencez à protéger vos données dès aujourd'hui.",
+      "button": "Commencer",
+      "subtitle": "Découvrez comment VibePhone peut transformer votre vie numérique"
     }
   },
   "influencer": {

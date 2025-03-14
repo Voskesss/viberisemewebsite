@@ -41,6 +41,22 @@
     "title": "Para validação de cada competência",
     "description": "Seja através de processos EVC ou relatórios detalhados de competências, o VibeRise.me garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
   },
+  "featuresOld": {
+    "title": "Seus Dados, Suas Regras",
+    "subtitle": "Junte-se à revolução onde você decide o que acontece com seus dados. E seja pago por isso!",
+    "main": {
+      "title": "100% de Privacidade Garantida",
+      "description": "Seus dados são seus. Ponto final. Garantimos que ninguém possa acessá-los sem sua permissão."
+    },
+    "community": {
+      "title": "Ganhe Com Cada Clique",
+      "description": "Sua atividade online é valiosa. Garantimos que você seja pago por ela."
+    },
+    "social": {
+      "title": "Conecte-se Com Pessoas Que Pensam Como Você",
+      "description": "Conecte-se com pessoas que pensam como você e acreditam em um futuro digital justo"
+    }
+  },
   "features": {
     "title": "Recursos Poderosos para seus Dados",
     "subtitle": "Descubra como o VibeRise ajuda você a retomar o controle de sua vida digital",
@@ -53,8 +69,34 @@
       "description": "Conecte-se com pessoas que pensam como você e acreditam em um futuro digital justo"
     },
     "blockchain": {
-      "title": "Tecnologia Blockchain",
-      "description": "Troca de dados segura e transparente com as últimas inovações em blockchain"
+      "title": "Você Tem o Controle",
+      "description": "Escolha quem pode usar seus dados. Um clique para revogar o acesso."
+    },
+    "device": {
+      "title": "VibePhone",
+      "description": "Um dispositivo revolucionário que integra toda a sua comunicação, identidade e vida digital em uma experiência perfeita.",
+      "features": {
+        "privacy": {
+          "title": "Design com Privacidade em Primeiro Lugar",
+          "description": "Construído com privacidade como base, não como um recurso extra. Seus dados continuam sendo seus."
+        },
+        "cloud": {
+          "title": "Sistema Baseado em Nuvem",
+          "description": "Todas as funcionalidades vêm da nuvem, mantendo o dispositivo acessível e sempre atualizado."
+        },
+        "calling": {
+          "title": "Uma Plataforma de Comunicação",
+          "description": "Esqueça e-mail, WhatsApp e SMS. O VibePhone integra toda a comunicação em uma plataforma intuitiva."
+        },
+        "independence": {
+          "title": "Independência Garantida",
+          "description": "Sem dependência de grandes empresas de tecnologia americanas. Você decide quem tem acesso à sua vida digital."
+        }
+      },
+      "card": {
+        "title": "VibeCard",
+        "description": "O núcleo técnico do ecossistema VibePhone. Um cartão avançado que armazena com segurança sua identidade digital."
+      }
     },
     "movement": {
       "title": "Junte-se ao Movimento"
@@ -90,6 +132,12 @@
       "title": "Junte-se para Elevar o Vibe do Mundo",
       "subtitle": "Juntos criamos um mundo digital mais consciente",
       "button": "Começar"
+    },
+    "mainCta": {
+      "title": "Pronto para começar?",
+      "text": "Comece a proteger seus dados hoje.",
+      "button": "Comece agora",
+      "subtitle": "Descubra como o VibePhone pode transformar sua vida digital"
     }
   },
   "influencer": {

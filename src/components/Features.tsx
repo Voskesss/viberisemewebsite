@@ -270,7 +270,7 @@ const Features = () => {
                     {t('features.device.card.description')}
                   </p>
                   <img 
-                    src="images/vibecard.jpeg" 
+                    src="public/images/vibecard.jpeg" 
                     alt="VibeCard" 
                     className="w-full h-auto rounded-lg shadow-lg mt-4 object-cover" 
                   />
