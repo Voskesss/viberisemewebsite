@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "VibeRise.me | Jouw Data, Jouw Kracht",
-    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
+    "title": "ColiBlanco.ai | Jouw Data, Jouw Kracht",
+    "description": "Neem controle over je data. ColiBlanco.ai stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
   },
   "metadata": {
-    "title": "VibeRise.me | Jouw Data, Jouw Kracht",
-    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
+    "title": "ColiBlanco.ai | Jouw Data, Jouw Kracht",
+    "description": "Neem controle over je data. ColiBlanco.ai stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
   },
   "hero": {
     "title": "Less work, more flow, more safety",
@@ -25,40 +25,40 @@
   },
   "features": {
     "workflow": {
-      "title": "Geweldige workflow",
-      "description": "VibeRise.me is een platform dat organisaties gebruiken om zich te focussen op het identificeren, valideren en benutten van vaardigheden die groei en succes stimuleren."
+      "title": "Vlieg vrij als een kolibrie",
+      "description": "ColiBlanco geeft je de vrijheid om te leven zoals jij wilt, zonder zorgen over je digitale privacy. Net als een kolibrie vlieg je moeiteloos door het digitale landschap."
     },
     "collaboration": {
-      "title": "Samenwerken met het team",
-      "description": "VibeRise.me is een platform dat mentoren, assessoren, EVC-aanbieders en werkgevers verbindt om effectief samen te werken en gefocust te blijven op vaardigheidsontwikkeling, validatie en loopbaangroei."
+      "title": "Geniet van elke digitale ervaring",
+      "description": "Met ColiBlanco geniet je zorgeloos van het internet. Jouw digitale nectar wordt niet langer gestolen door grote bedrijven, maar komt direct bij jou terecht."
     },
     "security": {
-      "title": "AI en Menselijke Validatie om fraude te voorkomen",
-      "description": "AI en Menselijke Validatie werken samen om fraude te voorkomen en vertrouwen in vaardigheidsbeoordelingen te waarborgen."
+      "title": "Beschermd door de natuur van technologie",
+      "description": "Net zoals de kolibrie snel en wendbaar is, beschermt onze technologie je tegen digitale roofdieren die uit zijn op jouw waardevolle data."
     },
-    "mainTitle": "Jouw Data, Jouw Regels",
-    "subtitle": "Word onderdeel van de revolutie waar jij bepaalt wat er met jouw data gebeurt. En verdien eraan!",
+    "mainTitle": "Vlieg Vrij in het Digitale Landschap",
+    "subtitle": "ColiBlanco geeft je vleugels om te ontsnappen aan de digitale kooien die grote techbedrijven voor je hebben gebouwd. En het beste? Je wordt er nog voor beloond ook!",
     "mainCta": {
-      "title": "Klaar om te beginnen?",
-      "text": "Begin vandaag nog met het beschermen van je data.",
-      "button": "Begin nu",
-      "subtitle": "Ontdek hoe VibePhone je digitale leven kan transformeren"
+      "title": "Klaar om je vleugels uit te slaan?",
+      "text": "Begin vandaag nog met je digitale bevrijding.",
+      "button": "Vlieg met ons mee",
+      "subtitle": "Ontdek hoe ColiPhone je digitale leven kan transformeren"
     },
     "main": {
-      "title": "100% Privacy Gegarandeerd",
-      "description": "Jouw data is van jou. Punt. Wij zorgen dat niemand er bij kan zonder jouw toestemming."
+      "title": "Jouw Digitale Nectar, Alleen voor Jou",
+      "description": "Net zoals een kolibrie nectar verzamelt, verzamel jij waardevolle digitale ervaringen. Maar in tegenstelling tot het huidige internet, blijft deze nectar van jou en alleen van jou."
     },
     "community": {
-      "title": "Verdien Met Elke Klik",
-      "description": "Jouw online activiteit is waardevol. Wij zorgen dat jij ervoor betaald krijgt."
+      "title": "Oogst de Vruchten van Je Digitale Tuin",
+      "description": "Elke klik, elke zoekopdracht, elke interactie online is waardevol. Met ColiBlanco pluk jij eindelijk de vruchten van je eigen digitale tuin."
     },
     "blockchain": {
-      "title": "Jij Hebt De Controle",
-      "description": "Bepaal zelf wie jouw data mag gebruiken. Één klik om toegang in te trekken."
+      "title": "Jij Bent de Dirigent van Je Digitale Orkest",
+      "description": "Bepaal zelf welke muziek er gespeeld wordt in je digitale leven. Met één beweging verander je de melodie of stop je het concert helemaal."
     },
     "device": {
-      "title": "VibePhone",
-      "description": "Een revolutionair apparaat dat al je communicatie, identiteit en digitale leven integreert in één naadloze ervaring.",
+      "title": "ColiPhone: Je Digitale Vleugels",
+      "description": "Een revolutionair apparaat dat je de vrijheid geeft om te vliegen in de digitale wereld, zonder je zorgen te maken over wie je bespioneert of je data steelt.",
       "features": {
         "privacy": {
           "title": "Privacy-First Ontwerp",
@@ -70,7 +70,7 @@
         },
         "calling": {
           "title": "Één Communicatieplatform",
-          "description": "Vergeet e-mail, WhatsApp en SMS. VibePhone integreert alle communicatie in één intuïtief platform."
+          "description": "Vergeet e-mail, WhatsApp en SMS. ColiPhone integreert alle communicatie in één intuïtief platform."
         },
         "independence": {
           "title": "Onafhankelijkheid Gegarandeerd",
@@ -79,7 +79,7 @@
       },
       "card": {
         "title": "VibeCard",
-        "description": "De technische kern van het VibePhone ecosysteem. Een geavanceerde kaart die jouw digitale identiteit veilig opslaat."
+        "description": "De technische kern van het ColiPhone ecosysteem. Een geavanceerde kaart die jouw digitale identiteit veilig opslaat."
       }
     },
     "movement": {
@@ -115,11 +115,11 @@
   },
   "powerful": {
     "title": "Eenvoudig te leren en extreem krachtig",
-    "description": "VibeRise.me vereenvoudigt data beheer en stelt teams in staat hun doelen te bereiken en betekenisvolle vooruitgang te boeken."
+    "description": "ColiBlanco.ai vereenvoudigt data beheer en stelt teams in staat hun doelen te bereiken en betekenisvolle vooruitgang te boeken."
   },
   "validation": {
     "title": "Voor validatie van elke vaardigheid",
-    "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, VibeRise.me zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
+    "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, ColiBlanco.ai zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
   },
   "carousel": {
     "audit": {
@@ -139,13 +139,13 @@
     }
   },
   "comingSoon": {
-    "title": "VibeRise.me Komt binnenkort",
-    "description": "VibeRise.me is er bijna! Wees klaar om data te beheren en groei te stimuleren zoals nooit tevoren."
+    "title": "ColiBlanco.ai Komt binnenkort",
+    "description": "ColiBlanco.ai is er bijna! Wees klaar om data te beheren en groei te stimuleren zoals nooit tevoren."
   },
   "newsletter": {
     "title": "Blijf op de hoogte",
     "subtitle": "Schrijf je in voor updates",
-    "description": "Schrijf je in voor de wachtlijst en ontvang updates over VibeRise.me",
+    "description": "Schrijf je in voor de wachtlijst en ontvang updates over ColiBlanco.ai",
     "placeholder": "Jouw e-mailadres",
     "button": "Inschrijven",
     "success": "Bedankt voor je aanmelding!",
@@ -173,7 +173,7 @@
   "footer": {
     "product": "Product",
     "company": "Bedrijf",
-    "description": "Neem controle over je data. VibeRise.me stelt je in staat om je persoonlijke gegevens te beheren en er geld mee te verdienen.",
+    "description": "Neem controle over je data. ColiBlanco.ai stelt je in staat om je persoonlijke gegevens te beheren en er geld mee te verdienen.",
     "contact": {
       "title": "Contact",
       "name": "Naam",
@@ -234,7 +234,7 @@
   },
   "influencer": {
     "title": "Maak Impact met Je Content",
-    "description": "Bereik meer mensen, verdien meer met je content en behoud volledige controle over je data. Met VibeRise krijg je de tools om je bereik te vergroten terwijl je privacy gewaarborgd blijft.",
+    "description": "Bereik meer mensen, verdien meer met je content en behoud volledige controle over je data. Met ColiBlanco.ai krijg je de tools om je bereik te vergroten terwijl je privacy gewaarborgd blijft.",
     "badge": "Voor influencers",
     "features": {
       "reach": {
@@ -305,11 +305,11 @@
     }
   },
   "waitlist": {
-    "title": "Sluit je aan bij VibeRise",
+    "title": "Sluit je aan bij ColiBlanco.ai",
     "description": {
       "consumer": "Word onderdeel van de beweging voor digitale vrijheid",
-      "company": "Ontdek hoe VibeRise jouw bedrijf kan helpen",
-      "influencer": "Versterk je bereik met VibeRise",
+      "company": "Ontdek hoe ColiBlanco.ai jouw bedrijf kan helpen",
+      "influencer": "Versterk je bereik met ColiBlanco.ai",
       "investor": "Investeer in de toekomst van digitale vrijheid",
       "developer": "Bouw mee aan de toekomst van het internet"
     },
@@ -318,7 +318,7 @@
     "loading": "Even geduld...",
     "privacy": "Door je aan te melden ga je akkoord met onze privacyvoorwaarden",
     "success": {
-      "title": "Welkom bij VibeRise!",
+      "title": "Welkom bij ColiBlanco.ai!",
       "position": "Je staat op positie {{position}} in de wachtlijst",
       "referral": "Deel deze link om hoger op de lijst te komen:",
       "close": "Sluiten"

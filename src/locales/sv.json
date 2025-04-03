@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "VibeRise.me | Din Data, Din Kraft",
-    "description": "Ta kontroll över din data. VibeRise.me låter dig äga, hantera och tjäna pengar på din personliga data med fullständig integritet och säkerhet."
+    "title": "ColiBlanco.ai | Din Data, Din Kraft",
+    "description": "Ta kontroll över din data. ColiBlanco.ai låter dig äga, hantera och tjäna pengar på din personliga data med fullständig integritet och säkerhet."
   },
   "hero": {
     "title": "Mindre arbete, mer flöde, mer säkerhet",
-    "subtitle": "VibeRise.me: Plattformen som validerar färdigheter och adderar värde till karriärer",
-    "description": "VibeRise.me gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling.",
+    "subtitle": "ColiBlanco.ai: Plattformen som validerar färdigheter och adderar värde till karriärer",
+    "description": "ColiBlanco.ai gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling.",
     "words": {
       "me": "jag",
       "social": "social",
@@ -50,11 +50,11 @@
   },
   "powerful": {
     "title": "Lätt att lära sig och extremt kraftfull",
-    "description": "VibeRise.me förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
+    "description": "ColiBlanco.ai förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
   },
   "validation": {
     "title": "För validering av varje kompetens",
-    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer VibeRise.me noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
+    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer ColiBlanco.ai noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
   },
   "carousel": {
     "audit": {
@@ -74,13 +74,13 @@
     }
   },
   "comingSoon": {
-    "title": "VibeRise.me kommer snart",
-    "description": "VibeRise.me är på väg! Var redo att ta kontroll över din data som aldrig förr."
+    "title": "ColiBlanco.ai kommer snart",
+    "description": "ColiBlanco.ai är på väg! Var redo att ta kontroll över din data som aldrig förr."
   },
   "newsletter": {
     "title": "Håll dig uppdaterad",
     "subtitle": "Registrera dig för uppdateringar",
-    "description": "Registrera dig på väntelistan och få uppdateringar om VibeRise.me",
+    "description": "Registrera dig på väntelistan och få uppdateringar om ColiBlanco.ai",
     "placeholder": "Din e-post",
     "button": "Registrera dig",
     "success": "Tack för din registrering!",
@@ -107,12 +107,12 @@
       "success": "Tack för ditt meddelande! Vi återkommer snart.",
       "error": "Något gick fel. Försök igen senare."
     },
-    "description": "Ta kontroll över din data. VibeRise.me låter dig hantera och tjäna pengar på din personliga data.",
+    "description": "Ta kontroll över din data. ColiBlanco.ai låter dig hantera och tjäna pengar på din personliga data.",
     "copyright": "Alla rättigheter förbehållna"
   },
-  "features": {
+  "featuresNew": {
     "title": "Kraftfulla Funktioner för Din Data",
-    "subtitle": "Upptäck hur VibeRise.me hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
+    "subtitle": "Upptäck hur ColiBlanco.ai hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
     "main": {
       "title": "Globalt Medvetande",
       "description": "Gå med i ett globalt nätverk som strävar efter digital frihet och rättvist datautbyte"
@@ -126,7 +126,7 @@
       "description": "Välj vem som kan använda dina data. Ett klick för att återkalla åtkomst."
     },
     "device": {
-      "title": "VibePhone",
+      "title": "ColiBlancoPhone",
       "description": "En revolutionerande enhet som integrerar all din kommunikation, identitet och digitala liv i en smidig upplevelse.",
       "features": {
         "privacy": {
@@ -139,7 +139,7 @@
         },
         "calling": {
           "title": "En Kommunikationsplattform",
-          "description": "Glöm e-post, WhatsApp och SMS. VibePhone integrerar all kommunikation i en intuitiv plattform."
+          "description": "Glöm e-post, WhatsApp och SMS. ColiBlancoPhone integrerar all kommunikation i en intuitiv plattform."
         },
         "independence": {
           "title": "Oberoende Garanterat",
@@ -147,15 +147,15 @@
         }
       },
       "card": {
-        "title": "VibeCard",
-        "description": "Den tekniska kärnan i VibePhone-ekosystemet. Ett avancerat kort som säkert lagrar din digitala identitet."
+        "title": "ColiBlancoCard",
+        "description": "Den tekniska kärnan i ColiBlancoPhone-ekosystemet. Ett avancerat kort som säkert lagrar din digitala identitet."
       }
     },
     "mainCta": {
       "title": "Redo att börja?",
       "text": "Börja skydda dina data idag.",
       "button": "Kom igång",
-      "subtitle": "Upptäck hur VibePhone kan transformera ditt digitala liv"
+      "subtitle": "Upptäck hur ColiBlancoPhone kan transformera ditt digitala liv"
     },
     "movement": {
       "title": "Gå Med i Rörelsen"
@@ -195,7 +195,7 @@
   },
   "influencer": {
     "title": "Förstärk Din Påverkan",
-    "subtitle": "Nå mer, tjäna mer och gör skillnad med VibeRise.me plattform för influencers.",
+    "subtitle": "Nå mer, tjäna mer och gör skillnad med ColiBlanco.ai plattform för influencers.",
     "features": {
       "reach": {
         "title": "Utöka Din Räckvidd",
@@ -217,11 +217,11 @@
     }
   },
   "waitlist": {
-    "title": "Gå med i VibeRise.me",
+    "title": "Gå med i ColiBlanco.ai",
     "description": {
       "consumer": "Bli en del av rörelsen för digital frihet",
-      "company": "Upptäck hur VibeRise.me kan hjälpa ditt företag",
-      "influencer": "Förstärk din räckvidd med VibeRise.me",
+      "company": "Upptäck hur ColiBlanco.ai kan hjälpa ditt företag",
+      "influencer": "Förstärk din räckvidd med ColiBlanco.ai",
       "investor": "Investera i framtiden för digital frihet",
       "developer": "Bygg internets framtid"
     },
@@ -230,7 +230,7 @@
     "loading": "Vänligen vänta...",
     "privacy": "Genom att registrera dig godkänner du våra sekretessvillkor",
     "success": {
-      "title": "Välkommen till VibeRise.me!",
+      "title": "Välkommen till ColiBlanco.ai!",
       "position": "Du är på plats {{position}} i väntelistan",
       "referral": "Dela denna länk för att avancera i listan:",
       "close": "Stäng"

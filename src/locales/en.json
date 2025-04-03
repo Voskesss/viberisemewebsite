@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "VibeRise.me | Your Data, Your Power",
-    "description": "Take control of your data. VibeRise.me empowers you to own, manage, and monetize your personal data while maintaining complete privacy and security."
+    "title": "ColiBlanco.ai | Your Data, Your Power",
+    "description": "Take control of your data. ColiBlanco.ai empowers you to own, manage, and monetize your personal data while maintaining complete privacy and security."
   },
   "meta": {
-    "title": "VibeRise.me | Your Data, Your Power - Take Control of Your Digital Life",
+    "title": "ColiBlanco.ai | Your Data, Your Power - Take Control of Your Digital Life",
     "description": "Experience a new era of data ownership where you're in control. Own your data, protect your privacy, and get rewarded for your attention."
   },
   "hero": {
@@ -30,7 +30,7 @@
       "title": "Ready to get started?",
       "text": "Start protecting your data today.",
       "button": "Get Started",
-      "subtitle": "Discover how VibePhone can transform your digital life"
+      "subtitle": "Discover how ColiPhone can transform your digital life"
     },
     "main": {
       "title": "100% Privacy Guaranteed",
@@ -45,7 +45,7 @@
       "description": "Choose who can use your data. One click to revoke access."
     },
     "device": {
-      "title": "VibePhone",
+      "title": "ColiPhone",
       "description": "A revolutionary device that integrates all your communication, identity, and digital life into one seamless experience.",
       "features": {
         "privacy": {
@@ -58,7 +58,7 @@
         },
         "calling": {
           "title": "One Communication Platform",
-          "description": "Forget email, WhatsApp, and SMS. VibePhone integrates all communication into one intuitive platform."
+          "description": "Forget email, WhatsApp, and SMS. ColiPhone integrates all communication into one intuitive platform."
         },
         "independence": {
           "title": "Independence Guaranteed",
@@ -67,7 +67,7 @@
       },
       "card": {
         "title": "VibeCard",
-        "description": "The technical core of the VibePhone ecosystem. An advanced card that securely stores your digital identity."
+        "description": "The technical core of the ColiPhone ecosystem. An advanced card that securely stores your digital identity."
       }
     },
     "movement": {
@@ -103,7 +103,7 @@
   },
   "powerful": {
     "title": "A New Era of Digital Control",
-    "description": "At VibeRise.me, we believe your data should work for you. Wherever you go, whichever device you use, your digital life follows—secure, private, and in your control.",
+    "description": "At ColiBlanco.ai, we believe your data should work for you. Wherever you go, whichever device you use, your digital life follows—secure, private, and in your control.",
     "description2": "Our AI assistant learns from you to assist you, without sending your habits or preferences to anyone else. Every insight it gains belongs to you.",
     "secure": {
       "title": "Secure & Private",
@@ -139,7 +139,7 @@
   "newsletter": {
     "title": "Stay Updated",
     "subtitle": "Subscribe for updates",
-    "description": "Join our waitlist to receive updates about VibeRise",
+    "description": "Join our waitlist to receive updates about ColiBlanco.ai",
     "placeholder": "Your email address",
     "button": "Subscribe",
     "success": "Thanks for subscribing!",
@@ -157,7 +157,7 @@
     "error": "Something went wrong. Please try again later."
   },
   "footer": {
-    "description": "Take control of your data. VibeRise.me empowers you to manage and monetize your personal data.",
+    "description": "Take control of your data. ColiBlanco.ai empowers you to manage and monetize your personal data.",
     "contact": {
       "title": "Contact Us",
       "name": "Name",
@@ -269,7 +269,7 @@
     "title": "Make Impact with Your Content",
     "subtitle": "Reach more people, earn more from your content, and maintain full control over your data",
     "badge": "For influencers",
-    "description": "Reach more people, earn more from your content, and maintain full control over your data. With VibeRise, you get the tools to expand your reach while ensuring your privacy remains protected.",
+    "description": "Reach more people, earn more from your content, and maintain full control over your data. With ColiBlanco.ai, you get the tools to expand your reach while ensuring your privacy remains protected.",
     "features": {
       "reach": {
         "title": "Expand Your Reach",
@@ -291,11 +291,11 @@
     }
   },
   "waitlist": {
-    "title": "Join VibeRise",
+    "title": "Join ColiBlanco.ai",
     "description": {
       "consumer": "Become part of the digital freedom movement",
-      "company": "Discover how VibeRise can help your business",
-      "influencer": "Amplify your reach with VibeRise",
+      "company": "Discover how ColiBlanco.ai can help your business",
+      "influencer": "Amplify your reach with ColiBlanco.ai",
       "investor": "Invest in the future of digital freedom",
       "developer": "Build the future of the internet"
     },
@@ -304,7 +304,7 @@
     "loading": "Please wait...",
     "privacy": "By signing up, you agree to our privacy terms",
     "success": {
-      "title": "Welcome to VibeRise!",
+      "title": "Welcome to ColiBlanco.ai!",
       "position": "You are position {{position}} on the waitlist",
       "referral": "Share this link to move up the list:",
       "close": "Close"

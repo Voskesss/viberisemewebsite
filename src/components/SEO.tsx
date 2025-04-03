@@ -11,13 +11,13 @@ const SEO = () => {
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://viberise.me/" />
+      <meta property="og:url" content="https://coliblanco.ai/" />
       <meta property="og:title" content={t('metadata.title')} />
       <meta property="og:description" content={t('metadata.description')} />
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://viberise.me/" />
+      <meta property="twitter:url" content="https://coliblanco.ai/" />
       <meta property="twitter:title" content={t('metadata.title')} />
       <meta property="twitter:description" content={t('metadata.description')} />
     </Helmet>

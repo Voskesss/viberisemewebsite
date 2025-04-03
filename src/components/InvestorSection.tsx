@@ -119,7 +119,7 @@ const InvestorSection = () => {
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-                title="VibeRise investors"
+                title="ColiBlanco investors"
               />
             </div>
           </motion.div>

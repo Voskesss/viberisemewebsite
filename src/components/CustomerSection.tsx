@@ -53,7 +53,7 @@ const CustomerSection = () => {
   return (
     <section className="relative" id="users-section">
       {/* Overgang van vorige sectie */}
-      <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-gray-50 to-transparent -translate-y-full pointer-events-none" />
+      <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-green-50 to-transparent -translate-y-full pointer-events-none" />
       
       {/* Golvende overgang */}
       <div className="absolute top-0 -translate-y-[99%] z-10 full-width">
@@ -64,15 +64,15 @@ const CustomerSection = () => {
         >
           <path 
             d="M0,0 C480,100 960,100 1440,0 L1440,100 L0,100 Z" 
-            className="fill-gray-50"
+            className="fill-green-50"
           />
         </svg>
       </div>
 
-      <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden full-width">
+      <div className="bg-gradient-to-b from-white to-green-50 pt-24 pb-32 relative overflow-hidden full-width">
         {/* Energetische achtergrond */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-100/20 to-blue-100/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-100/20 to-blue-100/20" />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ 
@@ -84,7 +84,7 @@ const CustomerSection = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-purple-400/10 via-blue-400/10 to-purple-400/10 blur-3xl"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-green-400/10 via-blue-400/10 to-green-400/10 blur-3xl"
           />
         </div>
 
@@ -95,12 +95,12 @@ const CustomerSection = () => {
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-100/50 to-blue-100/50 backdrop-blur-sm border border-white/20 shadow-sm mb-6"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-green-100/50 to-blue-100/50 backdrop-blur-sm border border-white/20 shadow-sm mb-6"
             >
-              <svg className="w-5 h-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
-              <span className="text-sm font-medium bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+              <span className="text-sm font-medium bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
                 {t('customer.badge')}
               </span>
             </motion.div>
@@ -108,7 +108,7 @@ const CustomerSection = () => {
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-600 via-blue-600 to-green-600 bg-clip-text text-transparent"
             >
               {t('customer.title')}
             </motion.h2>
@@ -135,14 +135,14 @@ const CustomerSection = () => {
                   style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}}
                   frameBorder="0" 
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                  title="VibeRise.me"
+                  title="ColiBlanco.ai"
                 />
               </div>
               <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             
             {/* Energetische elementen rond de video */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-purple-500/10 rounded-3xl blur-xl -z-10" />
+            <div className="absolute -inset-4 bg-gradient-to-r from-green-500/10 via-blue-500/10 to-green-500/10 rounded-3xl blur-xl -z-10" />
             <motion.div
               animate={{
                 opacity: [0.5, 0.8, 0.5],
@@ -153,7 +153,7 @@ const CustomerSection = () => {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="absolute -inset-1 bg-gradient-to-r from-purple-500/20 via-blue-500/20 to-purple-500/20 rounded-2xl blur-lg -z-10"
+              className="absolute -inset-1 bg-gradient-to-r from-green-500/20 via-blue-500/20 to-green-500/20 rounded-2xl blur-lg -z-10"
             />
           </motion.div>
 
@@ -165,11 +165,11 @@ const CustomerSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
-                className="bg-white rounded-2xl p-8 shadow-lg border border-purple-100 relative overflow-hidden group"
+                className="bg-white rounded-2xl p-8 shadow-lg border border-green-100 relative overflow-hidden group"
               >
                 {/* Feature icon met glow effect */}
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-xl mb-6 flex items-center justify-center text-white relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-xl mb-6 flex items-center justify-center text-white relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-blue-600 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity" />
                   <div className="relative">
                     {feature.icon}
                   </div>
@@ -183,7 +183,7 @@ const CustomerSection = () => {
                 </p>
 
                 {/* Subtiele accent lijn */}
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500/50 to-blue-500/50 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500/50 to-blue-500/50 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </motion.div>
             ))}
           </div>
@@ -197,7 +197,7 @@ const CustomerSection = () => {
           >
             <button 
               onClick={() => setIsModalOpen(true)}
-              className="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
             >
               {t('customer.features.cta')}
             </button>

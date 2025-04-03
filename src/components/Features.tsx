@@ -27,7 +27,7 @@ const Features = () => {
       <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden full-width">
         {/* Energetische achtergrond */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-purple-100/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-100/20 to-blue-100/20" />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ 
@@ -39,7 +39,7 @@ const Features = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-blue-400/10 via-purple-400/10 to-blue-400/10 blur-3xl"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-green-400/10 via-blue-400/10 to-green-400/10 blur-3xl"
           />
         </div>
 
@@ -48,7 +48,7 @@ const Features = () => {
           <svg className="absolute w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <motion.path
               d="M0,50 Q25,45 50,50 T100,50"
-              className="stroke-purple-200/30 fill-none"
+              className="stroke-green-200/30 fill-none"
               strokeWidth="0.5"
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
@@ -74,9 +74,8 @@ const Features = () => {
             className="max-w-4xl mx-auto text-center mb-24"
           >
             <motion.div
-              animate={{ 
-                scale: [1, 1.03, 1],
-                rotate: [-1, 1, -1]
+              animate={{
+                y: [0, -10, 0],
               }}
               transition={{
                 duration: 3,
@@ -85,9 +84,9 @@ const Features = () => {
               }}
               className="inline-block"
             >
-              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-500 bg-clip-text text-transparent relative">
+              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 bg-clip-text text-transparent relative">
                 {t('features.mainTitle')}
-                <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/20 via-yellow-600/20 to-yellow-500/20 blur-xl -z-10 rounded-full opacity-50" />
+                <div className="absolute -inset-1 bg-gradient-to-r from-teal-500/20 via-blue-500/20 to-purple-500/20 blur-xl -z-10 rounded-full opacity-50" />
               </h2>
             </motion.div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -108,13 +107,13 @@ const Features = () => {
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm0-10V7a2 2 0 012-2h8a2 2 0 012 2v2m-10 0h10" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -131,11 +130,11 @@ const Features = () => {
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -154,11 +153,11 @@ const Features = () => {
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-yellow-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
@@ -173,19 +172,19 @@ const Features = () => {
             </motion.div>
           </motion.div>
 
-          {/* VibeRise Device Sectie */}
+          {/* ColiRise Device Sectie */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-6xl mx-auto mb-24 bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl overflow-hidden shadow-xl border border-blue-100 relative"
+            className="max-w-6xl mx-auto mb-24 bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl overflow-hidden shadow-xl border border-green-100 relative"
           >
             {/* Achtergrond elementen */}
             <div className="absolute inset-0 overflow-hidden">
               <svg className="absolute w-full h-full opacity-20" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <motion.path
                   d="M0,30 Q25,45 50,30 T100,30"
-                  className="stroke-blue-400 fill-none"
+                  className="stroke-green-400 fill-none"
                   strokeWidth="0.5"
                   initial={{ pathLength: 0 }}
                   animate={{ pathLength: 1 }}
@@ -193,7 +192,7 @@ const Features = () => {
                 />
                 <motion.path
                   d="M0,70 Q25,55 50,70 T100,70"
-                  className="stroke-purple-400 fill-none"
+                  className="stroke-blue-400 fill-none"
                   strokeWidth="0.5"
                   initial={{ pathLength: 0 }}
                   animate={{ pathLength: 1 }}
@@ -209,7 +208,7 @@ const Features = () => {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent"
+                  className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-green-600 via-blue-600 to-green-600 bg-clip-text text-transparent"
                 >
                   {t('features.device.title')}
                 </motion.h3>
@@ -232,7 +231,7 @@ const Features = () => {
                       transition={{ duration: 0.3, delay: 0.2 + (index * 0.1) }}
                       className="flex items-start gap-4"
                     >
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center flex-shrink-0 mt-1">
+                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-blue-500 flex items-center justify-center flex-shrink-0 mt-1">
                         <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
@@ -249,15 +248,15 @@ const Features = () => {
                   ))}
                 </div>
                 
-                {/* VibeCard Info */}
+                {/* ColiCard Info */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.6 }}
-                  className="mt-8 p-6 bg-white/50 rounded-xl border border-blue-100 shadow-md"
+                  className="mt-8 p-6 bg-white/50 rounded-xl border border-green-100 shadow-md"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
@@ -270,8 +269,8 @@ const Features = () => {
                     {t('features.device.card.description')}
                   </p>
                   <img 
-                    src="public/images/vibecard.jpeg" 
-                    alt="VibeCard" 
+                    src="/viberisemewebsite/images/colicard.jpeg" 
+                    alt="ColiCard" 
                     className="w-full h-auto rounded-lg shadow-lg mt-4 object-cover" 
                   />
                 </motion.div>
@@ -282,7 +281,7 @@ const Features = () => {
                   transition={{ duration: 0.5, delay: 0.8 }}
                   whileHover={{ scale: 1.05 }}
                   onClick={() => setIsModalOpen(true)}
-                  className="mt-8 px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-xl shadow-lg self-start"
+                  className="mt-8 px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white font-medium rounded-xl shadow-lg self-start"
                 >
                   Meer informatie
                 </motion.button>
@@ -297,15 +296,15 @@ const Features = () => {
               >
                 <div className="relative w-full max-w-md">
                   {/* Glow effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 rounded-3xl blur-2xl transform scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 via-blue-500/20 to-green-500/20 rounded-3xl blur-2xl transform scale-110" />
                   
                   {/* Device mockup */}
                   <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl overflow-hidden border-8 border-gray-800 shadow-2xl relative z-10 aspect-[9/16] w-full max-w-[280px] mx-auto">
                     {/* Screen */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-blue-500/10 overflow-hidden">
-                      {/* VibeRise UI mockup */}
-                      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-blue-600 to-purple-600 flex items-end p-4">
-                        <div className="text-white font-bold">VibePhone OS</div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 via-blue-500/10 to-green-500/10 overflow-hidden">
+                      {/* ColiRise UI mockup */}
+                      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-green-600 to-blue-600 flex items-end p-4">
+                        <div className="text-white font-bold">ColiPhone OS</div>
                       </div>
                       
                       {/* App icons */}
@@ -331,7 +330,7 @@ const Features = () => {
                             opacity: [0.8, 1, 0.8]
                           }}
                           transition={{ duration: 1.5, repeat: Infinity }}
-                          className="px-4 py-2 rounded-xl bg-blue-500/30 backdrop-blur-sm text-white text-sm flex items-center gap-2 max-w-[200px]"
+                          className="px-4 py-2 rounded-xl bg-green-500/30 backdrop-blur-sm text-white text-sm flex items-center gap-2 max-w-[200px]"
                         >
                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
@@ -364,7 +363,7 @@ const Features = () => {
                       rotate: [0, 5, 0]
                     }}
                     transition={{ duration: 5, repeat: Infinity }}
-                    className="absolute -top-8 -right-8 w-24 h-24 rounded-full bg-gradient-to-br from-blue-500/30 to-purple-500/30 backdrop-blur-md z-0"
+                    className="absolute -top-8 -right-8 w-24 h-24 rounded-full bg-gradient-to-br from-green-500/30 to-blue-500/30 backdrop-blur-md z-0"
                   />
                   <motion.div
                     animate={{ 
@@ -372,7 +371,7 @@ const Features = () => {
                       rotate: [0, -5, 0]
                     }}
                     transition={{ duration: 4, repeat: Infinity }}
-                    className="absolute -bottom-8 -left-8 w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/30 to-blue-500/30 backdrop-blur-md z-0"
+                    className="absolute -bottom-8 -left-8 w-20 h-20 rounded-full bg-gradient-to-br from-blue-500/30 to-green-500/30 backdrop-blur-md z-0"
                   />
                 </div>
               </motion.div>
@@ -394,9 +393,9 @@ const Features = () => {
               <a href="#users-section" className="group">
                 <motion.div
                   whileHover={{ y: -5, scale: 1.02 }}
-                  className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-6 shadow-lg border border-purple-100 h-full"
+                  className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-6 shadow-lg border border-green-100 h-full"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl mb-4 mx-auto flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl mb-4 mx-auto flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
@@ -458,7 +457,7 @@ const Features = () => {
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl mb-4 mx-auto flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">
@@ -499,7 +498,7 @@ const Features = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="max-w-4xl mx-auto"
           >
-            <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-purple-50 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
+            <div className="bg-gradient-to-br from-green-50 via-blue-50 to-green-50 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
               <div className="relative z-10">
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                   {t('features.mainCta.title')}
@@ -510,7 +509,7 @@ const Features = () => {
                 <motion.button 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="inline-flex items-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-purple-600 to-blue-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-200"
+                  className="inline-flex items-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-green-600 to-blue-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-200"
                   onClick={() => setIsModalOpen(true)}
                 >
                   {t('features.mainCta.button')}
@@ -519,7 +518,7 @@ const Features = () => {
                   </svg>
                 </motion.button>
               </div>
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-100/40 to-blue-100/40 transform rotate-6 scale-150" />
+              <div className="absolute inset-0 bg-gradient-to-r from-green-100/40 to-blue-100/40 transform rotate-6 scale-150" />
             </div>
           </motion.div>
         </div>

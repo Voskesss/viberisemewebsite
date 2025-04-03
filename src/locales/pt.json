@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "VibeRise.me | Seus Dados, Seu Poder",
-    "description": "Assuma o controle de seus dados. VibeRise.me permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
+    "title": "ColiBlanco.me | Seus Dados, Seu Poder",
+    "description": "Assuma o controle de seus dados. ColiBlanco.me permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
   },
   "hero": {
     "title": "Menos trabalho, mais fluxo, mais segurança",
-    "subtitle": "VibeRise: A plataforma que potencializa sua identidade digital",
+    "subtitle": "ColiBlanco: A plataforma que potencializa sua identidade digital",
     "description": "Assuma o controle de sua vida digital. Gerencie seus dados, proteja sua privacidade e seja recompensado por sua atenção.",
     "cta": "Junte-se à Revolução",
     "words": {
@@ -18,28 +18,6 @@
       "world": "mundo",
       "for": "para"
     }
-  },
-  "features": {
-    "workflow": {
-      "title": "Fluxo de trabalho incrível",
-      "description": "Plataforma de validação de competências que as organizações usam para se concentrar na identificação, validação e aproveitamento de competências que impulsionam o crescimento e o sucesso."
-    },
-    "collaboration": {
-      "title": "Colaboração em equipe",
-      "description": "Plataforma de validação de competências que conecta mentores, avaliadores, provedores EVC e empregadores para colaborar efetivamente e manter o foco no desenvolvimento, validação e crescimento profissional."
-    },
-    "security": {
-      "title": "IA e Validação Humana para prevenir fraudes",
-      "description": "IA e Validação Humana trabalham juntas para prevenir fraudes e garantir a confiança nas avaliações de competências."
-    }
-  },
-  "powerful": {
-    "title": "Fácil de aprender e extremamente poderoso",
-    "description": "VibeRise.me simplifica a validação de competências e permite que as equipes alcancem seus objetivos e façam progressos significativos."
-  },
-  "validation": {
-    "title": "Para validação de cada competência",
-    "description": "Seja através de processos EVC ou relatórios detalhados de competências, o VibeRise.me garante o reconhecimento preciso das competências. Capacite indivíduos e organizações com avaliações confiáveis para cada fase da carreira."
   },
   "featuresOld": {
     "title": "Seus Dados, Suas Regras",
@@ -59,7 +37,7 @@
   },
   "features": {
     "title": "Recursos Poderosos para seus Dados",
-    "subtitle": "Descubra como o VibeRise ajuda você a retomar o controle de sua vida digital",
+    "subtitle": "Descubra como o ColiBlanco.ai ajuda você a retomar o controle de sua vida digital",
     "main": {
       "title": "Consciência Global",
       "description": "Junte-se a uma rede mundial que luta pela liberdade digital e troca justa de dados"
@@ -73,7 +51,7 @@
       "description": "Escolha quem pode usar seus dados. Um clique para revogar o acesso."
     },
     "device": {
-      "title": "VibePhone",
+      "title": "ColiBlancoPhone",
       "description": "Um dispositivo revolucionário que integra toda a sua comunicação, identidade e vida digital em uma experiência perfeita.",
       "features": {
         "privacy": {
@@ -86,7 +64,7 @@
         },
         "calling": {
           "title": "Uma Plataforma de Comunicação",
-          "description": "Esqueça e-mail, WhatsApp e SMS. O VibePhone integra toda a comunicação em uma plataforma intuitiva."
+          "description": "Esqueça e-mail, WhatsApp e SMS. O ColiBlancoPhone integra toda a comunicação em uma plataforma intuitiva."
         },
         "independence": {
           "title": "Independência Garantida",
@@ -94,8 +72,8 @@
         }
       },
       "card": {
-        "title": "VibeCard",
-        "description": "O núcleo técnico do ecossistema VibePhone. Um cartão avançado que armazena com segurança sua identidade digital."
+        "title": "ColiBlancoCard",
+        "description": "O núcleo técnico do ecossistema ColiBlancoPhone. Um cartão avançado que armazena com segurança sua identidade digital."
       }
     },
     "movement": {
@@ -137,12 +115,12 @@
       "title": "Pronto para começar?",
       "text": "Comece a proteger seus dados hoje.",
       "button": "Comece agora",
-      "subtitle": "Descubra como o VibePhone pode transformar sua vida digital"
+      "subtitle": "Descubra como o ColiBlancoPhone pode transformar sua vida digital"
     }
   },
   "influencer": {
     "title": "Crie Impacto com Seu Conteúdo",
-    "description": "Alcance mais pessoas, ganhe mais com seu conteúdo e mantenha controle total sobre seus dados. Com o VibeRise, você obtém as ferramentas para expandir seu alcance enquanto garante a proteção de sua privacidade.",
+    "description": "Alcance mais pessoas, ganhe mais com seu conteúdo e mantenha controle total sobre seus dados. Com o ColiBlanco, você obtém as ferramentas para expandir seu alcance enquanto garante a proteção de sua privacidade.",
     "features": {
       "reach": {
         "title": "Amplie Seu Alcance",
@@ -181,15 +159,15 @@
     }
   },
   "comingSoon": {
-    "title": "VibeRise.me em breve",
-    "description": "VibeRise.me está chegando! Prepare-se para assumir o controle de seus dados como nunca antes."
+    "title": "ColiBlanco.me em breve",
+    "description": "ColiBlanco.me está chegando! Prepare-se para assumir o controle de seus dados como nunca antes."
   },
   "waitlist": {
-    "title": "Junte-se ao VibeRise",
+    "title": "Junte-se ao ColiBlanco",
     "description": {
       "consumer": "Faça parte do movimento pela liberdade digital",
-      "company": "Descubra como o VibeRise pode ajudar sua empresa",
-      "influencer": "Amplie seu alcance com o VibeRise",
+      "company": "Descubra como o ColiBlanco pode ajudar sua empresa",
+      "influencer": "Amplie seu alcance com o ColiBlanco",
       "investor": "Invista no futuro da liberdade digital",
       "developer": "Construa o futuro da Internet"
     },
@@ -198,7 +176,7 @@
     "loading": "Aguarde...",
     "privacy": "Ao se inscrever, você concorda com nossos termos de privacidade",
     "success": {
-      "title": "Bem-vindo ao VibeRise!",
+      "title": "Bem-vindo ao ColiBlanco!",
       "position": "Você está na posição {{position}} da lista de espera",
       "referral": "Compartilhe este link para subir na lista:",
       "close": "Fechar"
@@ -207,7 +185,7 @@
   "newsletter": {
     "title": "Mantenha-se atualizado",
     "subtitle": "Inscreva-se para atualizações",
-    "description": "Inscreva-se na lista de espera e receba atualizações sobre o VibeRise.me",
+    "description": "Inscreva-se na lista de espera e receba atualizações sobre o ColiBlanco.me",
     "placeholder": "Seu e-mail",
     "button": "Inscrever-se",
     "success": "Obrigado por se inscrever!",
@@ -234,7 +212,7 @@
       "success": "Obrigado pela sua mensagem! Retornaremos em breve.",
       "error": "Algo deu errado. Por favor, tente novamente mais tarde."
     },
-    "description": "Assuma o controle de seus dados. VibeRise.me permite que você gerencie e monetize seus dados pessoais.",
+    "description": "Assuma o controle de seus dados. ColiBlanco.me permite que você gerencie e monetize seus dados pessoais.",
     "copyright": "Todos os direitos reservados"
   }
 }

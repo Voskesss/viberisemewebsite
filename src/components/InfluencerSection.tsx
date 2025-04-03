@@ -118,7 +118,7 @@ const InfluencerSection = () => {
                   style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                  title="VibeRise influencers"
+                  title="ColiBlanco influencers"
                 />
               </div>
               <script src="https://player.vimeo.com/api/player.js" async />

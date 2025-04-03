@@ -60,9 +60,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-[#0A192F]/90 backdrop-blur-sm z-50 shadow-lg">
       <div className="container mx-auto px-4 h-[72px] flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="flex items-center">
-          <span className="text-2xl font-bold text-white">
-            VibeRise<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.me</span>
+        <a href="/" className="flex items-center gap-3">
+          <img src="/viberisemewebsite/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-10 h-10 object-contain" />
+          <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-blue-500 to-green-500">
+            ColiBlanco<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.ai</span>
           </span>
         </a>
 
@@ -127,7 +128,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
-              <span className="text-sm font-bold">VibeRise</span>
+              <span className="text-sm font-bold">ColiBlanco</span>
               <span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.{t('hero.words.for')}</span>
               <svg className={`w-4 h-4 transition-transform ${isMenuOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
