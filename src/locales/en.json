@@ -24,29 +24,41 @@
     }
   },
   "features": {
-    "title": "Your Data, Your Rules",
-    "subtitle": "Join the revolution where you decide what happens with your data. And get paid for it!",
+    "workflow": {
+      "title": "Fly Free Like a Hummingbird",
+      "description": "ColiBlanco gives you the freedom to live as you wish, without worrying about your digital privacy. Just like a hummingbird, you'll effortlessly navigate the digital landscape."
+    },
+    "collaboration": {
+      "title": "Enjoy Every Digital Experience",
+      "description": "With ColiBlanco, you can enjoy the internet without worries. Your digital nectar is no longer stolen by big corporations but comes directly to you."
+    },
+    "security": {
+      "title": "Protected by the Nature of Technology",
+      "description": "Just as the hummingbird is fast and agile, our technology protects you against digital predators that are after your valuable data."
+    },
+    "mainTitle": "Fly Free in the Digital Landscape",
+    "subtitle": "ColiBlanco gives you wings to escape the digital cages that big tech companies have built for you. And the best part? You get rewarded for it too!",
     "mainCta": {
-      "title": "Ready to get started?",
-      "text": "Start protecting your data today.",
-      "button": "Get Started",
+      "title": "Ready to spread your wings?",
+      "text": "Start your digital liberation today.",
+      "button": "Fly with us",
       "subtitle": "Discover how ColiPhone can transform your digital life"
     },
     "main": {
-      "title": "100% Privacy Guaranteed",
-      "description": "Your data is yours. Period. We ensure no one can access it without your permission."
+      "title": "Your Digital Nectar, Only for You",
+      "description": "Just as a hummingbird collects nectar, you collect valuable digital experiences. But unlike the current internet, this nectar remains yours and yours alone."
     },
     "community": {
-      "title": "Earn With Every Click",
-      "description": "Your online activity is valuable. We make sure you get paid for it."
+      "title": "Harvest the Fruits of Your Digital Garden",
+      "description": "Every click, every search, every interaction online is valuable. With ColiBlanco, you finally reap the rewards of your own digital garden."
     },
     "blockchain": {
-      "title": "You're In Control",
-      "description": "Choose who can use your data. One click to revoke access."
+      "title": "You Are the Conductor of Your Digital Orchestra",
+      "description": "Decide for yourself what music plays in your digital life. With one movement, you change the melody or stop the concert altogether."
     },
     "device": {
-      "title": "ColiPhone",
-      "description": "A revolutionary device that integrates all your communication, identity, and digital life into one seamless experience.",
+      "title": "ColiPhone: Your Digital Wings",
+      "description": "A revolutionary device that gives you the freedom to fly in the digital world, without worrying about who's spying on you or stealing your data.",
       "features": {
         "privacy": {
           "title": "Privacy-First Design",
@@ -170,27 +182,27 @@
     "copyright": "All rights reserved"
   },
   "customer": {
-    "title": "Your data, your rules",
-    "subtitle": "Take control of your personal data and earn from it, with complete privacy",
-    "badge": "For consumers",
+    "title": "Fly Free in the Digital World",
+    "subtitle": "ColiBlanco gives you the freedom to live as you wish, without worrying about your digital privacy",
+    "badge": "For users",
     "features": {
       "privacy": {
-        "title": "Total Privacy Control",
-        "description": "Block tracking, use standard VPN, and make yourself untraceable. You determine what happens with your data."
+        "title": "Complete Privacy Control",
+        "description": "Like a hummingbird gliding undisturbed through the air, you move freely through the digital landscape without being tracked."
       },
       "earnings": {
-        "title": "Earn from Your Data",
-        "description": "You earn from your own data. Choose which data you share and receive direct payment for every interaction."
+        "title": "Collect Your Digital Nectar",
+        "description": "Your online activity is valuable. With ColiBlanco, you receive rewards for every digital drop of nectar you create."
       },
-      "social": {
-        "title": "Safe Social Media",
-        "description": "Use social media on your terms. No tracking, no ads, pure connection with others."
+      "freedom": {
+        "title": "Hover Freely Between Platforms",
+        "description": "No more digital walls. Fly effortlessly between different platforms and services without losing your identity or data."
       },
-      "impact": {
-        "title": "Direct Impact",
-        "description": "See directly how your data management contributes to a better world. Track your impact in real-time."
+      "control": {
+        "title": "You Determine Your Flight Path",
+        "description": "Take full control of your digital journey. Decide for yourself who has access to your data and how it is used."
       },
-      "cta": "Start Earning Now"
+      "cta": "Spread your wings"
     }
   },
   "company": {

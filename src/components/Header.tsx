@@ -62,7 +62,7 @@ const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <img src="/viberisemewebsite/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-10 h-10 object-contain" />
-          <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-blue-500 to-green-500">
+          <span className="text-2xl font-bold text-white">
             ColiBlanco<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.ai</span>
           </span>
         </a>
@@ -128,7 +128,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
-              <span className="text-sm font-bold">ColiBlanco</span>
+              <span className="text-sm font-bold text-white">ColiBlanco</span>
               <span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.{t('hero.words.for')}</span>
               <svg className={`w-4 h-4 transition-transform ${isMenuOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

@@ -1,15 +1,19 @@
 {
   "meta": {
-    "title": "ColiBlanco.me | Seus Dados, Seu Poder",
-    "description": "Assuma o controle de seus dados. ColiBlanco.me permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
+    "title": "ColiBlanco.ai | Seus Dados, Seu Poder",
+    "description": "Assuma o controle de seus dados. ColiBlanco.ai permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
+  },
+  "metadata": {
+    "title": "ColiBlanco.ai | Seus Dados, Seu Poder",
+    "description": "Assuma o controle de seus dados. ColiBlanco.ai permite que você possua, gerencie e monetize seus dados pessoais com total privacidade e segurança."
   },
   "hero": {
-    "title": "Menos trabalho, mais fluxo, mais segurança",
-    "subtitle": "ColiBlanco: A plataforma que potencializa sua identidade digital",
+    "title": "Less work, more flow, more safety",
+    "subtitle": "Assuma o controle de sua vida digital. Gerencie seus dados, proteja sua privacidade e seja recompensado por sua atenção.",
     "description": "Assuma o controle de sua vida digital. Gerencie seus dados, proteja sua privacidade e seja recompensado por sua atenção.",
     "cta": "Junte-se à Revolução",
     "words": {
-      "me": "eu",
+      "me": "me",
       "social": "social",
       "privacy": "privacidade",
       "data": "dados",
@@ -19,40 +23,51 @@
       "for": "para"
     }
   },
-  "featuresOld": {
-    "title": "Seus Dados, Suas Regras",
-    "subtitle": "Junte-se à revolução onde você decide o que acontece com seus dados. E seja pago por isso!",
-    "main": {
-      "title": "100% de Privacidade Garantida",
-      "description": "Seus dados são seus. Ponto final. Garantimos que ninguém possa acessá-los sem sua permissão."
-    },
-    "community": {
-      "title": "Ganhe Com Cada Clique",
-      "description": "Sua atividade online é valiosa. Garantimos que você seja pago por ela."
-    },
-    "social": {
-      "title": "Conecte-se Com Pessoas Que Pensam Como Você",
-      "description": "Conecte-se com pessoas que pensam como você e acreditam em um futuro digital justo"
-    }
+  "nav": {
+    "features": "Recursos",
+    "customers": "Clientes",
+    "companies": "Empresas",
+    "investors": "Investidores",
+    "developers": "Desenvolvedores",
+    "influencers": "Influenciadores",
+    "waitlist": "Lista de Espera"
   },
   "features": {
-    "title": "Recursos Poderosos para seus Dados",
-    "subtitle": "Descubra como o ColiBlanco.ai ajuda você a retomar o controle de sua vida digital",
+    "workflow": {
+      "title": "Voe Livre como um Beija-flor",
+      "description": "ColiBlanco lhe dá a liberdade de viver como desejar, sem se preocupar com sua privacidade digital. Assim como um beija-flor, você navegará sem esforço pela paisagem digital."
+    },
+    "collaboration": {
+      "title": "Aproveite Cada Experiência Digital",
+      "description": "Com ColiBlanco, você pode desfrutar da internet sem preocupações. Seu néctar digital não é mais roubado por grandes corporações, mas vem diretamente para você."
+    },
+    "security": {
+      "title": "Protegido pela Natureza da Tecnologia",
+      "description": "Assim como o beija-flor é rápido e ágil, nossa tecnologia protege você contra predadores digitais que estão atrás de seus dados valiosos."
+    },
+    "mainTitle": "Voe Livre na Paisagem Digital",
+    "subtitle": "ColiBlanco lhe dá asas para escapar das gaiolas digitais que as grandes empresas de tecnologia construíram para você. E a melhor parte? Você também é recompensado por isso!",
+    "mainCta": {
+      "title": "Pronto para abrir suas asas?",
+      "text": "Comece sua libertação digital hoje.",
+      "button": "Voe conosco",
+      "subtitle": "Descubra como o ColiPhone pode transformar sua vida digital"
+    },
     "main": {
-      "title": "Consciência Global",
-      "description": "Junte-se a uma rede mundial que luta pela liberdade digital e troca justa de dados"
+      "title": "Seu Néctar Digital, Apenas para Você",
+      "description": "Assim como um beija-flor coleta néctar, você coleta experiências digitais valiosas. Mas diferentemente da internet atual, esse néctar permanece seu e somente seu."
     },
     "community": {
-      "title": "Comunidade Forte",
-      "description": "Conecte-se com pessoas que pensam como você e acreditam em um futuro digital justo"
+      "title": "Colha os Frutos do Seu Jardim Digital",
+      "description": "Cada clique, cada pesquisa, cada interação online é valiosa. Com ColiBlanco, você finalmente colhe as recompensas do seu próprio jardim digital."
     },
     "blockchain": {
-      "title": "Você Tem o Controle",
-      "description": "Escolha quem pode usar seus dados. Um clique para revogar o acesso."
+      "title": "Você é o Maestro da Sua Orquestra Digital",
+      "description": "Decida por si mesmo que música toca em sua vida digital. Com um movimento, você muda a melodia ou interrompe o concerto completamente."
     },
     "device": {
-      "title": "ColiBlancoPhone",
-      "description": "Um dispositivo revolucionário que integra toda a sua comunicação, identidade e vida digital em uma experiência perfeita.",
+      "title": "ColiPhone: Suas Asas Digitais",
+      "description": "Um dispositivo revolucionário que lhe dá a liberdade de voar no mundo digital, sem se preocupar com quem está espionando você ou roubando seus dados.",
       "features": {
         "privacy": {
           "title": "Design com Privacidade em Primeiro Lugar",
@@ -64,7 +79,7 @@
         },
         "calling": {
           "title": "Uma Plataforma de Comunicação",
-          "description": "Esqueça e-mail, WhatsApp e SMS. O ColiBlancoPhone integra toda a comunicação em uma plataforma intuitiva."
+          "description": "Esqueça e-mail, WhatsApp e SMS. O ColiPhone integra toda a comunicação em uma plataforma intuitiva."
         },
         "independence": {
           "title": "Independência Garantida",
@@ -72,147 +87,180 @@
         }
       },
       "card": {
-        "title": "ColiBlancoCard",
-        "description": "O núcleo técnico do ecossistema ColiBlancoPhone. Um cartão avançado que armazena com segurança sua identidade digital."
+        "title": "ColiCard",
+        "description": "O núcleo técnico do ecossistema ColiPhone. Um cartão avançado que armazena com segurança sua identidade digital."
       }
-    },
-    "movement": {
-      "title": "Junte-se ao Movimento"
-    },
-    "groups": {
-      "users": {
-        "title": "Para Usuários",
-        "description": "Assuma o controle de seus dados e ganhe com eles",
-        "badge": "Para consumidores"
-      },
-      "companies": {
-        "title": "Para Empresas",
-        "description": "Troca ética de dados para inovação",
-        "badge": "Para empresas"
-      },
-      "investors": {
-        "title": "Para Investidores",
-        "description": "Invista no futuro dos dados",
-        "badge": "Para investidores"
-      },
-      "developers": {
-        "title": "Para Desenvolvedores",
-        "description": "Construa conosco",
-        "badge": "Para desenvolvedores"
-      },
-      "influencers": {
-        "title": "Influenciadores",
-        "description": "Aumente seu alcance e ganhe mais com seu conteúdo enquanto mantém sua privacidade.",
-        "badge": "Para influenciadores"
-      }
-    },
-    "cta": {
-      "title": "Junte-se para Elevar o Vibe do Mundo",
-      "subtitle": "Juntos criamos um mundo digital mais consciente",
-      "button": "Começar"
-    },
-    "mainCta": {
-      "title": "Pronto para começar?",
-      "text": "Comece a proteger seus dados hoje.",
-      "button": "Comece agora",
-      "subtitle": "Descubra como o ColiBlancoPhone pode transformar sua vida digital"
+    }
+  },
+  "carousel": {
+    "title": "Pessoas Reais, Histórias Reais",
+    "subtitle": "Veja como o ColiBlanco está mudando vidas em todo o mundo"
+  },
+  "customer": {
+    "title": "Tome o Controle de Sua Vida Digital",
+    "description": "Seus dados são valiosos. É hora de você ser recompensado por eles. Junte-se à revolução ColiBlanco e retome o controle de sua vida digital.",
+    "badge": "Para usuários",
+    "features": {
+      "title": "Benefícios para Usuários",
+      "cta": "Junte-se à Lista de Espera",
+      "items": [
+        {
+          "title": "Ganhe com Seus Dados",
+          "description": "Seja pago pelo valor que você cria online. Seus dados, sua recompensa."
+        },
+        {
+          "title": "Privacidade Garantida",
+          "description": "Controle total sobre quem pode acessar seus dados e como eles são usados."
+        },
+        {
+          "title": "Experiência Unificada",
+          "description": "Todas as suas comunicações e identidades digitais em um só lugar."
+        }
+      ]
+    }
+  },
+  "company": {
+    "title": "Transforme Seu Negócio com Dados Éticos",
+    "description": "Acesse dados de alta qualidade diretamente dos usuários, com seu consentimento explícito. Construa confiança e impulsione seu negócio.",
+    "badge": "Para empresas",
+    "features": {
+      "title": "Benefícios para Empresas",
+      "cta": "Agende uma Demonstração",
+      "items": [
+        {
+          "title": "Dados de Alta Qualidade",
+          "description": "Acesse dados precisos e relevantes diretamente dos usuários que optaram por compartilhá-los."
+        },
+        {
+          "title": "Conformidade Garantida",
+          "description": "Esqueça as preocupações com GDPR e outras regulamentações. Nós cuidamos disso."
+        },
+        {
+          "title": "Relacionamentos Mais Fortes",
+          "description": "Construa confiança com seus clientes através de transparência e compensação justa."
+        }
+      ]
+    }
+  },
+  "investor": {
+    "title": "Invista no Futuro dos Dados",
+    "description": "Junte-se a nós na construção de um novo paradigma para dados pessoais e privacidade online. Uma oportunidade de investimento com impacto real.",
+    "badge": "Para investidores",
+    "features": {
+      "title": "Por Que Investir",
+      "cta": "Solicitar Pitch Deck",
+      "items": [
+        {
+          "title": "Mercado Massivo",
+          "description": "O mercado de dados pessoais vale trilhões. Estamos redirecionando esse valor para os verdadeiros criadores."
+        },
+        {
+          "title": "Tecnologia Proprietária",
+          "description": "Nossa plataforma blockchain e sistema de identidade descentralizada são líderes no setor."
+        },
+        {
+          "title": "Equipe Excepcional",
+          "description": "Fundada por veteranos de tecnologia com experiência em empresas Fortune 500 e startups bem-sucedidas."
+        }
+      ]
+    }
+  },
+  "developer": {
+    "title": "Construa o Futuro da Internet",
+    "description": "Nossa API e ferramentas de desenvolvimento permitem que você crie aplicativos e serviços que respeitam a privacidade e recompensam os usuários.",
+    "badge": "Para desenvolvedores",
+    "features": {
+      "title": "Ferramentas para Desenvolvedores",
+      "cta": "Explorar Documentação",
+      "items": [
+        {
+          "title": "API Abrangente",
+          "description": "Acesse todas as funcionalidades da plataforma ColiBlanco através de nossa API bem documentada."
+        },
+        {
+          "title": "SDKs para Todas as Plataformas",
+          "description": "Integrações fáceis para web, iOS, Android e mais."
+        },
+        {
+          "title": "Suporte Dedicado",
+          "description": "Nossa equipe de desenvolvedores está pronta para ajudar você a construir no ecossistema ColiBlanco."
+        }
+      ]
     }
   },
   "influencer": {
     "title": "Crie Impacto com Seu Conteúdo",
     "description": "Alcance mais pessoas, ganhe mais com seu conteúdo e mantenha controle total sobre seus dados. Com o ColiBlanco, você obtém as ferramentas para expandir seu alcance enquanto garante a proteção de sua privacidade.",
+    "badge": "Para influenciadores",
     "features": {
-      "reach": {
-        "title": "Amplie Seu Alcance",
-        "description": "Alcance um público mais amplo com nossos algoritmos avançados de direcionamento e recomendação."
-      },
-      "earnings": {
-        "title": "Maximize Seus Ganhos",
-        "description": "Ganhe diretamente com seu conteúdo e receba uma compensação justa por sua influência."
-      },
-      "analytics": {
-        "title": "Análises Profundas",
-        "description": "Obtenha insights detalhados sobre seu desempenho e o comportamento de seus seguidores."
-      },
-      "community": {
-        "title": "Construa Sua Comunidade",
-        "description": "Crie uma comunidade forte e engajada em torno da sua marca e valores."
-      },
-      "cta": "Comece a Crescer"
+      "title": "Ferramentas para Influenciadores",
+      "cta": "Torne-se um Parceiro",
+      "items": [
+        {
+          "title": "Monetização Direta",
+          "description": "Receba pagamentos diretamente de seus seguidores sem intermediários tomando uma parte."
+        },
+        {
+          "title": "Análises Avançadas",
+          "description": "Compreenda seu público como nunca antes, com dados detalhados e insights acionáveis."
+        },
+        {
+          "title": "Controle de Conteúdo",
+          "description": "Mantenha a propriedade total de seu conteúdo e decida como ele é distribuído."
+        }
+      ]
     }
-  },
-  "carousel": {
-    "audit": {
-      "title": "Para Empresas de Auditoria",
-      "subtitle": "Garanta a Conformidade com Confiança",
-      "description": "Relatórios e insights confiáveis para tornar as auditorias simples e transparentes."
-    },
-    "assessors": {
-      "title": "Para Avaliadores",
-      "subtitle": "Avaliação de Competências Sem Esforço",
-      "description": "Tudo o que você precisa para avaliar competências de forma justa, precisa e eficiente."
-    },
-    "evc": {
-      "title": "Para Provedores EVC",
-      "subtitle": "Otimize Seus Processos EVC",
-      "description": "Ferramentas simples para gerenciar trajetórias, orientar candidatos e validar resultados facilmente."
-    }
-  },
-  "comingSoon": {
-    "title": "ColiBlanco.me em breve",
-    "description": "ColiBlanco.me está chegando! Prepare-se para assumir o controle de seus dados como nunca antes."
-  },
-  "waitlist": {
-    "title": "Junte-se ao ColiBlanco",
-    "description": {
-      "consumer": "Faça parte do movimento pela liberdade digital",
-      "company": "Descubra como o ColiBlanco pode ajudar sua empresa",
-      "influencer": "Amplie seu alcance com o ColiBlanco",
-      "investor": "Invista no futuro da liberdade digital",
-      "developer": "Construa o futuro da Internet"
-    },
-    "emailPlaceholder": "Seu endereço de e-mail",
-    "submit": "Participar",
-    "loading": "Aguarde...",
-    "privacy": "Ao se inscrever, você concorda com nossos termos de privacidade",
-    "success": {
-      "title": "Bem-vindo ao ColiBlanco!",
-      "position": "Você está na posição {{position}} da lista de espera",
-      "referral": "Compartilhe este link para subir na lista:",
-      "close": "Fechar"
-    }
-  },
-  "newsletter": {
-    "title": "Mantenha-se atualizado",
-    "subtitle": "Inscreva-se para atualizações",
-    "description": "Inscreva-se na lista de espera e receba atualizações sobre o ColiBlanco.me",
-    "placeholder": "Seu e-mail",
-    "button": "Inscrever-se",
-    "success": "Obrigado por se inscrever!",
-    "sending": "Enviando...",
-    "error": "Algo deu errado. Tente novamente mais tarde."
-  },
-  "contact": {
-    "name": "Seu nome",
-    "email": "Endereço de e-mail",
-    "subject": "Assunto",
-    "message": "Sua mensagem",
-    "button": "Enviar",
-    "success": "Obrigado pela sua mensagem!",
-    "sending": "Enviando...",
-    "error": "Algo deu errado. Por favor, tente novamente mais tarde."
   },
   "footer": {
-    "contact": {
-      "title": "Entre em contato",
-      "name": "Nome",
-      "email": "E-mail",
-      "message": "Mensagem",
-      "send": "Enviar",
-      "success": "Obrigado pela sua mensagem! Retornaremos em breve.",
-      "error": "Algo deu errado. Por favor, tente novamente mais tarde."
+    "copyright": "Todos os direitos reservados",
+    "description": "Redefinindo a relação entre pessoas, dados e tecnologia.",
+    "links": {
+      "company": {
+        "title": "Empresa",
+        "about": "Sobre Nós",
+        "careers": "Carreiras",
+        "press": "Imprensa",
+        "contact": "Contato"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Serviço",
+        "cookies": "Política de Cookies"
+      },
+      "resources": {
+        "title": "Recursos",
+        "blog": "Blog",
+        "help": "Centro de Ajuda",
+        "developers": "Desenvolvedores"
+      }
+    }
+  },
+  "validation": {
+    "title": "Validação de Competências",
+    "description": "Nossa plataforma de validação de competências permite que organizações identifiquem, validem e aproveitem as habilidades que impulsionam o crescimento e o sucesso.",
+    "image": "Imagem de validação de competências"
+  },
+  "waitlist": {
+    "title": "Junte-se à Lista de Espera",
+    "description": "Seja um dos primeiros a experimentar o ColiBlanco. Inscreva-se agora para acesso antecipado e atualizações exclusivas.",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Endereço de Email",
+      "interest": "Estou interessado como...",
+      "interestOptions": {
+        "user": "Usuário",
+        "company": "Empresa",
+        "developer": "Desenvolvedor",
+        "influencer": "Influenciador",
+        "investor": "Investidor"
+      },
+      "submit": "Inscrever-se",
+      "privacy": "Respeitamos sua privacidade. Leia nossa Política de Privacidade."
     },
-    "description": "Assuma o controle de seus dados. ColiBlanco.me permite que você gerencie e monetize seus dados pessoais.",
-    "copyright": "Todos os direitos reservados"
+    "success": {
+      "title": "Obrigado por se inscrever!",
+      "description": "Você está oficialmente na nossa lista de espera. Entraremos em contato em breve com mais informações."
+    }
   }
 }

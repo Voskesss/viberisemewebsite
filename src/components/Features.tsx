@@ -1,11 +1,87 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import WaitlistModal from './WaitlistModal';
 
 const Features = () => {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
+  const [hummingbirdPosition, setHummingbirdPosition] = useState({ x: 50, y: 100 });
+  const [targetPosition, setTargetPosition] = useState({ x: 50, y: 100 });
+  const scrollTimeout = useRef<number | null>(null);
+  
+  // Scroll tracking
+  const { scrollY } = useScroll();
+  const smoothScrollY = useSpring(scrollY, { damping: 15, stiffness: 100 });
+  
+  // Handle scroll events
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolling(true);
+      
+      // Generate a new random target position when scrolling, but keep it within viewport
+      const padding = 50; // Padding from edges of screen
+      const newX = Math.random() * (window.innerWidth - padding * 2) + padding;
+      const newY = Math.random() * (window.innerHeight - padding * 2) + padding + smoothScrollY.get();
+      setTargetPosition({ x: newX, y: newY });
+      
+      // Clear previous timeout
+      if (scrollTimeout.current) {
+        clearTimeout(scrollTimeout.current);
+      }
+      
+      // Set timeout to detect when scrolling stops
+      scrollTimeout.current = setTimeout(() => {
+        setIsScrolling(false);
+        
+        // When scrolling stops, find a landing spot
+        const elements = document.querySelectorAll('.landing-spot');
+        if (elements.length > 0) {
+          const randomIndex = Math.floor(Math.random() * elements.length);
+          const element = elements[randomIndex];
+          const rect = element.getBoundingClientRect();
+          
+          // Check if landing spot is in viewport
+          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            setTargetPosition({
+              x: rect.left + rect.width / 2,
+              y: rect.top + smoothScrollY.get() + rect.height / 2
+            });
+          } else {
+            // If landing spot is not in viewport, stay in the middle of the screen
+            setTargetPosition({
+              x: window.innerWidth / 2,
+              y: window.innerHeight / 2 + smoothScrollY.get()
+            });
+          }
+        }
+      }, 500); // Increased timeout for slower movement
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeout.current) {
+        clearTimeout(scrollTimeout.current);
+      }
+    };
+  }, [smoothScrollY]);
+  
+  // Update hummingbird position with smooth animation (slower)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setHummingbirdPosition(prev => {
+        // Slower movement factor (0.02 instead of 0.05)
+        return {
+          x: prev.x + (targetPosition.x - prev.x) * 0.02,
+          y: prev.y + (targetPosition.y - prev.y) * 0.02
+        };
+      });
+    }, 24); // Slower update interval (24ms instead of 16ms)
+    
+    return () => clearInterval(interval);
+  }, [targetPosition]);
 
   const container = {
     hidden: { opacity: 0 },
@@ -24,7 +100,34 @@ const Features = () => {
 
   return (
     <section className="relative" id="features-section">
-      <div className="bg-gradient-to-b from-white to-gray-50 pt-24 pb-32 relative overflow-hidden full-width">
+      {/* Kolibrie-achtige vorm die meebeweegt met scrollen */}
+      <motion.div
+        className="fixed z-50 pointer-events-none"
+        style={{
+          left: hummingbirdPosition.x,
+          top: hummingbirdPosition.y,
+          position: 'fixed'
+        }}
+        animate={{
+          rotate: isScrolling ? [0, -10, 10, -5, 5, 0] : 0
+        }}
+        transition={{
+          rotate: {
+            repeat: Infinity,
+            duration: 0.5,
+            ease: "easeInOut"
+          }
+        }}
+      >
+        <div className="relative w-4 h-4">
+          {/* Bolletje */}
+          <div className="absolute inset-0 bg-orange-500 rounded-full" />
+          {/* Snavel */}
+          <div className="absolute right-0 top-1/3 w-1 h-2 bg-orange-500 transform rotate-0 origin-left" />
+        </div>
+      </motion.div>
+
+      <div className="bg-gradient-to-b from-white to-green-50 pt-24 pb-32 relative overflow-hidden full-width">
         {/* Energetische achtergrond */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-green-100/20 to-blue-100/20" />
@@ -43,30 +146,38 @@ const Features = () => {
           />
         </div>
 
-        {/* Golvende energielijnen */}
+        {/* Golvende energielijnen die lijken op kolibrie-vluchtpatronen */}
         <div className="absolute inset-0 overflow-hidden">
           <svg className="absolute w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <motion.path
-              d="M0,50 Q25,45 50,50 T100,50"
-              className="stroke-green-200/30 fill-none"
+              d="M0,50 Q15,45 30,50 T60,50 T100,50"
+              className="stroke-green-300/30 fill-none"
               strokeWidth="0.5"
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{ duration: 2, repeat: Infinity }}
             />
             <motion.path
-              d="M0,55 Q25,50 50,55 T100,55"
-              className="stroke-blue-200/30 fill-none"
+              d="M0,55 Q20,60 40,55 T70,55 T100,55"
+              className="stroke-blue-300/30 fill-none"
               strokeWidth="0.5"
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{ duration: 2.5, repeat: Infinity }}
             />
+            <motion.path
+              d="M0,45 Q25,40 50,45 T75,45 T100,45"
+              className="stroke-orange-300/30 fill-none"
+              strokeWidth="0.5"
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{ duration: 3, repeat: Infinity }}
+            />
           </svg>
         </div>
 
         <div className="container mx-auto px-4 relative z-20">
-          {/* Hoofdtekst met vibratie-effect */}
+          {/* Hoofdtekst met kolibrie-achtig vibratie-effect */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -75,18 +186,67 @@ const Features = () => {
           >
             <motion.div
               animate={{
-                y: [0, -10, 0],
+                y: [0, -5, 0],
+                x: [0, 3, 0]
               }}
               transition={{
-                duration: 3,
+                duration: 2,
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
               className="inline-block"
             >
-              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 bg-clip-text text-transparent relative">
+              <h2 className="text-5xl md:text-6xl font-quicksand font-bold mb-6 bg-gradient-to-r from-teal-500 via-blue-500 to-orange-500 bg-clip-text text-transparent relative landing-spot">
                 {t('features.mainTitle')}
-                <div className="absolute -inset-1 bg-gradient-to-r from-teal-500/20 via-blue-500/20 to-purple-500/20 blur-xl -z-10 rounded-full opacity-50" />
+                <div className="absolute -inset-1 bg-gradient-to-r from-teal-500/20 via-blue-500/20 to-orange-500/20 blur-xl -z-10 rounded-full opacity-50" />
+                
+                {/* Geanimeerde kolibrie die wegvliegt */}
+                <motion.div
+                  initial={{ x: -50, y: 20, opacity: 0 }}
+                  animate={{ 
+                    x: [null, 0, 100, 200],
+                    y: [null, 0, -30, -60],
+                    opacity: [null, 1, 1, 0],
+                    scale: [null, 1, 0.8, 0.6]
+                  }}
+                  transition={{ 
+                    duration: 4,
+                    repeat: Infinity,
+                    repeatDelay: 3
+                  }}
+                  className="absolute -left-16 -top-12 w-16 h-16"
+                >
+                  <svg viewBox="0 0 400 400" className="w-full h-full">
+                    {/* Vleugel (teal) met animatie */}
+                    <motion.path 
+                      d="M200,200 C150,150 100,180 80,220 C60,260 120,320 180,260 C220,220 200,200 200,200 Z" 
+                      fill="#1D7A8C"
+                      animate={{
+                        d: [
+                          "M200,200 C150,150 100,180 80,220 C60,260 120,320 180,260 C220,220 200,200 200,200 Z",
+                          "M200,200 C170,130 120,160 100,200 C80,240 140,300 200,240 C240,200 200,200 200,200 Z",
+                          "M200,200 C150,150 100,180 80,220 C60,260 120,320 180,260 C220,220 200,200 200,200 Z"
+                        ]
+                      }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 0.5
+                      }}
+                    />
+                    
+                    {/* Lichaam (oranje) */}
+                    <path d="M200,200 C230,190 260,180 300,210 C340,240 350,280 330,320 C310,360 260,350 230,320 C200,290 200,200 200,200 Z" fill="#FF7F2A" />
+                    
+                    {/* Oog */}
+                    <circle cx="280" cy="240" r="12" fill="#1A2E35" />
+                    
+                    {/* Snavel */}
+                    <path d="M300,240 L380,220 L300,260 Z" fill="#FF7F2A" />
+                    
+                    {/* Poten (cru00e8me) */}
+                    <path d="M230,320 L200,380 L260,380 Z" fill="#FFF8E1" />
+                  </svg>
+                </motion.div>
               </h2>
             </motion.div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -94,7 +254,7 @@ const Features = () => {
             </p>
           </motion.div>
 
-          {/* Hoofdfeatures */}
+          {/* Hoofdfeatures met kolibrie-kleuren */}
           <motion.div 
             variants={container}
             initial="hidden"
@@ -102,18 +262,18 @@ const Features = () => {
             viewport={{ once: true }}
             className="grid md:grid-cols-3 gap-8 mb-24"
           >
-            {/* Global Consciousness Card */}
+            {/* Vrijheid Card */}
             <motion.div 
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group landing-spot"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm0-10V7a2 2 0 012-2h8a2 2 0 012 2v2m-10 0h10" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -125,16 +285,16 @@ const Features = () => {
               </div>
             </motion.div>
 
-            {/* Community Card */}
+            {/* Digitale Tuin Card */}
             <motion.div 
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group landing-spot"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/20 to-yellow-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -148,16 +308,16 @@ const Features = () => {
               </div>
             </motion.div>
 
-            {/* Blockchain Card */}
+            {/* Digitale Orkest Card */}
             <motion.div 
               variants={item}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group"
+              className="bg-white rounded-2xl p-8 shadow-xl border border-teal-100 relative overflow-hidden group landing-spot"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-teal-500/20 to-blue-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-bl-[100px] transition-all duration-300 group-hover:scale-110" />
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl mb-6 flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
@@ -172,210 +332,173 @@ const Features = () => {
             </motion.div>
           </motion.div>
 
-          {/* ColiRise Device Sectie */}
+          {/* ColiCard Sectie - Opvallende kaart die op alle schermen de content naar voren duwt */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-6xl mx-auto mb-24 bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl overflow-hidden shadow-xl border border-green-100 relative"
+            className="max-w-6xl mx-auto mb-24 relative z-20"
           >
-            {/* Achtergrond elementen */}
-            <div className="absolute inset-0 overflow-hidden">
-              <svg className="absolute w-full h-full opacity-20" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <motion.path
-                  d="M0,30 Q25,45 50,30 T100,30"
-                  className="stroke-green-400 fill-none"
-                  strokeWidth="0.5"
-                  initial={{ pathLength: 0 }}
-                  animate={{ pathLength: 1 }}
-                  transition={{ duration: 3, repeat: Infinity }}
-                />
-                <motion.path
-                  d="M0,70 Q25,55 50,70 T100,70"
-                  className="stroke-blue-400 fill-none"
-                  strokeWidth="0.5"
-                  initial={{ pathLength: 0 }}
-                  animate={{ pathLength: 1 }}
-                  transition={{ duration: 3.5, repeat: Infinity }}
-                />
-              </svg>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-8 p-8 md:p-12 relative z-10">
-              {/* Linkerkant - Tekst */}
-              <div className="flex flex-col justify-center">
-                <motion.h3 
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-green-600 via-blue-600 to-green-600 bg-clip-text text-transparent"
-                >
-                  {t('features.device.title')}
-                </motion.h3>
-                <motion.p
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.1 }}
-                  className="text-gray-700 text-lg mb-8"
-                >
-                  {t('features.device.description')}
-                </motion.p>
-                
-                {/* Device Features */}
-                <div className="grid grid-cols-1 gap-4">
-                  {['privacy', 'cloud', 'calling', 'independence'].map((feature, index) => (
-                    <motion.div
-                      key={feature}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.3, delay: 0.2 + (index * 0.1) }}
-                      className="flex items-start gap-4"
-                    >
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-blue-500 flex items-center justify-center flex-shrink-0 mt-1">
-                        <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-gray-900 mb-1">
-                          {t(`features.device.features.${feature}.title`)}
-                        </h4>
-                        <p className="text-gray-600">
-                          {t(`features.device.features.${feature}.description`)}
-                        </p>
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
-                
-                {/* ColiCard Info */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.6 }}
-                  className="mt-8 p-6 bg-white/50 rounded-xl border border-green-100 shadow-md"
-                >
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-                      </svg>
-                    </div>
-                    <h4 className="text-xl font-bold text-gray-900">
-                      {t('features.device.card.title')}
-                    </h4>
-                  </div>
-                  <p className="text-gray-700 mb-2">
-                    {t('features.device.card.description')}
-                  </p>
-                  <img 
-                    src="/viberisemewebsite/images/colicard.jpeg" 
-                    alt="ColiCard" 
-                    className="w-full h-auto rounded-lg shadow-lg mt-4 object-cover" 
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-gradient-to-br from-teal-500 to-blue-600 rounded-3xl overflow-hidden shadow-2xl border border-white/20 relative transform -rotate-1 hover:rotate-0 transition-all duration-300"
+            >
+              {/* Achtergrond elementen */}
+              <div className="absolute inset-0 overflow-hidden">
+                <svg className="absolute w-full h-full opacity-20" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <motion.path
+                    d="M0,30 Q25,45 50,30 T100,30"
+                    className="stroke-white fill-none"
+                    strokeWidth="0.5"
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    transition={{ duration: 3, repeat: Infinity }}
                   />
-                </motion.div>
-                
-                <motion.button
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                  whileHover={{ scale: 1.05 }}
-                  onClick={() => setIsModalOpen(true)}
-                  className="mt-8 px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white font-medium rounded-xl shadow-lg self-start"
-                >
-                  Meer informatie
-                </motion.button>
+                  <motion.path
+                    d="M0,70 Q25,55 50,70 T100,70"
+                    className="stroke-white fill-none"
+                    strokeWidth="0.5"
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    transition={{ duration: 3.5, repeat: Infinity }}
+                  />
+                </svg>
               </div>
               
-              {/* Rechterkant - Device Illustratie */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.8 }}
-                className="flex items-center justify-center relative"
-              >
-                <div className="relative w-full max-w-md">
-                  {/* Glow effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 via-blue-500/20 to-green-500/20 rounded-3xl blur-2xl transform scale-110" />
+              {/* Glow effect */}
+              <div className="absolute -inset-4 bg-gradient-to-r from-teal-500/30 via-blue-500/30 to-teal-500/30 rounded-3xl blur-2xl -z-10" />
+              
+              <div className="grid md:grid-cols-2 gap-8 p-8 md:p-12 relative z-10">
+                {/* Linkerkant - Tekst */}
+                <div className="flex flex-col justify-center text-white">
+                  <motion.h3 
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-3xl md:text-4xl font-bold mb-6"
+                  >
+                    ColiCard: Je Digitale Identiteit
+                  </motion.h3>
+                  <motion.p
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                    className="text-white/90 text-lg mb-8"
+                  >
+                    De ColiCard is je sleutel tot digitale vrijheid. Een veilige, draagbare identiteit die jou controle geeft over je data en privacy, waar je ook bent.
+                  </motion.p>
                   
-                  {/* Device mockup */}
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl overflow-hidden border-8 border-gray-800 shadow-2xl relative z-10 aspect-[9/16] w-full max-w-[280px] mx-auto">
-                    {/* Screen */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 via-blue-500/10 to-green-500/10 overflow-hidden">
-                      {/* ColiRise UI mockup */}
-                      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-green-600 to-blue-600 flex items-end p-4">
-                        <div className="text-white font-bold">ColiPhone OS</div>
-                      </div>
-                      
-                      {/* App icons */}
-                      <div className="absolute inset-x-0 top-24 p-4 grid grid-cols-4 gap-4">
-                        {[...Array(8)].map((_, i) => (
-                          <motion.div 
-                            key={i}
-                            initial={{ y: 0 }}
-                            animate={{ y: [0, -5, 0] }}
-                            transition={{ duration: 2, delay: i * 0.2, repeat: Infinity }}
-                            className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center"
-                          >
-                            <div className="w-6 h-6 rounded-md bg-white/40" />
-                          </motion.div>
-                        ))}
-                      </div>
-                      
-                      {/* Unified Communication indicator */}
-                      <div className="absolute bottom-16 inset-x-0 flex justify-center">
-                        <motion.div 
-                          animate={{ 
-                            scale: [1, 1.05, 1],
-                            opacity: [0.8, 1, 0.8]
-                          }}
-                          transition={{ duration: 1.5, repeat: Infinity }}
-                          className="px-4 py-2 rounded-xl bg-green-500/30 backdrop-blur-sm text-white text-sm flex items-center gap-2 max-w-[200px]"
-                        >
-                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                  {/* Card Features */}
+                  <div className="grid grid-cols-1 gap-4">
+                    {[
+                      { 
+                        title: 'Volledige Controle', 
+                        description: 'Jij bepaalt wie toegang heeft tot welke delen van je digitale identiteit.'
+                      },
+                      { 
+                        title: 'Veilig & Privé', 
+                        description: 'Geavanceerde encryptie beschermt je gegevens tegen ongewenste toegang.'
+                      },
+                      { 
+                        title: 'Verdien Aan Je Data', 
+                        description: 'Ontvang beloningen wanneer je ervoor kiest om delen van je data te delen.'
+                      },
+                      { 
+                        title: 'Werkt Overal', 
+                        description: 'Naadloze integratie met websites, apps en diensten wereldwijd.'
+                      }
+                    ].map((feature, index) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.3, delay: 0.2 + (index * 0.1) }}
+                        className="flex items-start gap-4"
+                      >
+                        <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                          <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
-                          Unified Messaging
-                        </motion.div>
-                      </div>
-                      
-                      {/* Privacy indicator */}
-                      <div className="absolute bottom-8 inset-x-0 flex justify-center">
-                        <motion.div 
-                          animate={{ 
-                            scale: [1, 1.1, 1],
-                            opacity: [0.8, 1, 0.8]
-                          }}
-                          transition={{ duration: 2, repeat: Infinity }}
-                          className="px-4 py-2 rounded-full bg-green-500/30 backdrop-blur-sm text-white text-sm flex items-center gap-2"
-                        >
-                          <div className="w-2 h-2 rounded-full bg-green-400" />
-                          Privacy Actief
-                        </motion.div>
-                      </div>
-                    </div>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-white mb-1">
+                            {feature.title}
+                          </h4>
+                          <p className="text-white/80">
+                            {feature.description}
+                          </p>
+                        </div>
+                      </motion.div>
+                    ))}
                   </div>
                   
-                  {/* Floating elements */}
-                  <motion.div
-                    animate={{ 
-                      y: [-10, 10, -10],
-                      rotate: [0, 5, 0]
-                    }}
-                    transition={{ duration: 5, repeat: Infinity }}
-                    className="absolute -top-8 -right-8 w-24 h-24 rounded-full bg-gradient-to-br from-green-500/30 to-blue-500/30 backdrop-blur-md z-0"
-                  />
-                  <motion.div
-                    animate={{ 
-                      y: [10, -10, 10],
-                      rotate: [0, -5, 0]
-                    }}
-                    transition={{ duration: 4, repeat: Infinity }}
-                    className="absolute -bottom-8 -left-8 w-20 h-20 rounded-full bg-gradient-to-br from-blue-500/30 to-green-500/30 backdrop-blur-md z-0"
-                  />
+                  <motion.button
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.8 }}
+                    whileHover={{ scale: 1.05 }}
+                    onClick={() => setIsModalOpen(true)}
+                    className="mt-8 px-8 py-3 bg-white text-blue-600 font-medium rounded-xl shadow-lg self-start hover:bg-white/90 transition-all landing-spot"
+                  >
+                    Ontdek ColiCard
+                  </motion.button>
                 </div>
-              </motion.div>
-            </div>
+                
+                {/* Rechterkant - Card Illustratie */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8 }}
+                  className="flex items-center justify-center relative"
+                >
+                  <div className="relative w-full max-w-md">
+                    {/* Card mockup */}
+                    <div className="relative z-10 w-full max-w-[350px] mx-auto transform rotate-6 hover:rotate-0 transition-all duration-300">
+                      <img 
+                        src="/viberisemewebsite/images/logo/logo-coliblanco.png" 
+                        alt="ColiCard" 
+                        className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/30 object-cover" 
+                      />
+                      
+                      {/* Floating elements around the card */}
+                      <motion.div 
+                        animate={{
+                          y: [0, -10, 0],
+                          x: [0, 5, 0]
+                        }}
+                        transition={{
+                          duration: 3,
+                          repeat: Infinity,
+                          ease: "easeInOut"
+                        }}
+                        className="absolute -top-6 -right-6 w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center shadow-lg"
+                      >
+                        <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                        </svg>
+                      </motion.div>
+                      
+                      <motion.div 
+                        animate={{
+                          y: [0, 10, 0],
+                          x: [0, -5, 0]
+                        }}
+                        transition={{
+                          duration: 4,
+                          repeat: Infinity,
+                          ease: "easeInOut"
+                        }}
+                        className="absolute -bottom-8 -left-8 w-20 h-20 bg-teal-500 rounded-full flex items-center justify-center shadow-lg"
+                      >
+                        <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                      </motion.div>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
           </motion.div>
 
           {/* Doelgroep Secties */}
@@ -477,7 +600,7 @@ const Features = () => {
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl mb-4 mx-auto flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 4h16a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2m0-2h16a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2z" />
                     </svg>
                   </div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">

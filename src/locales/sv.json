@@ -3,12 +3,17 @@
     "title": "ColiBlanco.ai | Din Data, Din Kraft",
     "description": "Ta kontroll över din data. ColiBlanco.ai låter dig äga, hantera och tjäna pengar på din personliga data med fullständig integritet och säkerhet."
   },
+  "metadata": {
+    "title": "ColiBlanco.ai | Din Data, Din Kraft",
+    "description": "Ta kontroll över din data. ColiBlanco.ai låter dig äga, hantera och tjäna pengar på din personliga data med fullständig integritet och säkerhet."
+  },
   "hero": {
-    "title": "Mindre arbete, mer flöde, mer säkerhet",
-    "subtitle": "ColiBlanco.ai: Plattformen som validerar färdigheter och adderar värde till karriärer",
-    "description": "ColiBlanco.ai gör det möjligt för yrkesverksamma och organisationer att identifiera och validera kompetenser genom EVC-processer och kompetensrapporter. Från mål till resultat håller vår plattform dig fokuserad på det som verkligen betyder något: tillväxt och utveckling.",
+    "title": "Less work, more flow, more safety",
+    "subtitle": "Ta kontroll över ditt digitala liv. Hantera din data, skydda din integritet och bli belönad för din uppmärksamhet.",
+    "description": "Ta kontroll över ditt digitala liv. Hantera din data, skydda din integritet och bli belönad för din uppmärksamhet.",
+    "cta": "Gå med i revolutionen",
     "words": {
-      "me": "jag",
+      "me": "mig",
       "social": "social",
       "privacy": "integritet",
       "data": "data",
@@ -18,222 +23,104 @@
       "for": "för"
     }
   },
-  "featuresOld": {
-    "title": "Dina Data, Dina Regler",
-    "subtitle": "Anslut dig till revolutionen där du bestämmer vad som händer med dina data. Och få betalt för det!",
-    "main": {
-      "title": "100% Integritet Garanterad",
-      "description": "Dina data är dina. Punkt. Vi ser till att ingen kan komma åt dem utan ditt tillstånd."
-    },
-    "community": {
-      "title": "Tjäna Med Varje Klick",
-      "description": "Din onlineaktivitet är värdefull. Vi ser till att du får betalt för den."
-    },
-    "social": {
-      "title": "Anslut Med Likasinnade",
-      "description": "Anslut med likasinnade som tror på en rättvis digital framtid"
-    }
+  "nav": {
+    "features": "Funktioner",
+    "customers": "Kunder",
+    "companies": "Företag",
+    "investors": "Investerare",
+    "developers": "Utvecklare",
+    "influencers": "Influencers",
+    "waitlist": "Väntelista"
   },
   "features": {
     "workflow": {
-      "title": "Fantastiskt arbetsflöde",
-      "description": "Kompetensvalideringsplattform som organisationer använder för att fokusera på att identifiera, validera och utnyttja färdigheter som driver tillväxt och framgång."
+      "title": "Flyg Fritt Som en Kolibri",
+      "description": "ColiBlanco ger dig friheten att leva som du vill, utan att oroa dig för din digitala integritet. Precis som en kolibri, navigerar du enkelt genom det digitala landskapet."
     },
     "collaboration": {
-      "title": "Teamsamarbete",
-      "description": "Kompetensvalideringsplattform som kopplar samman mentorer, bedömare, EVC-leverantörer och arbetsgivare för att samarbeta effektivt och hålla fokus på kompetensutveckling, validering och karriärtillväxt."
+      "title": "Njut av Varje Digital Upplevelse",
+      "description": "Med ColiBlanco kan du njuta av internet utan oro. Din digitala nektar stjäls inte längre av stora företag utan kommer direkt till dig."
     },
     "security": {
-      "title": "AI och Mänsklig Validering för att förhindra bedrägerier",
-      "description": "AI och Mänsklig Validering samarbetar för att förhindra bedrägerier och säkerställa förtroendet för kompetensbedömningar."
-    }
-  },
-  "powerful": {
-    "title": "Lätt att lära sig och extremt kraftfull",
-    "description": "ColiBlanco.ai förenklar kompetensvalidering och gör det möjligt för team att nå sina mål och göra meningsfulla framsteg."
-  },
-  "validation": {
-    "title": "För validering av varje kompetens",
-    "description": "Oavsett om det är genom EVC-processer eller detaljerade kompetensrapporter, säkerställer ColiBlanco.ai noggrann erkännande av kompetenser. Ge individer och organisationer möjlighet med tillförlitliga bedömningar för varje karriärfas."
-  },
-  "carousel": {
-    "audit": {
-      "title": "För Revisionsföretag",
-      "subtitle": "Säkerställ Efterlevnad med Förtroende",
-      "description": "Tillförlitliga rapporter och insikter för att göra revisioner enkla och transparenta."
+      "title": "Skyddad av Teknikens Natur",
+      "description": "Precis som kolibrin är snabb och smidig, skyddar vår teknik dig mot digitala rovdjur som är ute efter din värdefulla data."
     },
-    "assessors": {
-      "title": "För Bedömare",
-      "subtitle": "Ansträngningslös Kompetensbedömning",
-      "description": "Allt du behöver för att bedöma kompetenser rättvist, noggrant och effektivt."
+    "mainTitle": "Flyg Fritt i det Digitala Landskapet",
+    "subtitle": "ColiBlanco ger dig vingar för att fly från de digitala burar som stora teknikföretag har byggt åt dig. Och det bästa? Du blir belönad för det också!",
+    "mainCta": {
+      "title": "Redo att sprida dina vingar?",
+      "text": "Börja din digitala frigörelse idag.",
+      "button": "Flyg med oss",
+      "subtitle": "Upptäck hur ColiPhone kan förändra ditt digitala liv"
     },
-    "evc": {
-      "title": "För EVC-leverantörer",
-      "subtitle": "Effektivisera Dina EVC-processer",
-      "description": "Enkla verktyg för att hantera vägar, vägleda kandidater och validera resultat enkelt."
-    }
-  },
-  "comingSoon": {
-    "title": "ColiBlanco.ai kommer snart",
-    "description": "ColiBlanco.ai är på väg! Var redo att ta kontroll över din data som aldrig förr."
-  },
-  "newsletter": {
-    "title": "Håll dig uppdaterad",
-    "subtitle": "Registrera dig för uppdateringar",
-    "description": "Registrera dig på väntelistan och få uppdateringar om ColiBlanco.ai",
-    "placeholder": "Din e-post",
-    "button": "Registrera dig",
-    "success": "Tack för din registrering!",
-    "sending": "Skickar...",
-    "error": "Något gick fel. Försök igen senare."
-  },
-  "contact": {
-    "name": "Ditt namn",
-    "email": "E-postadress",
-    "subject": "Ämne",
-    "message": "Ditt meddelande",
-    "button": "Skicka",
-    "success": "Tack för ditt meddelande!",
-    "sending": "Skickar...",
-    "error": "Något gick fel. Försök igen senare."
-  },
-  "footer": {
-    "contact": {
-      "title": "Kontakta oss",
-      "name": "Namn",
-      "email": "E-post",
-      "message": "Meddelande",
-      "send": "Skicka",
-      "success": "Tack för ditt meddelande! Vi återkommer snart.",
-      "error": "Något gick fel. Försök igen senare."
-    },
-    "description": "Ta kontroll över din data. ColiBlanco.ai låter dig hantera och tjäna pengar på din personliga data.",
-    "copyright": "Alla rättigheter förbehållna"
-  },
-  "featuresNew": {
-    "title": "Kraftfulla Funktioner för Din Data",
-    "subtitle": "Upptäck hur ColiBlanco.ai hjälper dig att ta tillbaka kontrollen över ditt digitala liv",
     "main": {
-      "title": "Globalt Medvetande",
-      "description": "Gå med i ett globalt nätverk som strävar efter digital frihet och rättvist datautbyte"
+      "title": "Din Digitala Nektar, Endast för Dig",
+      "description": "Precis som en kolibri samlar nektar, samlar du värdefulla digitala upplevelser. Men till skillnad från dagens internet, förblir denna nektar din och endast din."
     },
     "community": {
-      "title": "Stark Gemenskap",
-      "description": "Anslut med likasinnade som tror på en rättvis digital framtid"
+      "title": "Skörda Frukterna av Din Digitala Trädgård",
+      "description": "Varje klick, varje sökning, varje interaktion online är värdefull. Med ColiBlanco skördar du äntligen belöningarna från din egen digitala trädgård."
     },
     "blockchain": {
-      "title": "Du Har Kontrollen",
-      "description": "Välj vem som kan använda dina data. Ett klick för att återkalla åtkomst."
+      "title": "Du Är Dirigenten för Din Digitala Orkester",
+      "description": "Bestäm själv vilken musik som spelas i ditt digitala liv. Med en rörelse ändrar du melodin eller stoppar konserten helt."
     },
     "device": {
-      "title": "ColiBlancoPhone",
-      "description": "En revolutionerande enhet som integrerar all din kommunikation, identitet och digitala liv i en smidig upplevelse.",
+      "title": "ColiPhone: Dina Digitala Vingar",
+      "description": "En revolutionerande enhet som ger dig friheten att flyga i den digitala världen, utan att oroa dig för vem som spionerar på dig eller stjäl din data.",
       "features": {
         "privacy": {
           "title": "Integritet-Först Design",
-          "description": "Byggd med integritet som grund, inte som en extrafunktion. Dina data förblir dina."
+          "description": "Byggd med integritet som grund, inte som en extra funktion. Din data förblir din."
         },
         "cloud": {
           "title": "Molnbaserat System",
-          "description": "All funktionalitet kommer från molnet, vilket håller enheten prisvärd och alltid uppdaterad."
+          "description": "Alla funktioner kommer från molnet, vilket håller enheten tillgänglig och alltid uppdaterad."
         },
         "calling": {
           "title": "En Kommunikationsplattform",
-          "description": "Glöm e-post, WhatsApp och SMS. ColiBlancoPhone integrerar all kommunikation i en intuitiv plattform."
+          "description": "Glöm e-post, WhatsApp och SMS. ColiPhone integrerar all kommunikation i en intuitiv plattform."
         },
         "independence": {
-          "title": "Oberoende Garanterat",
+          "title": "Garanterad Oberoende",
           "description": "Inget beroende av stora amerikanska teknikföretag. Du bestämmer vem som har tillgång till ditt digitala liv."
         }
       },
       "card": {
-        "title": "ColiBlancoCard",
-        "description": "Den tekniska kärnan i ColiBlancoPhone-ekosystemet. Ett avancerat kort som säkert lagrar din digitala identitet."
+        "title": "ColiCard",
+        "description": "Den tekniska kärnan i ColiPhone-ekosystemet. Ett avancerat kort som säkert lagrar din digitala identitet."
       }
-    },
-    "mainCta": {
-      "title": "Redo att börja?",
-      "text": "Börja skydda dina data idag.",
-      "button": "Kom igång",
-      "subtitle": "Upptäck hur ColiBlancoPhone kan transformera ditt digitala liv"
-    },
-    "movement": {
-      "title": "Gå Med i Rörelsen"
-    },
-    "groups": {
-      "users": {
-        "title": "För Användare",
-        "description": "Ta kontroll över din data och tjäna på den",
-        "badge": "För konsumenter"
-      },
-      "companies": {
-        "title": "För Företag",
-        "description": "Etiskt datautbyte för innovation",
-        "badge": "För företag"
-      },
-      "investors": {
-        "title": "För Investerare",
-        "description": "Investera i datans framtid",
-        "badge": "För investerare"
-      },
-      "developers": {
-        "title": "För Utvecklare",
-        "description": "Bygg med oss",
-        "badge": "För utvecklare"
-      },
-      "influencers": {
-        "title": "Influencers",
-        "description": "Öka din räckvidd och tjäna mer på ditt innehåll samtidigt som du behåller din integritet.",
-        "badge": "För influencers"
-      }
-    },
-    "cta": {
-      "title": "Gå Med för att Höja Världens Vibe",
-      "subtitle": "Tillsammans skapar vi en mer medveten digital värld",
-      "button": "Börja Nu"
     }
   },
-  "influencer": {
-    "title": "Förstärk Din Påverkan",
-    "subtitle": "Nå mer, tjäna mer och gör skillnad med ColiBlanco.ai plattform för influencers.",
+  "carousel": {
+    "title": "Verkliga Människor, Verkliga Berättelser",
+    "subtitle": "Se hur ColiBlanco förändrar liv över hela världen"
+  },
+  "customer": {
+    "title": "Ta Kontroll Över Ditt Digitala Liv",
+    "description": "Din data är värdefull. Det är dags att du blir belönad för den. Gå med i ColiBlanco-revolutionen och ta tillbaka kontrollen över ditt digitala liv.",
+    "badge": "För användare",
     "features": {
-      "reach": {
-        "title": "Utöka Din Räckvidd",
-        "description": "Nå en bredare publik med våra avancerade målgrupps- och rekommendationsalgoritmer."
-      },
-      "earnings": {
-        "title": "Maximera Dina Intäkter",
-        "description": "Tjäna direkt på ditt innehåll och få rättvis ersättning för ditt inflytande."
-      },
-      "analytics": {
-        "title": "Djupgående Analyser",
-        "description": "Få detaljerad insikt i din prestanda och dina följares beteende."
-      },
-      "community": {
-        "title": "Bygg Din Gemenskap",
-        "description": "Skapa en stark och engagerad gemenskap kring ditt varumärke och dina värderingar."
-      },
-      "cta": "Börja Växa"
+      "title": "Fördelar för Användare",
+      "cta": "Gå med på Väntelistan",
+      "items": [
+        {
+          "title": "Tjäna på Din Data",
+          "description": "Bli betald för värdet du skapar online. Din data, din belöning."
+        },
+        {
+          "title": "Garanterad Integritet",
+          "description": "Full kontroll över vem som kan komma åt din data och hur den används."
+        },
+        {
+          "title": "Enhetlig Upplevelse",
+          "description": "All din kommunikation och digitala identiteter på ett ställe."
+        }
+      ]
     }
   },
-  "waitlist": {
-    "title": "Gå med i ColiBlanco.ai",
-    "description": {
-      "consumer": "Bli en del av rörelsen för digital frihet",
-      "company": "Upptäck hur ColiBlanco.ai kan hjälpa ditt företag",
-      "influencer": "Förstärk din räckvidd med ColiBlanco.ai",
-      "investor": "Investera i framtiden för digital frihet",
-      "developer": "Bygg internets framtid"
-    },
-    "emailPlaceholder": "Din e-postadress",
-    "submit": "Gå med",
-    "loading": "Vänligen vänta...",
-    "privacy": "Genom att registrera dig godkänner du våra sekretessvillkor",
-    "success": {
-      "title": "Välkommen till ColiBlanco.ai!",
-      "position": "Du är på plats {{position}} i väntelistan",
-      "referral": "Dela denna länk för att avancera i listan:",
-      "close": "Stäng"
-    }
+  "footer": {
+    "copyright": "Alla rättigheter förbehållna",
+    "description": "Omdefinierar relationen mellan människor, data och teknik."
   }
 }

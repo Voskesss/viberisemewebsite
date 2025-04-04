@@ -186,27 +186,27 @@
     "copyright": "Alle rechten voorbehouden"
   },
   "customer": {
-    "title": "Jouw data, jouw toekomst",
-    "subtitle": "Neem controle over je persoonlijke data en verdien eraan, met volledige privacy",
-    "badge": "Voor consumenten",
+    "title": "Vlieg vrij in de digitale wereld",
+    "subtitle": "ColiBlanco geeft je de vrijheid om te leven zoals jij wilt, zonder zorgen over je digitale privacy",
+    "badge": "Voor gebruikers",
     "features": {
       "privacy": {
-        "title": "Totale Privacy Controle",
-        "description": "Blokkeer tracking, gebruik standaard VPN, en maak jezelf onherleidbaar. Jij bepaalt wat er met je data gebeurt."
+        "title": "Volledige Privacy Controle",
+        "description": "Net als een kolibrie die ongestoord door de lucht zweeft, beweeg jij je vrij door het digitale landschap zonder gevolgd te worden."
       },
       "earnings": {
-        "title": "Verdien met Je Data",
-        "description": "Ontdek de verborgen waarde van je eigen data! Kies zelf welke data je deelt en ontvang direct betaling voor elke interactie - jouw digitale leven, jouw inkomstenbron."
+        "title": "Verzamel Je Digitale Nectar",
+        "description": "Jouw online activiteit is waardevol. Met ColiBlanco ontvang je beloningen voor elke digitale druppel nectar die je creëert."
       },
-      "social": {
-        "title": "Veilige Sociale Media",
-        "description": "Gebruik sociale media op jouw voorwaarden. Geen tracking, geen advertenties, pure connectie met anderen."
+      "freedom": {
+        "title": "Zweef Vrij Tussen Platforms",
+        "description": "Geen digitale muren meer. Vlieg moeiteloos tussen verschillende platforms en diensten zonder je identiteit of gegevens te verliezen."
       },
-      "impact": {
-        "title": "Directe Impact",
-        "description": "Zie direct hoe jouw databeheer bijdraagt aan een betere wereld. Volg je impact in real-time."
+      "control": {
+        "title": "Jij Bepaalt Je Vliegrichting",
+        "description": "Neem volledige controle over je digitale reis. Bepaal zelf wie toegang heeft tot je gegevens en hoe ze worden gebruikt."
       },
-      "cta": "Begin Nu Met Verdienen"
+      "cta": "Spreid je vleugels"
     }
   },
   "company": {
