@@ -455,7 +455,7 @@ const Features = () => {
                     {/* Card mockup */}
                     <div className="relative z-10 w-full max-w-[350px] mx-auto transform rotate-6 hover:rotate-0 transition-all duration-300">
                       <img 
-                        src="public/viberisemewebsite/images/card/colicardwebsite.png" 
+                        src="/images/card/colicardwebsite.png" 
                         alt="ColiCard" 
                         className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/30 object-cover" 
                       />
