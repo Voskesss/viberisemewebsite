@@ -34,7 +34,7 @@ const Hero = () => {
           loop
           playsInline
           className="absolute w-full h-full object-cover"
-          src="/viberisemewebsite/videos/hero-bg.mp4"
+          src="/public/videos/hero-bg.mp4"
         >
         </video>
         {/* Overlay voor betere leesbaarheid van tekst */}
@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="container mx-auto px-4 pb-4">
           <div className="max-w-3xl mx-auto text-center">
             <div className="w-40 h-40 mx-auto mb-6 relative">
-              <img src="/viberisemewebsite/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-full h-full object-contain" />
+              <img src="public/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-full h-full object-contain" />
               
               {/* Animatie effect rond het logo */}
               <div className="absolute -inset-4 bg-gradient-to-r from-teal-500/20 via-orange-500/20 to-teal-500/20 rounded-full blur-xl -z-10 animate-pulse" />
