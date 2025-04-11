@@ -72,13 +72,31 @@ const Footer = () => {
           <div className="flex flex-col space-y-4">
             <a href="/" className="flex items-center gap-3 justify-center md:justify-start">
               <img src="/viberisemewebsite/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-10 h-10 object-contain" />
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-blue-500 to-green-500">
+              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-orange-500 to-teal-500">
                 ColiBlanco<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.ai</span>
               </span>
             </a>
             <p className="text-sm text-green-300 text-center md:text-left">
               {t('footer.description')}
             </p>
+            <div className="flex flex-col space-y-2 mt-4">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span className="text-sm text-green-300">{t('footer.foundation')}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span className="text-sm text-green-300">{t('footer.european')}</span>
+              </div>
+            </div>
           </div>
 
           {/* Contact Form */}

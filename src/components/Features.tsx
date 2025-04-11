@@ -393,19 +393,19 @@ const Features = () => {
                     {[
                       { 
                         title: 'Volledige Controle', 
-                        description: 'Jij bepaalt wie toegang heeft tot welke delen van je digitale identiteit.'
+                        description: 'Net als een kolibrie vlieg je moeiteloos door het digitale landschap, zonder zorgen over je privacy.'
                       },
                       { 
-                        title: 'Veilig & Privé', 
-                        description: 'Geavanceerde encryptie beschermt je gegevens tegen ongewenste toegang.'
+                        title: 'Jouw Digitale Nectar', 
+                        description: 'Jouw digitale nectar wordt niet langer gestolen door grote bedrijven, maar komt direct bij jou terecht.'
                       },
                       { 
-                        title: 'Verdien Aan Je Data', 
-                        description: 'Ontvang beloningen wanneer je ervoor kiest om delen van je data te delen.'
+                        title: 'Vlieg Vrij', 
+                        description: 'ColiBlanco geeft je vleugels om te ontsnappen aan de digitale kooien die grote techbedrijven voor je hebben gebouwd.'
                       },
                       { 
-                        title: 'Werkt Overal', 
-                        description: 'Naadloze integratie met websites, apps en diensten wereldwijd.'
+                        title: 'Oogst de Vruchten', 
+                        description: 'Elke klik, elke zoekopdracht, elke interactie online is waardevol. Met ColiBlanco pluk jij de vruchten.'
                       }
                     ].map((feature, index) => (
                       <motion.div
@@ -455,7 +455,7 @@ const Features = () => {
                     {/* Card mockup */}
                     <div className="relative z-10 w-full max-w-[350px] mx-auto transform rotate-6 hover:rotate-0 transition-all duration-300">
                       <img 
-                        src="/viberisemewebsite/images/logo/logo-coliblanco.png" 
+                        src="public/viberisemewebsite/images/card/colicardwebsite.png" 
                         alt="ColiCard" 
                         className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/30 object-cover" 
                       />

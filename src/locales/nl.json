@@ -8,19 +8,18 @@
     "description": "Neem controle over je data. ColiBlanco.ai stelt je in staat om je persoonlijke data te bezitten, beheren en er geld mee te verdienen met volledige privacy en veiligheid."
   },
   "hero": {
-    "title": "Less work, more flow, more safety",
-    "subtitle": "Neem controle over je digitale leven. Beheer je data, bescherm je privacy en word beloond voor je aandacht.",
-    "description": "Neem controle over je digitale leven. Beheer je data, bescherm je privacy en word beloond voor je aandacht.",
-    "cta": "Doe Mee met de Revolutie",
+    "title": "Geboren in Europa, Ontworpen voor Vrijheid",
+    "subtitle": "We leven in een verbonden wereld - levendig, snel en vol potentieel. Maar ergens onderweg is de controle over onze data uit onze handen geglipt. Big Tech nam het stuur over. En wij? Wij werden het product. Het is tijd om dat te veranderen.",
+    "description": "ColiBlanco - geboren in Europa, ontworpen voor vrijheid, en aangedreven door vertrouwen. Eén simpele tik verbindt je met je eigen intelligente assistent. Het is niet zomaar technologie. Het is jouw technologie. Gebouwd voor jouw wereld.",
+    "cta": "Neem de Controle Terug",
     "words": {
-      "me": "me",
-      "social": "sociaal",
-      "privacy": "privacy",
+      "ai": "ai",
+      "freedom": "vrijheid",
+      "control": "controle",
       "data": "data",
-      "advertising": "adverteren",
-      "communication": "communicatie",
-      "world": "wereld",
-      "for": "voor"
+      "privacy": "privacy",
+      "movement": "beweging",
+      "europe": "europa"
     }
   },
   "features": {
@@ -54,7 +53,7 @@
     },
     "blockchain": {
       "title": "Jij Bent de Dirigent van Je Digitale Orkest",
-      "description": "Bepaal zelf welke muziek er gespeeld wordt in je digitale leven. Met één beweging verander je de melodie of stop je het concert helemaal."
+      "description": "Bepaal zelf welke muziek er gespeeld wordt in je digitale leven. Met u00e9u00e9n beweging verander je de melodie of stop je het concert helemaal."
     },
     "device": {
       "title": "ColiPhone: Je Digitale Vleugels",
@@ -69,8 +68,8 @@
           "description": "Alle functionaliteit komt uit de cloud, waardoor het apparaat betaalbaar blijft en altijd up-to-date is."
         },
         "calling": {
-          "title": "Één Communicatieplatform",
-          "description": "Vergeet e-mail, WhatsApp en SMS. ColiPhone integreert alle communicatie in één intuïtief platform."
+          "title": "u00c9u00e9n Communicatieplatform",
+          "description": "Vergeet e-mail, WhatsApp en SMS. ColiPhone integreert alle communicatie in u00e9u00e9n intuu00eftief platform."
         },
         "independence": {
           "title": "Onafhankelijkheid Gegarandeerd",
@@ -78,7 +77,7 @@
         }
       },
       "card": {
-        "title": "VibeCard",
+        "title": "ColiCard",
         "description": "De technische kern van het ColiPhone ecosysteem. Een geavanceerde kaart die jouw digitale identiteit veilig opslaat."
       }
     },
@@ -173,7 +172,9 @@
   "footer": {
     "product": "Product",
     "company": "Bedrijf",
-    "description": "Neem controle over je data. ColiBlanco.ai stelt je in staat om je persoonlijke gegevens te beheren en er geld mee te verdienen.",
+    "description": "ColiBlanco is meer dan een assistent. Het is een beweging. Geboren in Europa, ontworpen voor vrijheid, en bestuurd door een onafhankelijke stichting. Jouw AI. Jouw data. Jouw regels.",
+    "foundation": "Onafhankelijk Toezicht",
+    "european": "Europese Wortels",
     "contact": {
       "title": "Contact",
       "name": "Naam",
@@ -186,27 +187,27 @@
     "copyright": "Alle rechten voorbehouden"
   },
   "customer": {
-    "title": "Vlieg vrij in de digitale wereld",
-    "subtitle": "ColiBlanco geeft je de vrijheid om te leven zoals jij wilt, zonder zorgen over je digitale privacy",
+    "title": "Neem de Controle Terug",
+    "subtitle": "We leven in een verbonden wereld - levendig, snel en vol potentieel. Maar ergens onderweg is de controle over onze data uit onze handen geglipt. Big Tech nam het stuur over. En wij? Wij werden het product. Het is tijd om dat te veranderen.",
     "badge": "Voor gebruikers",
     "features": {
       "privacy": {
-        "title": "Volledige Privacy Controle",
-        "description": "Net als een kolibrie die ongestoord door de lucht zweeft, beweeg jij je vrij door het digitale landschap zonder gevolgd te worden."
+        "title": "Jouw AI, Jouw Data",
+        "description": "Anders dan Big Tech, wordt ColiBlanco bestuurd door een onafhankelijke stichting. We beloven niet alleen ethiek - we worden erop gecontroleerd."
       },
       "earnings": {
-        "title": "Verzamel Je Digitale Nectar",
-        "description": "Jouw online activiteit is waardevol. Met ColiBlanco ontvang je beloningen voor elke digitale druppel nectar die je creëert."
+        "title": "Verdien met Je Data",
+        "description": "Wil je verdienen aan je data? Alleen als jij dat kiest. Met ColiBlanco kun je je interesses delen en beloond worden - transparant en eerlijk."
       },
       "freedom": {
-        "title": "Zweef Vrij Tussen Platforms",
-        "description": "Geen digitale muren meer. Vlieg moeiteloos tussen verschillende platforms en diensten zonder je identiteit of gegevens te verliezen."
+        "title": "Draagbare Identiteit",
+        "description": "Waar je ook gaat - naar werk, naar je woonkamer of onderweg - ColiBlanco volgt. Eu00e9u00e9n kaart, u00e9u00e9n ervaring die zich aan jou aanpast."
       },
       "control": {
-        "title": "Jij Bepaalt Je Vliegrichting",
-        "description": "Neem volledige controle over je digitale reis. Bepaal zelf wie toegang heeft tot je gegevens en hoe ze worden gebruikt."
+        "title": "Slimme Contexten",
+        "description": "Je leven heeft vele kanten. ColiBlanco begrijpt dat. Het houdt je privu00e9- en werkwerelden gescheiden, en schakelt intelligent tussen modi."
       },
-      "cta": "Spreid je vleugels"
+      "cta": "Word Deel van de Beweging"
     }
   },
   "company": {

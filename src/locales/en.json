@@ -8,19 +8,18 @@
     "description": "Experience a new era of data ownership where you're in control. Own your data, protect your privacy, and get rewarded for your attention."
   },
   "hero": {
-    "title": "Your Data, Your Power",
-    "subtitle": "Take control of your digital life",
-    "description": "Own your data, protect your privacy, and get rewarded for your attention",
-    "cta": "Join the Revolution",
+    "title": "Born in Europe, Designed for Freedom",
+    "subtitle": "We live in a connected world — vibrant, fast-paced, and full of potential. But somewhere along the way, control over our data slipped from our hands. Big Tech took the driver's seat. And we? We became the product. It's time to change that.",
+    "description": "Meet ColiBlanco — born in Europe, designed for freedom, and powered by trust. One simple tap connects you to your own intelligent assistant. It's not just tech. It's your tech. Built for your world.",
+    "cta": "Take Back Control",
     "words": {
-      "me": "me",
-      "social": "social",
-      "privacy": "privacy",
+      "ai": "ai",
+      "freedom": "freedom",
+      "control": "control",
       "data": "data",
-      "advertising": "advertising",
-      "communication": "communication",
-      "world": "world",
-      "for": "voor"
+      "privacy": "privacy",
+      "movement": "movement",
+      "europe": "europe"
     }
   },
   "features": {
@@ -78,7 +77,7 @@
         }
       },
       "card": {
-        "title": "VibeCard",
+        "title": "ColiCard",
         "description": "The technical core of the ColiPhone ecosystem. An advanced card that securely stores your digital identity."
       }
     },
@@ -169,40 +168,44 @@
     "error": "Something went wrong. Please try again later."
   },
   "footer": {
-    "description": "Take control of your data. ColiBlanco.ai empowers you to manage and monetize your personal data.",
+    "product": "Product",
+    "company": "Company",
+    "description": "ColiBlanco is more than an assistant. It's a movement. Born in Europe, designed for freedom, and governed by an independent foundation. Your AI. Your data. Your rules.",
+    "foundation": "Independent Oversight",
+    "european": "European Roots",
     "contact": {
-      "title": "Contact Us",
+      "title": "Contact",
       "name": "Name",
       "email": "Email",
       "message": "Message",
       "send": "Send",
-      "success": "Thank you for your message! We'll get back to you soon.",
+      "success": "Thank you for your message! We'll be in touch soon.",
       "error": "Something went wrong. Please try again later."
     },
     "copyright": "All rights reserved"
   },
   "customer": {
-    "title": "Fly Free in the Digital World",
-    "subtitle": "ColiBlanco gives you the freedom to live as you wish, without worrying about your digital privacy",
+    "title": "Take Back Control",
+    "subtitle": "We live in a connected world — vibrant, fast-paced, and full of potential. But somewhere along the way, control over our data slipped from our hands. Big Tech took the driver's seat. And we? We became the product. It's time to change that.",
     "badge": "For users",
     "features": {
       "privacy": {
-        "title": "Complete Privacy Control",
-        "description": "Like a hummingbird gliding undisturbed through the air, you move freely through the digital landscape without being tracked."
+        "title": "Your AI, Your Data",
+        "description": "Unlike Big Tech, ColiBlanco is governed by an independent foundation. We don't just promise ethics — we're audited for it."
       },
       "earnings": {
-        "title": "Collect Your Digital Nectar",
-        "description": "Your online activity is valuable. With ColiBlanco, you receive rewards for every digital drop of nectar you create."
+        "title": "Earn With Your Data",
+        "description": "Want to earn from your data? Only if you choose. With ColiBlanco, you can share your interests and get rewarded — transparently and fairly."
       },
       "freedom": {
-        "title": "Hover Freely Between Platforms",
-        "description": "No more digital walls. Fly effortlessly between different platforms and services without losing your identity or data."
+        "title": "Portable Identity",
+        "description": "Wherever you go — to work, to your living room, or on the road — ColiBlanco follows. One card, one experience that adapts to you."
       },
       "control": {
-        "title": "You Determine Your Flight Path",
-        "description": "Take full control of your digital journey. Decide for yourself who has access to your data and how it is used."
+        "title": "Smart Contexts",
+        "description": "Your life has many sides. ColiBlanco understands that. It keeps your private and work worlds separate, intelligently switching modes."
       },
-      "cta": "Spread your wings"
+      "cta": "Become Part of the Movement"
     }
   },
   "company": {
