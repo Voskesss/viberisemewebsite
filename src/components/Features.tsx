@@ -455,7 +455,7 @@ const Features = () => {
                     {/* Card mockup */}
                     <div className="relative z-10 w-full max-w-[350px] mx-auto transform rotate-6 hover:rotate-0 transition-all duration-300">
                       <img 
-                        src="/images/colicard.jpeg" 
+                        src="/viberisemewebsite/images/colicard.jpeg" 
                         alt="ColiCard" 
                         className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/30 object-cover" 
                       />
@@ -474,7 +474,7 @@ const Features = () => {
                         className="absolute -top-6 -right-6 w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center shadow-lg"
                       >
                         <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                         </svg>
                       </motion.div>
                       
