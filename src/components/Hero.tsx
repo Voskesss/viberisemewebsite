@@ -57,7 +57,7 @@ const Hero = () => {
               <span 
                 key={words[currentWord]}
                 className="font-light italic opacity-90 -ml-2 transform -rotate-6 inline-block transition-opacity duration-1000 bg-clip-text text-transparent bg-gradient-to-r from-teal-300 via-orange-300 to-teal-300"
-              >.{t(`hero.words.${words[currentWord]}`)}</span>
+              >.{words[currentWord]}</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-6">
               {t('hero.description')}

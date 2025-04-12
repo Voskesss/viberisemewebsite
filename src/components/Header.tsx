@@ -129,7 +129,7 @@ const Header = () => {
               className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
               <span className="text-sm font-bold text-white">ColiBlanco</span>
-              <span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.{t('hero.words.for')}</span>
+              <span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.ai</span>
               <svg className={`w-4 h-4 transition-transform ${isMenuOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
