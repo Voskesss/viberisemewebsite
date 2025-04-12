@@ -210,8 +210,8 @@
     }
   },
   "company": {
-    "title": "Empower your business with data",
-    "subtitle": "Improve your business processes with secure and ethical data solutions",
+    "title": "Strengthen your business with ethical data",
+    "subtitle": "Improve your business processes with secure and transparent data solutions",
     "badge": "For companies",
     "features": {
       "insights": {
@@ -220,90 +220,89 @@
       },
       "impact": {
         "title": "Direct Impact",
-        "description": "Be part of a revolution in data management. Help build a fairer internet for everyone."
+        "description": "Be part of a revolution in data management. Help build a fairer digital ecosystem for everyone."
       },
       "model": {
-        "title": "Fair Revenue Model",
-        "description": "Only pay for the data you use. Direct, transparent, and without intermediaries."
+        "title": "Fair Earnings Model",
+        "description": "Pay only for the data you use. Direct, transparent and without intermediaries."
       },
       "compliance": {
         "title": "Privacy & Compliance",
-        "description": "Fully GDPR-compliant. All data exchange is transparent and traceable via blockchain."
+        "description": "All data exchange meets the strictest privacy requirements. No worries about GDPR or other regulations."
       },
-      "cta": "Become a Partner"
+      "cta": "Join ColiBlanco"
     }
   },
   "investor": {
-    "title": "Invest in the Future",
+    "title": "Invest in the future of data",
     "subtitle": "Become part of the data revolution",
     "badge": "For investors",
     "features": {
-      "growth": {
-        "title": "Exponential Growth",
-        "description": "Invest in a platform shaping the future of data exchange. Benefit from early adoption and network effects."
-      },
-      "security": {
-        "title": "Secure Investment",
-        "description": "Blockchain-based tokens and smart contracts ensure transparency and security of your investment."
+      "opportunity": {
+        "title": "Unique Opportunity",
+        "description": "Invest in a revolutionary platform that fundamentally changes the way we handle data."
       },
       "impact": {
-        "title": "Global Impact",
-        "description": "Help build a fairer internet. Be part of a worldwide movement for data democratization."
+        "title": "Social Impact",
+        "description": "Contribute to a fairer internet where users have control over their data and directly benefit from it."
       },
-      "market": {
-        "title": "Market Share",
-        "description": "Get early access to a growing market for personal data. Position yourself in this emerging industry."
+      "growth": {
+        "title": "Exponential Growth",
+        "description": "Benefit from a rapidly growing platform with a scalable revenue model and global ambition."
       },
-      "cta": "Become an Early Investor"
+      "team": {
+        "title": "Experienced Team",
+        "description": "Our team consists of experienced entrepreneurs and technologists with a proven track record in building successful platforms."
+      },
+      "cta": "Become part of ColiBlanco"
     }
   },
   "developer": {
-    "title": "Build the Future",
-    "subtitle": "Join our open source community",
+    "title": "Build the future with us",
+    "subtitle": "Help us shape the data revolution",
     "badge": "For developers",
     "features": {
-      "opensource": {
-        "title": "Open Source",
-        "description": "Contribute to a fully open source platform. Help build the future of the internet."
-      },
-      "tech": {
-        "title": "Cutting-Edge Tech",
-        "description": "Work with the latest technologies: blockchain, AI, and decentralized systems."
+      "tools": {
+        "title": "Advanced Tools",
+        "description": "Get access to our extensive APIs and development tools to build innovative applications on the ColiBlanco platform."
       },
       "community": {
-        "title": "Active Community",
-        "description": "Join a vibrant community of developers building a better digital world."
+        "title": "Vibrant Community",
+        "description": "Become part of an active community of developers working together on a fairer internet."
       },
       "rewards": {
-        "title": "Rewards & Recognition",
-        "description": "Receive rewards for your contributions. Build a reputation in the Web3 community."
+        "title": "Fair Rewards",
+        "description": "Earn from your contributions to the ecosystem. The more value you add, the more you get rewarded."
       },
-      "cta": "Start Contributing"
+      "freedom": {
+        "title": "Freedom for Innovation",
+        "description": "Experiment with new ideas in an open ecosystem without the limitations of traditional platforms."
+      },
+      "cta": "Start building"
     }
   },
   "influencer": {
-    "title": "Make Impact with Your Content",
-    "subtitle": "Reach more people, earn more from your content, and maintain full control over your data",
+    "title": "Make more impact with your content",
+    "description": "Reach more people, earn more with your content and maintain full control over your data. With ColiBlanco you get the tools to increase your reach while maintaining your privacy.",
     "badge": "For influencers",
-    "description": "Reach more people, earn more from your content, and maintain full control over your data. With ColiBlanco.ai, you get the tools to expand your reach while ensuring your privacy remains protected.",
     "features": {
-      "reach": {
-        "title": "Expand Your Reach",
-        "description": "Reach a wider audience with our advanced targeting and recommendation algorithms."
+      "audience": {
+        "title": "Build an Authentic Community",
+        "description": "Gather followers who are genuinely interested in your content, without algorithms determining who you reach."
       },
       "earnings": {
-        "title": "Maximize Your Earnings",
-        "description": "Earn directly from your content and receive fair compensation for your influence."
+        "title": "Maximize Your Income",
+        "description": "Earn directly from your content without intermediaries. Your value comes directly to you."
+      },
+      "control": {
+        "title": "Maintain Complete Control",
+        "description": "Decide for yourself who has access to your content and under what conditions. No platform imposing rules on you."
       },
       "analytics": {
-        "title": "In-Depth Analytics",
-        "description": "Get detailed insights into your performance and follower behavior."
+        "title": "Detailed Insights",
+        "description": "Get detailed insights into how your content performs, without this data being sold to third parties."
       },
-      "community": {
-        "title": "Build Your Community",
-        "description": "Create a strong and engaged community around your brand and values."
-      },
-      "cta": "Start Growing"
+      "cta": "Increase your impact with ColiBlanco"
     }
   },
   "waitlist": {
