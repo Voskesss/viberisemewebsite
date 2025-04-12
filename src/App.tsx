@@ -13,6 +13,7 @@ import SEO from './components/SEO'
 import Header from './components/Header'
 import InfluencerSection from './components/InfluencerSection'
 import ScrollToTop from './components/ScrollToTop'
+import GeneralVideoSection from './components/GeneralVideoSection'
 
 function App() {
   const { i18n } = useTranslation();
@@ -32,6 +33,7 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <GeneralVideoSection />
           <Features />
           <CustomerSection />
           <CompanySection />
