@@ -114,7 +114,7 @@ const CompanySection = () => {
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
               <div style={{padding:'56.25% 0 0 0', position:'relative'}}>
                 <iframe 
-                  src="https://player.vimeo.com/video/1050016503?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                  src="https://player.vimeo.com/video/1074950063?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
                   style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}}
                   frameBorder="0" 
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"

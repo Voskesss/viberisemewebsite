@@ -186,12 +186,12 @@
     "copyright": "All rights reserved"
   },
   "customer": {
-    "title": "Take Back Control",
-    "subtitle": "We live in a connected world — vibrant, fast-paced, and full of potential. But somewhere along the way, control over our data slipped from our hands. Big Tech took the driver's seat. And we? We became the product. It's time to change that.",
+    "title": "Take Control of Your Digital Life",
+    "subtitle": "We live in a connected world — vibrant, fast-paced, and full of potential. But somewhere along the way, control over our data slipped from our hands. With ColiBlanco, you get that control back.",
     "badge": "For users",
     "features": {
       "privacy": {
-        "title": "Your AI, Your Data",
+        "title": "Your Data, Your Choice",
         "description": "Unlike Big Tech, ColiBlanco is governed by an independent foundation. We don't just promise ethics — we're audited for it."
       },
       "earnings": {
@@ -199,12 +199,12 @@
         "description": "Want to earn from your data? Only if you choose. With ColiBlanco, you can share your interests and get rewarded — transparently and fairly."
       },
       "freedom": {
-        "title": "Portable Identity",
-        "description": "Wherever you go — to work, to your living room, or on the road — ColiBlanco follows. One card, one experience that adapts to you."
+        "title": "Accessible Everywhere",
+        "description": "Wherever you go — to work, to your living room, or on the road — ColiBlanco goes with you. One card, one experience that adapts to you."
       },
       "control": {
         "title": "Smart Contexts",
-        "description": "Your life has many sides. ColiBlanco understands that. It keeps your private and work worlds separate, intelligently switching modes."
+        "description": "Your life has many sides. ColiBlanco understands that. It keeps your private and work worlds separate, intelligently switching between different contexts."
       },
       "cta": "Become Part of the Movement"
     }

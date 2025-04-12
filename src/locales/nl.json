@@ -188,12 +188,12 @@
     "copyright": "Alle rechten voorbehouden"
   },
   "customer": {
-    "title": "Neem de Controle Terug",
-    "subtitle": "We leven in een verbonden wereld - levendig, snel en vol potentieel. Maar ergens onderweg is de controle over onze data uit onze handen geglipt. Big Tech nam het stuur over. En wij? Wij werden het product. Het is tijd om dat te veranderen.",
+    "title": "Neem de controle over je digitale leven",
+    "subtitle": "We leven in een verbonden wereld - levendig, snel en vol potentieel. Maar ergens onderweg is de controle over onze data uit onze handen geglipt. Met ColiBlanco krijg je die controle terug.",
     "badge": "Voor gebruikers",
     "features": {
       "privacy": {
-        "title": "Jouw AI, Jouw Data",
+        "title": "Jouw Data, Jouw Keuze",
         "description": "Anders dan Big Tech, wordt ColiBlanco bestuurd door een onafhankelijke stichting. We beloven niet alleen ethiek - we worden erop gecontroleerd."
       },
       "earnings": {
@@ -201,19 +201,19 @@
         "description": "Wil je verdienen aan je data? Alleen als jij dat kiest. Met ColiBlanco kun je je interesses delen en beloond worden - transparant en eerlijk."
       },
       "freedom": {
-        "title": "Draagbare Identiteit",
-        "description": "Waar je ook gaat - naar werk, naar je woonkamer of onderweg - ColiBlanco volgt. Eu00e9u00e9n kaart, u00e9u00e9n ervaring die zich aan jou aanpast."
+        "title": "Overal Toegankelijk",
+        "description": "Waar je ook gaat - naar werk, naar je woonkamer of onderweg - ColiBlanco gaat met je mee. u00c9u00e9n kaart, u00e9u00e9n ervaring die zich aan jou aanpast."
       },
       "control": {
         "title": "Slimme Contexten",
-        "description": "Je leven heeft vele kanten. ColiBlanco begrijpt dat. Het houdt je privu00e9- en werkwerelden gescheiden, en schakelt intelligent tussen modi."
+        "description": "Je leven heeft vele kanten. ColiBlanco begrijpt dat. Het houdt je privu00e9- en werkwerelden gescheiden, en schakelt intelligent tussen verschillende contexten."
       },
       "cta": "Word Deel van de Beweging"
     }
   },
   "company": {
-    "title": "Versterk je bedrijf met data",
-    "subtitle": "Verbeter je bedrijfsprocessen met veilige en ethische data-oplossingen",
+    "title": "Versterk je bedrijf met ethische data",
+    "subtitle": "Verbeter je bedrijfsprocessen met veilige en transparante data-oplossingen",
     "badge": "Voor bedrijven",
     "features": {
       "insights": {
@@ -222,7 +222,7 @@
       },
       "impact": {
         "title": "Directe Impact",
-        "description": "Maak deel uit van een revolutie in databeheer. Bouw mee aan een eerlijker internet voor iedereen."
+        "description": "Maak deel uit van een revolutie in databeheer. Bouw mee aan een eerlijker digitaal ecosysteem voor iedereen."
       },
       "model": {
         "title": "Eerlijk Verdienmodel",
@@ -230,80 +230,81 @@
       },
       "compliance": {
         "title": "Privacy & Compliance",
-        "description": "Volledig GDPR-compliant. Alle data-uitwisseling is transparant en traceerbaar via blockchain."
-      }
+        "description": "Alle data-uitwisseling voldoet aan de strengste privacy-eisen. Geen zorgen over GDPR of andere regelgeving."
+      },
+      "cta": "Doe mee met ColiBlanco"
     }
   },
   "influencer": {
-    "title": "Maak Impact met Je Content",
-    "description": "Bereik meer mensen, verdien meer met je content en behoud volledige controle over je data. Met ColiBlanco.ai krijg je de tools om je bereik te vergroten terwijl je privacy gewaarborgd blijft.",
+    "title": "Maak meer impact met je content",
+    "description": "Bereik meer mensen, verdien meer met je content en behoud volledige controle over je data. Met ColiBlanco krijg je de tools om je bereik te vergroten terwijl je privacy gewaarborgd blijft.",
     "badge": "Voor influencers",
     "features": {
-      "reach": {
-        "title": "Vergroot Je Bereik",
-        "description": "Bereik een breder publiek met onze geavanceerde targeting en aanbevelingsalgoritmen."
+      "audience": {
+        "title": "Bouw een Authentieke Community",
+        "description": "Verzamel volgers die echt geu00efnteresseerd zijn in jouw content, zonder algoritmes die bepalen wie je bereikt."
       },
       "earnings": {
         "title": "Maximaliseer Je Inkomsten",
-        "description": "Verdien direct aan je content en krijg eerlijke vergoedingen voor je invloed."
+        "description": "Verdien direct aan je content zonder tussenpersonen. Jouw waarde komt rechtstreeks bij jou terecht."
+      },
+      "control": {
+        "title": "Behoud Volledige Controle",
+        "description": "Bepaal zelf wie toegang heeft tot je content en onder welke voorwaarden. Geen platform dat je regels oplegt."
       },
       "analytics": {
-        "title": "Diepgaande Analytics",
-        "description": "Krijg gedetailleerde inzichten in je prestaties en het gedrag van je volgers."
+        "title": "Gedetailleerde Inzichten",
+        "description": "Krijg gedetailleerde inzichten in hoe je content presteert, zonder dat deze data wordt verkocht aan derden."
       },
-      "community": {
-        "title": "Bouw Je Community",
-        "description": "Creëer een sterke, betrokken gemeenschap rond je merk en waarden."
-      },
-      "cta": "Start Met Groeien"
+      "cta": "Vergroot je impact met ColiBlanco"
     }
   },
   "investor": {
-    "title": "Investeer in de Toekomst",
-    "subtitle": "Word deel van de data revolutie",
+    "title": "Investeer in de toekomst van data",
+    "subtitle": "Word onderdeel van de data-revolutie",
     "badge": "Voor investeerders",
     "features": {
-      "growth": {
-        "title": "Exponentiële Groei",
-        "description": "Investeer in een platform dat de toekomst van data-uitwisseling vormgeeft. Profiteer van vroege adoptie en netwerk effecten."
-      },
-      "security": {
-        "title": "Veilige Investering",
-        "description": "Blockchain-gebaseerde tokens en smart contracts zorgen voor transparantie en veiligheid van uw investering."
+      "opportunity": {
+        "title": "Unieke Kans",
+        "description": "Investeer in een revolutionair platform dat de manier waarop we met data omgaan fundamenteel verandert."
       },
       "impact": {
-        "title": "Globale Impact",
-        "description": "Help mee om een eerlijker internet te bouwen. Maak deel uit van een wereldwijde beweging voor data democratisering."
+        "title": "Maatschappelijke Impact",
+        "description": "Draag bij aan een eerlijker internet waar gebruikers controle hebben over hun data en er direct van profiteren."
       },
-      "market": {
-        "title": "Marktaandeel",
-        "description": "Krijg vroege toegang tot een groeiende markt voor persoonlijke data. Positioneer uzelf in deze opkomende industrie."
+      "growth": {
+        "title": "Exponentiu00eble Groei",
+        "description": "Profiteer van een snel groeiend platform met een schaalbaar verdienmodel en wereldwijde ambitie."
       },
-      "cta": "Word Early Investor"
+      "team": {
+        "title": "Ervaren Team",
+        "description": "Ons team bestaat uit ervaren ondernemers en technologen met een bewezen staat van dienst in het bouwen van succesvolle platforms."
+      },
+      "cta": "Word deel van ColiBlanco"
     }
   },
   "developer": {
-    "title": "Bouw Mee aan de Toekomst",
-    "subtitle": "Word onderdeel van onze open source community",
-    "badge": "Voor developers",
+    "title": "Bouw mee aan de toekomst",
+    "subtitle": "Help ons om de data-revolutie vorm te geven",
+    "badge": "Voor ontwikkelaars",
     "features": {
-      "opensource": {
-        "title": "Open Source",
-        "description": "Draag bij aan een volledig open source platform. Bouw mee aan de toekomst van het internet."
-      },
-      "tech": {
-        "title": "Cutting-Edge Tech",
-        "description": "Werk met de nieuwste technologieën: blockchain, AI, en gedecentraliseerde systemen."
+      "tools": {
+        "title": "Geavanceerde Tools",
+        "description": "Krijg toegang tot onze uitgebreide API's en ontwikkeltools om innovatieve applicaties te bouwen op het ColiBlanco platform."
       },
       "community": {
-        "title": "Actieve Community",
-        "description": "Word deel van een levendige community van ontwikkelaars die bouwen aan een betere digitale wereld."
+        "title": "Levendige Gemeenschap",
+        "description": "Word deel van een actieve gemeenschap van ontwikkelaars die samenwerken aan een eerlijker internet."
       },
       "rewards": {
-        "title": "Beloning & Erkenning",
-        "description": "Ontvang beloningen voor je bijdragen. Bouw een reputatie op in de Web3 gemeenschap."
+        "title": "Eerlijke Beloningen",
+        "description": "Verdien aan je bijdragen aan het ecosysteem. Hoe meer waarde je toevoegt, hoe meer je wordt beloond."
       },
-      "cta": "Begin met Bijdragen"
+      "freedom": {
+        "title": "Vrijheid voor Innovatie",
+        "description": "Experimenteer met nieuwe ideeu00ebn in een open ecosysteem zonder de beperkingen van traditionele platformen."
+      },
+      "cta": "Begin met bouwen"
     }
   },
   "waitlist": {
