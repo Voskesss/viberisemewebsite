@@ -61,7 +61,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
-          <img src="images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-10 h-10 object-contain" />
+          <img src="/images/logo/logo-coliblanco.png" alt="ColiBlanco Logo" className="w-10 h-10 object-contain" />
           <span className="text-2xl font-bold text-white">
             ColiBlanco<span className="font-light italic opacity-90 ml-0.5 transform -rotate-6 inline-block">.ai</span>
           </span>
